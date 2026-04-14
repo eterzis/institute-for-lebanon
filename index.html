@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Institute for Lebanon — Declassified Diplomatic Archive</title>
+  <meta name="description" content="A scholarly archive of declassified U.S. State Department diplomatic cables on Lebanon's history, its civil conflict, and relations with Palestinian refugees — annotated and contextualized for scholars and the public." />
+  <meta name="keywords" content="Lebanon history, Lebanese civil war, Palestinian refugees, State Department cables, diplomatic history, Beirut, PLO, 1975, declassified documents" />
+  <meta property="og:title" content="Institute for Lebanon — Declassified Diplomatic Archive" />
+  <meta property="og:description" content="Primary source U.S. diplomatic cables on Lebanon annotated and contextualized for scholars and the public." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://instituteforlebanon.com" />
+  <link rel="canonical" href="https://instituteforlebanon.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── DESIGN TOKENS ─────────────────────────────────────────── */
+    :root {
+      --bg:          #0c0a08;
+      --bg-2:        #131009;
+      --surface-1:   #1a1610;
+      --surface-2:   #221d16;
+      --surface-3:   #2d261d;
+      --border:      #3a3228;
+      --border-dim:  #252018;
+      --text-1:      #f0e4cc;
+      --text-2:      #cdbfa4;
+      --text-3:      #998070;
+      --amber:       #c8942a;
+      --amber-light: #e8b84a;
+      --amber-dim:   #7a5a1a;
+      --cedar:       #3d6b4f;
+      --cedar-light: #5a9470;
+      --red-stamp:   #8c1c1c;
+      --blue-stamp:  #1a3a7a;
+      --green-stamp: #1a5a2a;
+      --cream:       #f0e6d0;
+      --radius:      2px;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Source Serif 4', Georgia, serif;
+      --font-mono:    'IBM Plex Mono', 'Courier New', monospace;
+      --nav-h:        64px;
+      --max-w:        1200px;
+    }
+
+    /* ─── RESET ─────────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text-1);
+      font-family: var(--font-body);
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 1.75;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; }
+    button { cursor: pointer; border: none; background: none; font: inherit; color: inherit; }
+
+    /* ─── GRAIN OVERLAY ─────────────────────────────────────────── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.35;
+    }
+
+    /* ─── SCROLLBAR ──────────────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--amber-dim); }
+
+    /* ─── NAV ────────────────────────────────────────────────────── */
+    .nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: var(--nav-h);
+      z-index: 100;
+      background: rgba(12, 10, 8, 0.94);
+      backdrop-filter: blur(16px) saturate(1.2);
+      border-bottom: 1px solid var(--border-dim);
+      display: flex;
+      align-items: center;
+      padding: 0 clamp(1.5rem, 4vw, 3rem);
+    }
+    .nav-inner {
+      max-width: var(--max-w);
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-shrink: 0;
+    }
+    .nav-logo-mark {
+      width: 20px;
+      height: 23px;
+      flex-shrink: 0;
+    }
+    .nav-logo-mark svg { width: 100%; height: 100%; display: block; }
+    .nav-logo-text {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--text-1);
+      line-height: 1.2;
+    }
+    .nav-logo-text span {
+      display: block;
+      font-size: 0.6rem;
+      font-weight: 300;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--text-3);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      margin-left: auto;
+      list-style: none;
+    }
+    .nav-links a {
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-3);
+      padding: 0.4rem 0.75rem;
+      border-radius: var(--radius);
+      transition: color 0.2s, background 0.2s;
+    }
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--amber); }
+    .nav-links a.active { background: rgba(200, 148, 42, 0.08); }
+    .nav-search-btn {
+      width: 32px; height: 32px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-3);
+      border-radius: var(--radius);
+      transition: color 0.2s;
+      margin-left: 0.5rem;
+    }
+    .nav-search-btn:hover { color: var(--amber); }
+    .nav-mobile-btn {
+      display: none;
+      width: 32px; height: 32px;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      margin-left: auto;
+    }
+    .nav-mobile-btn span {
+      display: block;
+      width: 22px;
+      height: 1px;
+      background: var(--text-2);
+      transition: transform 0.3s;
+    }
+
+    /* ─── PAGE SYSTEM ────────────────────────────────────────────── */
+    .page {
+      display: none;
+      min-height: 100vh;
+      padding-top: var(--nav-h);
+      animation: fadeIn 0.4s ease;
+    }
+    .page.active { display: block; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ─── SHARED LAYOUT ──────────────────────────────────────────── */
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 clamp(1.5rem, 4vw, 3rem);
+    }
+    .section { padding: 5rem 0; }
+    .section-sm { padding: 3rem 0; }
+
+    /* ─── TYPOGRAPHY ─────────────────────────────────────────────── */
+    .display-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 300;
+      line-height: 1.08;
+      letter-spacing: -0.01em;
+      color: var(--text-1);
+    }
+    .display-title em {
+      font-style: italic;
+      color: var(--amber);
+    }
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      font-weight: 400;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .section-label::after {
+      content: '';
+      flex: 1;
+      max-width: 40px;
+      height: 1px;
+      background: var(--amber-dim);
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 400;
+      line-height: 1.15;
+      color: var(--text-1);
+    }
+    .lead {
+      font-size: 1.15rem;
+      line-height: 1.82;
+      color: var(--text-1);
+      max-width: 65ch;
+      font-weight: 400;
+    }
+    .body-text {
+      font-size: 1rem;
+      line-height: 1.82;
+      color: var(--text-1);
+      font-weight: 400;
+    }
+
+    /* ─── DIVIDER ─────────────────────────────────────────────────── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border-dim);
+      margin: 0;
+    }
+
+    /* ─── HOME PAGE ───────────────────────────────────────────────── */
+    .hero {
+      padding: clamp(5rem, 12vh, 10rem) 0 clamp(4rem, 8vh, 7rem);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 60% 0%, rgba(200, 148, 42, 0.06) 0%, transparent 70%),
+        radial-gradient(ellipse 60% 80% at 0% 100%, rgba(61, 107, 79, 0.05) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero-content { position: relative; z-index: 1; }
+    .hero-kicker {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .hero-kicker::before {
+      content: '';
+      width: 24px;
+      height: 1px;
+      background: var(--amber);
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: end;
+      margin-top: 3rem;
+    }
+    .hero-sub {
+      font-size: 1.1rem;
+      color: var(--text-1);
+      line-height: 1.8;
+      max-width: 52ch;
+      font-weight: 400;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+    }
+    .hero-stat { }
+    .hero-stat-num {
+      font-family: var(--font-display);
+      font-size: 2.5rem;
+      font-weight: 300;
+      color: var(--amber);
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-3);
+      margin-top: 0.25rem;
+    }
+    .hero-cta-group {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2.5rem;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.75rem 1.75rem;
+      background: var(--amber);
+      color: var(--bg);
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-radius: var(--radius);
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-primary:hover { background: var(--amber-light); transform: translateY(-1px); }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.75rem 1.75rem;
+      border: 1px solid var(--border);
+      color: var(--text-2);
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-radius: var(--radius);
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--amber); color: var(--amber); }
+
+    /* ─── FEATURED CABLES ─────────────────────────────────────────── */
+    .cables-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1.5px;
+      background: var(--border-dim);
+      border: 1.5px solid var(--border-dim);
+    }
+    .cable-card {
+      background: var(--surface-1);
+      padding: 2rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .cable-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px;
+      height: 0;
+      background: var(--amber);
+      transition: height 0.3s ease;
+    }
+    .cable-card:hover { background: var(--surface-2); }
+    .cable-card:hover::before { height: 100%; }
+    .cable-card-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .cable-id {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      color: var(--text-3);
+    }
+    .classification-badge {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.5rem;
+      border-radius: var(--radius);
+      flex-shrink: 0;
+    }
+    .badge-confidential {
+      background: rgba(140, 28, 28, 0.2);
+      color: #e06060;
+      border: 1px solid rgba(140, 28, 28, 0.4);
+    }
+    .badge-secret {
+      background: rgba(26, 58, 122, 0.25);
+      color: #7090e0;
+      border: 1px solid rgba(26, 58, 122, 0.5);
+    }
+    .badge-unclassified {
+      background: rgba(26, 90, 42, 0.2);
+      color: #60c080;
+      border: 1px solid rgba(26, 90, 42, 0.4);
+    }
+    .cable-card-subject {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 500;
+      line-height: 1.3;
+      color: var(--text-1);
+    }
+    .cable-card-meta {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      color: var(--text-3);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+    }
+    .cable-card-meta span { display: flex; align-items: center; gap: 0.4rem; }
+    .cable-card-excerpt {
+      font-size: 0.9rem;
+      line-height: 1.75;
+      color: var(--text-1);
+      flex: 1;
+      font-weight: 400;
+    }
+    .cable-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-dim);
+    }
+    .cable-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.5rem;
+      background: var(--surface-3);
+      color: var(--text-3);
+      border-radius: var(--radius);
+      border: 1px solid var(--border-dim);
+    }
+    .cable-card-arrow {
+      font-size: 1rem;
+      color: var(--amber-dim);
+      transition: transform 0.2s, color 0.2s;
+    }
+    .cable-card:hover .cable-card-arrow {
+      transform: translateX(4px);
+      color: var(--amber);
+    }
+    .coming-soon-card {
+      background: var(--bg-2);
+      opacity: 0.5;
+      cursor: default;
+    }
+    .coming-soon-card:hover { background: var(--bg-2); }
+    .coming-soon-card::before { display: none; }
+    .coming-soon-label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-3);
+      border: 1px solid var(--border-dim);
+      padding: 0.2rem 0.5rem;
+      border-radius: var(--radius);
+      align-self: flex-start;
+    }
+
+    /* ─── TIMELINE STRIP ─────────────────────────────────────────── */
+    .timeline-strip {
+      background: var(--surface-1);
+      border-top: 1px solid var(--border-dim);
+      border-bottom: 1px solid var(--border-dim);
+      overflow: hidden;
+    }
+    .timeline-track {
+      padding: 3rem 0;
+      position: relative;
+    }
+    .timeline-line {
+      position: absolute;
+      top: 50%;
+      left: 0; right: 0;
+      height: 1px;
+      background: var(--border);
+    }
+    .timeline-events {
+      display: flex;
+      gap: 0;
+      position: relative;
+      overflow-x: auto;
+      padding: 0 clamp(1.5rem, 4vw, 3rem);
+      scrollbar-width: none;
+    }
+    .timeline-events::-webkit-scrollbar { display: none; }
+    .timeline-event {
+      flex-shrink: 0;
+      width: 200px;
+      position: relative;
+      padding: 0 1rem;
+    }
+    .timeline-event-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      background: var(--border);
+      border: 2px solid var(--surface-1);
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    .timeline-event.has-cable .timeline-event-dot {
+      background: var(--amber);
+      box-shadow: 0 0 0 3px rgba(200, 148, 42, 0.2);
+    }
+    .timeline-event-content {
+      text-align: center;
+      margin-top: 0.75rem;
+    }
+    .timeline-event-content.above {
+      position: absolute;
+      bottom: calc(50% + 1rem);
+      left: 0; right: 0;
+      margin: 0;
+      text-align: center;
+    }
+    .timeline-event-date {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--amber);
+    }
+    .timeline-event-title {
+      font-size: 0.75rem;
+      color: var(--text-3);
+      line-height: 1.3;
+      margin-top: 0.25rem;
+    }
+    .timeline-event.has-cable .timeline-event-title { color: var(--text-2); cursor: pointer; }
+    .timeline-event.has-cable .timeline-event-title:hover { color: var(--amber); }
+
+    /* ─── ABOUT STRIP ────────────────────────────────────────────── */
+    .about-strip {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+      border-top: 1px solid var(--border-dim);
+    }
+    .about-strip-panel {
+      padding: 4rem clamp(1.5rem, 4vw, 3rem);
+    }
+    .about-strip-panel:first-child {
+      border-right: 1px solid var(--border-dim);
+    }
+    .methodology-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .methodology-item {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--border-dim);
+    }
+    .methodology-item:last-child { border-bottom: none; }
+    .methodology-num {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: var(--amber);
+      flex-shrink: 0;
+      padding-top: 0.2rem;
+    }
+    .methodology-text {
+      font-size: 0.9rem;
+      color: var(--text-2);
+      line-height: 1.65;
+    }
+    .methodology-text strong { color: var(--text-1); font-weight: 600; }
+
+    /* ─── ARCHIVE PAGE ────────────────────────────────────────────── */
+    .archive-header {
+      padding: 4rem 0 3rem;
+      border-bottom: 1px solid var(--border-dim);
+    }
+    .archive-controls {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 2rem;
+    }
+    .search-box {
+      flex: 1;
+      min-width: 240px;
+      position: relative;
+    }
+    .search-box input {
+      width: 100%;
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.65rem 1rem 0.65rem 2.5rem;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      color: var(--text-1);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-box input::placeholder { color: var(--text-3); }
+    .search-box input:focus { border-color: var(--amber); }
+    .search-box .search-icon {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-3);
+    }
+    .filter-select {
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.65rem 2rem 0.65rem 1rem;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      color: var(--text-2);
+      outline: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%236e6054' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      cursor: pointer;
+    }
+    .archive-count {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      color: var(--text-3);
+      margin-left: auto;
+    }
+    .archive-list {
+      display: flex;
+      flex-direction: column;
+    }
+    .archive-row {
+      display: grid;
+      grid-template-columns: 120px 1fr 120px 80px;
+      gap: 1.5rem;
+      align-items: center;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid var(--border-dim);
+      cursor: pointer;
+      transition: background 0.15s;
+      border-radius: var(--radius);
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+    .archive-row:hover { background: var(--surface-1); }
+    .archive-row-id {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--text-3);
+    }
+    .archive-row-subject {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--text-1);
+    }
+    .archive-row-from {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--text-3);
+      letter-spacing: 0.05em;
+    }
+
+    /* ─── CABLE READER PAGE ──────────────────────────────────────── */
+    .reader-layout {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 0;
+      min-height: calc(100vh - var(--nav-h));
+    }
+    .reader-main { border-right: 1px solid var(--border-dim); }
+    .reader-sidebar {
+      position: sticky;
+      top: var(--nav-h);
+      height: calc(100vh - var(--nav-h));
+      overflow-y: auto;
+      padding: 2rem 1.5rem;
+    }
+    .cable-document {
+      max-width: 72ch;
+      margin: 0 auto;
+      padding: 3rem clamp(1.5rem, 4vw, 3rem);
+    }
+    .cable-doc-header {
+      padding-bottom: 2rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .cable-classification-bar {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 0.6rem;
+      margin-bottom: 2rem;
+      border-radius: var(--radius);
+    }
+    .bar-confidential {
+      background: rgba(140, 28, 28, 0.12);
+      color: #e06060;
+      border: 1px solid rgba(140, 28, 28, 0.3);
+    }
+    .bar-secret {
+      background: rgba(26, 58, 122, 0.15);
+      color: #7090e0;
+      border: 1px solid rgba(26, 58, 122, 0.3);
+    }
+    .cable-meta-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-2);
+    }
+    .cable-meta-table tr { border-bottom: 1px solid var(--border-dim); }
+    .cable-meta-table tr:last-child { border-bottom: none; }
+    .cable-meta-table td { padding: 0.5rem 0; vertical-align: top; }
+    .cable-meta-table td:first-child {
+      color: var(--text-3);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-size: 0.6rem;
+      width: 100px;
+      padding-right: 1rem;
+    }
+    .cable-subject-display {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 400;
+      line-height: 1.25;
+      color: var(--text-1);
+      margin: 2rem 0 1rem;
+    }
+    .cable-original-notice {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--cedar-light);
+      background: rgba(61, 107, 79, 0.12);
+      border: 1px solid rgba(61, 107, 79, 0.25);
+      padding: 0.35rem 0.75rem;
+      border-radius: var(--radius);
+    }
+    .cable-body {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.9;
+      color: var(--text-1);
+      font-weight: 400;
+    }
+    .cable-body p { margin-bottom: 1.25rem; }
+    .cable-body p:last-child { margin-bottom: 0; }
+    .cable-para-num {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--text-3);
+      display: inline-block;
+      width: 2.5rem;
+      margin-right: 0.25rem;
+      flex-shrink: 0;
+    }
+    .abbrev {
+      color: var(--text-1);
+      border-bottom: 1px dotted var(--amber-dim);
+      cursor: help;
+      position: relative;
+    }
+    .abbrev:hover::after {
+      content: attr(data-full);
+      position: absolute;
+      bottom: calc(100% + 6px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--surface-3);
+      border: 1px solid var(--border);
+      color: var(--text-1);
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+      padding: 0.35rem 0.65rem;
+      border-radius: var(--radius);
+      white-space: nowrap;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .editorial-note {
+      display: inline;
+      font-size: 0.7rem;
+      vertical-align: super;
+      color: var(--amber);
+      font-family: var(--font-mono);
+      cursor: pointer;
+      transition: color 0.15s;
+      font-style: normal;
+    }
+    .editorial-note:hover { color: var(--amber-light); }
+    .cable-footnotes {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+    .footnotes-label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 1.5rem;
+    }
+    .footnote-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      font-size: 0.88rem;
+      color: var(--text-1);
+      line-height: 1.75;
+      font-weight: 400;
+    }
+    .footnote-num {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      color: var(--amber);
+      flex-shrink: 0;
+      padding-top: 0.2rem;
+    }
+
+    /* ─── SIDEBAR ────────────────────────────────────────────────── */
+    .sidebar-section { margin-bottom: 2rem; }
+    .sidebar-label {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border-dim);
+    }
+    .glossary-list { list-style: none; }
+    .glossary-item {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border-dim);
+      font-size: 0.82rem;
+    }
+    .glossary-item:last-child { border-bottom: none; }
+    .glossary-term {
+      font-family: var(--font-mono);
+      font-weight: 500;
+      color: var(--text-1);
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+    .glossary-def { color: var(--text-3); margin-top: 0.15rem; line-height: 1.5; }
+    .sidebar-source-link {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--cedar-light);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.75rem;
+      background: rgba(61, 107, 79, 0.08);
+      border: 1px solid rgba(61, 107, 79, 0.2);
+      border-radius: var(--radius);
+      transition: background 0.2s;
+    }
+    .sidebar-source-link:hover { background: rgba(61, 107, 79, 0.15); }
+    .toggle-view-btn {
+      width: 100%;
+      padding: 0.65rem 1rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-3);
+      transition: border-color 0.2s, color 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    .toggle-view-btn:hover { border-color: var(--border); color: var(--text-2); }
+
+    /* ─── ABOUT PAGE ─────────────────────────────────────────────── */
+    .about-hero {
+      padding: 5rem 0;
+      border-bottom: 1px solid var(--border-dim);
+    }
+    .about-body {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 5rem;
+      padding: 4rem 0;
+    }
+    .prose { }
+    .prose h2 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: var(--text-1);
+      margin: 2.5rem 0 1rem;
+    }
+    .prose h2:first-child { margin-top: 0; }
+    .prose p {
+      font-size: 1rem;
+      color: var(--text-1);
+      line-height: 1.85;
+      margin-bottom: 1.25rem;
+      font-weight: 400;
+    }
+    .prose strong { color: var(--text-1); }
+    .about-sidebar-widget {
+      padding: 1.5rem;
+      background: var(--surface-1);
+      border: 1px solid var(--border-dim);
+      border-radius: var(--radius);
+      margin-bottom: 1.5rem;
+    }
+    .widget-label {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 1rem;
+    }
+    .about-fact {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--border-dim);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 0.85rem;
+    }
+    .about-fact:last-child { border-bottom: none; padding-bottom: 0; }
+    .about-fact-label { color: var(--text-3); font-size: 0.8rem; }
+    .about-fact-val { color: var(--text-1); font-family: var(--font-mono); font-size: 0.75rem; }
+
+    /* ─── GLOSSARY PAGE ──────────────────────────────────────────── */
+    .glossary-page-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0;
+      border-top: 1px solid var(--border-dim);
+      border-left: 1px solid var(--border-dim);
+    }
+    .glossary-page-item {
+      padding: 1.5rem;
+      border-right: 1px solid var(--border-dim);
+      border-bottom: 1px solid var(--border-dim);
+    }
+    .glossary-page-term {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--amber);
+      letter-spacing: 0.08em;
+      margin-bottom: 0.4rem;
+    }
+    .glossary-page-full {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-1);
+      margin-bottom: 0.5rem;
+    }
+    .glossary-page-def {
+      font-size: 0.82rem;
+      color: var(--text-3);
+      line-height: 1.6;
+    }
+
+    /* ─── FOOTER ─────────────────────────────────────────────────── */
+    .footer {
+      background: var(--surface-1);
+      border-top: 1px solid var(--border-dim);
+      padding: 3rem clamp(1.5rem, 4vw, 3rem);
+    }
+    .footer-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border-dim);
+      margin-bottom: 2rem;
+    }
+    .footer-col-label {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--amber);
+      margin-bottom: 1rem;
+    }
+    .footer-col p, .footer-col a {
+      font-size: 0.85rem;
+      color: var(--text-3);
+      line-height: 1.7;
+      display: block;
+      padding: 0.2rem 0;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: var(--text-2); }
+    .footer-bottom {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .footer-copy {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      color: var(--text-3);
+    }
+    .footer-disclaimer {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      color: var(--text-3);
+      max-width: 60ch;
+      text-align: right;
+      line-height: 1.5;
+      letter-spacing: 0.03em;
+    }
+
+    /* ─── SEARCH MODAL ────────────────────────────────────────────── */
+    .search-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(12, 10, 8, 0.88);
+      backdrop-filter: blur(12px);
+      z-index: 200;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 20vh;
+    }
+    .search-modal.open { display: flex; }
+    .search-modal-inner {
+      width: 100%;
+      max-width: 640px;
+      margin: 0 1.5rem;
+    }
+    .search-modal-input-wrap {
+      position: relative;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .search-modal-input {
+      width: 100%;
+      background: transparent;
+      border: none;
+      padding: 1.1rem 1.25rem 1.1rem 3.5rem;
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      color: var(--text-1);
+      outline: none;
+    }
+    .search-modal-icon {
+      position: absolute;
+      left: 1.1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-3);
+    }
+    .search-results {
+      margin-top: 0.5rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      max-height: 50vh;
+      overflow-y: auto;
+    }
+    .search-result-item {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border-dim);
+      cursor: pointer;
+      transition: background 0.15s;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    .search-result-item:last-child { border-bottom: none; }
+    .search-result-item:hover { background: var(--surface-3); }
+    .search-result-meta {
+      font-family: var(--font-mono);
+      font-size: 0.62rem;
+      color: var(--text-3);
+      letter-spacing: 0.08em;
+      flex-shrink: 0;
+      padding-top: 0.2rem;
+    }
+    .search-result-subject {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      color: var(--text-1);
+    }
+    .search-no-results {
+      padding: 2rem 1.25rem;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-3);
+      letter-spacing: 0.1em;
+    }
+
+    /* ─── RESPONSIVE ─────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .about-strip { grid-template-columns: 1fr; }
+      .about-strip-panel:first-child { border-right: none; border-bottom: 1px solid var(--border-dim); }
+      .reader-layout { grid-template-columns: 1fr; }
+      .reader-sidebar { display: none; }
+      .about-body { grid-template-columns: 1fr; gap: 2rem; }
+      .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+      .archive-row { grid-template-columns: 1fr; gap: 0.5rem; }
+      .archive-row-from, .archive-row-classification { display: none; }
+      .nav-links { display: none; }
+      .nav-mobile-btn { display: flex; }
+    }
+    @media (max-width: 600px) {
+      .cables-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ─── NAVIGATION ──────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" onclick="navigate('home')">
+        <div class="nav-logo-mark">
+          <svg viewBox="0 0 56 64" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2"  y="2"  width="13" height="60" rx="1" fill="#c8942a"/>
+            <rect x="21" y="2"  width="13" height="60" rx="1" fill="#c8942a"/>
+            <rect x="21" y="51" width="33" height="11" rx="1" fill="#c8942a"/>
+          </svg>
+        </div>
+        <div class="nav-logo-text">
+          Institute for Lebanon
+          <span>Historical Archive</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home"     id="nav-home"     onclick="navigate('home')"     class="active">Home</a></li>
+        <li><a href="#archive"  id="nav-archive"  onclick="navigate('archive')">Archive</a></li>
+        <li><a href="#timeline" id="nav-timeline" onclick="navigate('timeline')">Timeline</a></li>
+        <li><a href="#glossary" id="nav-glossary" onclick="navigate('glossary')">Glossary</a></li>
+        <li><a href="#about"    id="nav-about"    onclick="navigate('about')">About</a></li>
+      </ul>
+      <button class="nav-search-btn" onclick="openSearch()" aria-label="Search">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.3"/><path d="M11 11L14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+      </button>
+      <button class="nav-mobile-btn" onclick="toggleMobileMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HOME PAGE ───────────────────────────────────────────────── -->
+  <div id="page-home" class="page active">
+
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-kicker">Diplomatic History — Primary Sources</div>
+        <h1 class="display-title">
+          The Hidden<br>History of<br><em>Lebanon</em>
+        </h1>
+        <div class="hero-grid">
+          <div>
+            <p class="hero-sub">
+              U.S. State Department diplomatic cables — declassified, annotated, and contextualized — revealing what was reported on the ground during Lebanon's most turbulent decades. Read the dispatches that shaped American foreign policy, now made accessible to scholars and the public alike.
+            </p>
+            <div class="hero-cta-group">
+              <a href="#archive" class="btn-primary" onclick="navigate('archive')">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="1" y="1" width="12" height="12" rx="1" stroke="currentColor" stroke-width="1.2"/><path d="M4 5H10M4 7H8M4 9H7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+                Browse the Archive
+              </a>
+              <a href="#about" class="btn-secondary" onclick="navigate('about')">
+                About This Project
+              </a>
+            </div>
+          </div>
+          <div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <div class="hero-stat-num" id="stat-cables">1</div>
+                <div class="hero-stat-label">Cables Published</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-num">1975–76</div>
+                <div class="hero-stat-label">Current Focus Period</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-num">∞</div>
+                <div class="hero-stat-label">Ongoing</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- Featured Cables -->
+    <section class="section">
+      <div class="container">
+        <div class="section-label">Declassified Cables</div>
+        <h2 class="section-title" style="margin-bottom:2.5rem">Featured Documents</h2>
+        <div class="cables-grid" id="home-cables-grid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Strip -->
+    <section class="timeline-strip">
+      <div class="container">
+        <div style="padding-top:2.5rem;margin-bottom:1.5rem">
+          <div class="section-label">1975–1976</div>
+          <h2 class="section-title">Civil War Chronology</h2>
+        </div>
+      </div>
+      <div class="timeline-track">
+        <div class="timeline-line"></div>
+        <div class="timeline-events" id="timeline-events-home">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+      <div style="padding:1.5rem 0 2.5rem;text-align:center">
+        <a href="#timeline" class="btn-secondary" onclick="navigate('timeline')" style="font-size:0.75rem">View Full Timeline →</a>
+      </div>
+    </section>
+
+    <!-- About Strip -->
+    <div class="about-strip">
+      <div class="about-strip-panel">
+        <div class="section-label">Our Mission</div>
+        <h2 class="section-title" style="margin-bottom:1.5rem">Why This Archive Matters</h2>
+        <p class="body-text">
+          Lebanon's civil war (1975–1990) remains one of the most complex and poorly-documented conflicts of the twentieth century — and one of the most distorted. The standard Western narrative systematically omits the Palestinian armed presence that destabilized Lebanese sovereignty from 1969 onward, the attacks on Lebanese Christian communities that preceded and provoked much of the retaliatory violence, and the role of external actors who used Lebanon as a proxy battlefield. American diplomats stationed in Beirut produced thousands of detailed cables recording events as they unfolded. This project recovers that record.
+        </p>
+        <p class="body-text" style="margin-top:1rem">
+          These cables are extracted, annotated, and published systematically — preserving every fact, restoring omitted context, and making the dense language of American diplomacy accessible to scholars and the public alike.
+        </p>
+      </div>
+      <div class="about-strip-panel">
+        <div class="section-label">Methodology</div>
+        <ul class="methodology-list">
+          <li class="methodology-item">
+            <span class="methodology-num">01</span>
+            <span class="methodology-text"><strong>No facts altered.</strong> The original content of every cable is preserved in full. Nothing is removed or changed.</span>
+          </li>
+          <li class="methodology-item">
+            <span class="methodology-num">02</span>
+            <span class="methodology-text"><strong>Abbreviations expanded.</strong> State Department codes (GOL, PLO, AMEMBASSY, etc.) are translated inline for readability.</span>
+          </li>
+          <li class="methodology-item">
+            <span class="methodology-num">03</span>
+            <span class="methodology-text"><strong>Editorial footnotes.</strong> Historical context, identification of people and factions, and clarifying notes are added as numbered footnotes.</span>
+          </li>
+          <li class="methodology-item">
+            <span class="methodology-num">04</span>
+            <span class="methodology-text"><strong>Source linked.</strong> Every cable links to its original source in the Wikileaks PlusD database.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <div class="footer-col-label">Institute for Lebanon</div>
+          <p>A scholarly archive devoted to making Lebanon's diplomatic history accessible through primary source documents.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-label">Navigate</div>
+          <a href="#archive"  onclick="navigate('archive')">Cable Archive</a>
+          <a href="#timeline" onclick="navigate('timeline')">Timeline</a>
+          <a href="#glossary" onclick="navigate('glossary')">Glossary</a>
+          <a href="#about"    onclick="navigate('about')">About</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-label">Contact</div>
+          <p>instituteforlebanon.com</p>
+          <p style="margin-top:0.5rem;font-size:0.78rem">For research inquiries, submissions, or corrections, please use the contact form.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2025 Institute for Lebanon. All editorial content is original work. Cable texts are in the public domain.</div>
+        <div class="footer-disclaimer">Source cables from the Wikileaks Public Library of US Diplomacy (PlusD). All original cable content is presented for scholarly and educational purposes.</div>
+      </div>
+    </footer>
+
+  </div><!-- /page-home -->
+
+  <!-- ─── ARCHIVE PAGE ─────────────────────────────────────────────── -->
+  <div id="page-archive" class="page">
+    <div class="archive-header container">
+      <div class="section-label">Primary Sources</div>
+      <h1 class="section-title">Cable Archive</h1>
+      <div class="archive-controls">
+        <div class="search-box">
+          <span class="search-icon">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M10 10L13 13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          </span>
+          <input type="text" id="archive-search" placeholder="Search by subject, keywords, or cable ID…" oninput="filterArchive()" />
+        </div>
+        <select class="filter-select" id="filter-year" onchange="filterArchive()">
+          <option value="">All Years</option>
+          <option value="1975">1975</option>
+          <option value="1976">1976</option>
+          <option value="1977">1977</option>
+          <option value="1978">1978</option>
+          <option value="1982">1982</option>
+        </select>
+        <select class="filter-select" id="filter-class" onchange="filterArchive()">
+          <option value="">All Classifications</option>
+          <option value="CONFIDENTIAL">Confidential</option>
+          <option value="SECRET">Secret</option>
+          <option value="UNCLASSIFIED">Unclassified</option>
+        </select>
+        <span class="archive-count" id="archive-count">— cables</span>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Column headers -->
+      <div style="display:grid;grid-template-columns:120px 1fr 120px 80px;gap:1.5rem;padding:0.75rem 0.5rem;border-bottom:1px solid var(--border);">
+        <span style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-3)">Cable ID</span>
+        <span style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-3)">Subject</span>
+        <span style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-3)">Origin</span>
+        <span style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-3)">Class.</span>
+      </div>
+      <div class="archive-list" id="archive-list">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── CABLE READER PAGE ──────────────────────────────────────── -->
+  <div id="page-cable" class="page">
+    <div class="reader-layout">
+      <div class="reader-main">
+        <div class="cable-document" id="cable-document">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+      <aside class="reader-sidebar" id="reader-sidebar">
+        <!-- Populated by JS -->
+      </aside>
+    </div>
+  </div>
+
+  <!-- ─── TIMELINE PAGE ─────────────────────────────────────────── -->
+  <div id="page-timeline" class="page">
+    <section class="section-sm container">
+      <div class="section-label">1975–1990</div>
+      <h1 class="section-title">Lebanon Civil War Timeline</h1>
+      <p class="lead" style="margin-top:1rem">Key events from the outbreak of the Lebanese Civil War, cross-referenced with available diplomatic cables in our archive.</p>
+    </section>
+    <hr class="divider"/>
+    <div class="container" style="padding-top:3rem;padding-bottom:5rem" id="timeline-full">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+  <!-- ─── GLOSSARY PAGE ─────────────────────────────────────────── -->
+  <div id="page-glossary" class="page">
+    <section class="section-sm container">
+      <div class="section-label">Reference</div>
+      <h1 class="section-title">Diplomatic Glossary</h1>
+      <p class="lead" style="margin-top:1rem">State Department abbreviations, Lebanese political factions, and key terms used in the diplomatic cables.</p>
+    </section>
+    <hr class="divider"/>
+    <div class="glossary-page-grid" id="glossary-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+  <!-- ─── ABOUT PAGE ─────────────────────────────────────────────── -->
+  <div id="page-about" class="page">
+    <div class="about-hero container">
+      <div class="section-label">The Project</div>
+      <h1 class="display-title">About the <em>Institute</em></h1>
+    </div>
+    <hr class="divider"/>
+    <div class="container">
+      <div class="about-body">
+        <div class="prose">
+          <h2>What We Do</h2>
+          <p>The Institute for Lebanon is a scholarly archive devoted to recovering and contextualizing the often-hidden history of Lebanon — with particular focus on the country's civil war (1975–1990) and its complex relationship with Palestinian refugees and armed organizations.</p>
+          <p>Our primary method is the systematic extraction, annotation, and publication of U.S. State Department diplomatic cables from the Wikileaks Public Library of US Diplomacy (PlusD). These cables — written by American diplomats stationed in Beirut and other posts — represent an extraordinary documentary record of events as they unfolded in real time.</p>
+          <h2>Our Approach</h2>
+          <p>Every cable published here is treated with the utmost scholarly care. We expand abbreviations (<strong>GOL</strong> → Government of Lebanon, <strong>PLO</strong> → Palestine Liberation Organization, etc.) and correct obvious typographical errors in the original transmission, but we alter <strong>no facts</strong> and omit <strong>no information</strong>.</p>
+          <p>Editorial footnotes are clearly marked and distinguished from the original cable text. They provide historical context, identify individuals and organizations mentioned, and situate specific dispatches within the broader narrative of Lebanon's political history.</p>
+          <h2>Why It Matters</h2>
+          <p>Lebanon's civil war lasted fifteen years and involved dozens of armed factions, regional powers, international peacekeeping forces, and millions of civilians. Despite its scale and enduring consequences — for Lebanon, for Palestine, for the entire Middle East — it remains dramatically under-documented in English-language scholarship. What documentation does exist is frequently incomplete and one-sided.</p>
+          <p>A central aim of this project is to restore historical symmetry. Events that targeted Lebanon's Christian communities — including the Palestinian attack on Kataeb members during a church ceremony on April 13, 1975 that preceded and provoked the same day's bus incident; the Karantina massacre; the Damour massacre; years of PLO cross-border operations that subjected Lebanese villages to Israeli reprisals — have been systematically minimized or excluded from the dominant Western narrative of Lebanon's war. This archive treats all victims and all perpetrators with equal documentary rigor.</p>
+          <p>The American diplomatic record offers an invaluable resource: trained observers, writing candidly and in real time, assessed actors and events with a specificity that filtered official histories often lack. These cables deserve to be read — in full, in context, without the omissions that have distorted public understanding for fifty years.</p>
+          <h2>Scholarly Use</h2>
+          <p>All content on this site is freely available for scholarly citation and non-commercial educational use. When citing an annotated cable, please cite both the original source (Wikileaks PlusD, cable ID) and this archive. Our editorial annotations are original work and should be credited accordingly.</p>
+        </div>
+        <div>
+          <div class="about-sidebar-widget">
+            <div class="widget-label">Archive Status</div>
+            <div class="about-fact"><span class="about-fact-label">Cables published</span><span class="about-fact-val" id="about-count">—</span></div>
+            <div class="about-fact"><span class="about-fact-label">Period covered</span><span class="about-fact-val">1975–1976</span></div>
+            <div class="about-fact"><span class="about-fact-label">Primary source</span><span class="about-fact-val">Wikileaks PlusD</span></div>
+            <div class="about-fact"><span class="about-fact-label">Last updated</span><span class="about-fact-val" id="about-updated">—</span></div>
+          </div>
+          <div class="about-sidebar-widget">
+            <div class="widget-label">Source Database</div>
+            <p style="font-size:0.82rem;color:var(--text-3);line-height:1.6">Cables sourced from the Wikileaks Public Library of US Diplomacy, containing over 2.3 million U.S. diplomatic records from 1966 to 2010.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── SEARCH MODAL ───────────────────────────────────────────── -->
+  <div class="search-modal" id="search-modal" onclick="closeSearchOnOutside(event)">
+    <div class="search-modal-inner">
+      <div class="search-modal-input-wrap">
+        <span class="search-modal-icon">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M13 13L16.5 16.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </span>
+        <input class="search-modal-input" id="search-modal-input" type="text" placeholder="Search cables, events, names…" oninput="updateModalSearch()" />
+      </div>
+      <div class="search-results" id="search-results" style="display:none"></div>
+    </div>
+  </div>
+
+  <!-- ─── DATA & SCRIPTS ──────────────────────────────────────────── -->
+  <script>
+
+  // ═══════════════════════════════════════════════════════════════════
+  // DATA
+  // ═══════════════════════════════════════════════════════════════════
+
+  const CABLES = [
+    {
+      id:             "1975BEIRUT04749",
+      date:           "1975",       // Exact date to be confirmed from cable
+      dateDisplay:    "1975",
+      classification: "CONFIDENTIAL",
+      from:           "AMEMBASSY BEIRUT",
+      to:             "SECSTATE WASHDC",
+      subject:        "[Awaiting Document — Paste Cable Text to Begin]",
+      excerpt:        "This entry is reserved for cable 1975BEIRUT04749. Paste the raw text of the cable into the project chat to begin annotation.",
+      tags:           ["civil war", "Lebanon", "1975"],
+      status:         "pending",
+      sourceUrl:      "https://wikileaks.org/plusd/cables/1975BEIRUT04749_b.html",
+      annotatedBody:  null,
+      footnotes:      [],
+      glossary:       []
+    }
+  ];
+
+  const TIMELINE_EVENTS = [
+    {
+      date:    "Nov 3, 1969",
+      title:   "Cairo Agreement — Sovereignty Surrendered",
+      desc:    "Under Egyptian pressure, Lebanon's government grants the PLO the right to maintain armed forces on Lebanese soil and conduct operations across the border into Israel. The agreement effectively exempts Palestinian armed groups from Lebanese law within the refugee camps. Lebanese critics across the political spectrum — and many within the Lebanese Army — regard the agreement as a fatal wound to state sovereignty, one that turns Lebanon into a staging ground for a conflict not of its own making.",
+      cableId: null
+    },
+    {
+      date:    "1970–1975",
+      title:   "PLO Cross-Border Operations and Israeli Reprisals",
+      desc:    "Palestinian armed factions operating from southern Lebanon conduct repeated raids and rocket attacks into northern Israel. The Israeli military responds with large-scale reprisals — air strikes, artillery bombardments, and ground incursions — that devastate Lebanese Shia villages in the south, displacing tens of thousands of civilians northward into Beirut. The Lebanese state, lacking the political will and military capacity to control the PLO, absorbs the consequences of a war it did not choose. Resentment of the Palestinian armed presence deepens across Lebanese communities.",
+      cableId: null
+    },
+    {
+      date:    "Apr 13, 1975 — Morning",
+      title:   "Palestinian Attack on Kataeb Ceremony in Ain el-Rummaneh",
+      desc:    "Palestinian gunmen open fire on a crowd attending a church inauguration ceremony in the Ain el-Rummaneh neighborhood of Beirut. The attack targets members of the Kataeb (Phalange) party, including bodyguards of party leader Pierre Gemayel, killing several. The incident does not occur in a vacuum: it follows months of escalating armed clashes between Palestinian forces and Lebanese Kataeb fighters in Beirut's suburbs. This attack is the proximate trigger for the events that follow later the same day.",
+      cableId: null
+    },
+    {
+      date:    "Apr 13, 1975 — Afternoon",
+      title:   "Retaliatory Attack on Bus in Ain el-Rummaneh",
+      desc:    "Hours after the morning attack on the Kataeb ceremony, Kataeb fighters stop a bus carrying Palestinian passengers through Ain el-Rummaneh and open fire, killing approximately 27 people. The attack is widely portrayed in Western media as the sole spark of the civil war, but its context — the prior Palestinian attack on a civilian religious ceremony — is routinely omitted. Together, the two incidents of April 13 mark the point at which political violence in Lebanon becomes sustained, organized, and communal.",
+      cableId: null
+    },
+    {
+      date:    "Apr–Sep 1975",
+      title:   "First Phase of the Civil War",
+      desc:    "Fighting spreads across Beirut and the surrounding mountains. The Lebanese Army, torn by sectarian loyalties and lacking clear political direction from a paralyzed government, remains largely on the sidelines. Multiple ceasefires are brokered and collapse within days. Each side — Kataeb and allied Maronite militias on one, PLO and Lebanese National Movement (LNM) forces on the other — consolidates territory.",
+      cableId: null
+    },
+    {
+      date:    "Sep–Oct 1975",
+      title:   "'Hotel War' — Downtown Beirut",
+      desc:    "Battles for control of Beirut's landmark downtown hotels, used as sniper nests and military positions, devastate the commercial and cultural heart of the city. The fighting accelerates the physical partition of Beirut into Christian East and Muslim-Palestinian West sectors along what will become known as the Green Line.",
+      cableId: null
+    },
+    {
+      date:    "Jan 18, 1976",
+      title:   "Karantina Overrun — Massacre of Civilians",
+      desc:    "PLO and LNM forces overrun Karantina, a predominantly Christian and Kurdish enclave in East Beirut near the port. Hundreds of civilians are killed in what survivors and contemporaneous reports describe as a massacre. The neighborhood is razed. The attack is among the most significant atrocities of the civil war's early phase and is largely absent from standard Western accounts that focus only on Maronite violence.",
+      cableId: null
+    },
+    {
+      date:    "Jan 20, 1976",
+      title:   "Damour Massacre — Retaliatory Attack on Christian Town",
+      desc:    "Two days after Karantina, PLO and LNM forces attack Damour, a Christian coastal town south of Beirut. The town's Kataeb fighters and many civilians attempt to evacuate by sea; those who remain are killed. Estimates of the death toll range from 150 to several hundred. Survivors are expelled. Like Karantina, Damour is a massacre of civilians; unlike Karantina, it is rarely described as such in Western accounts.",
+      cableId: null
+    },
+    {
+      date:    "Mar 1976",
+      title:   "Lebanese Army Splits — Ahdab 'Coup' and the Lebanese Arab Army",
+      desc:    "Sections of the Lebanese Army, led by officers sympathetic to the Palestinian-LNM alliance, mutiny and form the breakaway 'Lebanese Arab Army' under Brigadier Ahmad al-Khatib. Separately, Brigadier Aziz al-Ahdab stages a televised 'coup' demanding the resignation of President Suleiman Frangieh. Neither effort succeeds in reshaping political authority, but the army's fragmentation removes the last institutional buffer between Lebanon's militias.",
+      cableId: null
+    },
+    {
+      date:    "Jun 1976",
+      title:   "Syrian Military Intervention",
+      desc:    "Syrian forces enter Lebanon in force, ostensibly to prevent a PLO-LNM military victory over the Maronite factions — a victory Damascus fears would trigger Israeli intervention and destabilize Syrian strategic interests. Syria's intervention is initially welcomed by Maronite leaders but viewed with deep suspicion by the PLO and its Lebanese allies. Damascus will subsequently shift alliances multiple times over the following decade, demonstrating that Syrian involvement serves Syrian interests above all.",
+      cableId: null
+    },
+    {
+      date:    "Oct 1976",
+      title:   "Riyadh and Cairo Summits — Formal Ceasefire",
+      desc:    "Arab League summits in Riyadh and Cairo produce a ceasefire agreement and establish the Arab Deterrent Force (ADF) to supervise it. The ADF is composed overwhelmingly of Syrian troops, effectively legitimizing Syria's military presence in Lebanon. The ceasefire holds the guns largely quiet — but the underlying conditions that produced the war: armed Palestinian sovereignty within Lebanese territory, the Cairo Agreement, sectarian political paralysis, and unchecked militia power, remain entirely unresolved.",
+      cableId: null
+    },
+  ];
+
+  const GLOSSARY_TERMS = [
+    { term:"GOL",       full:"Government of Lebanon",              def:"The Lebanese national government, typically referring to the cabinet and council of ministers." },
+    { term:"PLO",       full:"Palestine Liberation Organization",  def:"Umbrella body of Palestinian political and military groups, led by Yasser Arafat and Fatah." },
+    { term:"AMEMBASSY", full:"American Embassy",                   def:"Standard cable routing prefix for the U.S. Embassy in a named city." },
+    { term:"SECSTATE",  full:"Secretary of State",                 def:"Cable destination indicating the U.S. Department of State headquarters in Washington, D.C." },
+    { term:"WASHDC",    full:"Washington, D.C.",                   def:"Standard cable abbreviation for the capital; used in routing lines." },
+    { term:"REFTEL",    full:"Reference Telegram",                 def:"Citation to a previously sent cable, identified by its unique identifier." },
+    { term:"NODIS",     full:"No Distribution",                    def:"Cable handling restriction indicating the message is not to be distributed beyond the immediate addressee." },
+    { term:"EXDIS",     full:"Exclusive Distribution",             def:"Restricted distribution — cable to be seen only by specified senior officials." },
+    { term:"LNM",       full:"Lebanese National Movement",         def:"Coalition of leftist, pan-Arab, and Nasserist parties allied with the PLO; led by Kamal Jumblatt." },
+    { term:"KDP",       full:"Kataeb Democratic Party (Phalange)", def:"Maronite Christian political and paramilitary organization founded by Pierre Gemayel in 1936." },
+    { term:"ADF",       full:"Arab Deterrent Force",               def:"Peacekeeping force established by the Arab League after the 1976 Riyadh Agreement, dominated by Syrian troops." },
+    { term:"PLA",       full:"Palestine Liberation Army",          def:"Conventional military arm of the PLO, organized into brigades stationed in various Arab countries." },
+    { term:"PFLP",      full:"Popular Front for the Liberation of Palestine", def:"Marxist-Leninist Palestinian faction; second-largest PLO group after Fatah." },
+    { term:"PDFLP",     full:"Popular Democratic Front for the Liberation of Palestine", def:"Breakaway Marxist faction from PFLP, later known as DFLP." },
+    { term:"NLP",       full:"National Liberal Party",             def:"Maronite political party led by former president Camille Chamoun; maintained its own militia (Tigers)." },
+    { term:"SISMI",     full:"Servizio per le Informazioni e la Sicurezza Militare", def:"Italian military intelligence service; reference appears in cables discussing European diplomacy." },
+    { term:"REF",       full:"Refugees",                           def:"Used in cables to refer to Palestinian refugees in Lebanon, numbering approximately 300,000 in 1975." },
+    { term:"EMBOFF",    full:"Embassy Officer",                    def:"A U.S. Embassy official reporting or taking action; used to preserve source confidentiality." },
+    { term:"POLOFF",    full:"Political Officer",                  def:"Embassy diplomat responsible for political reporting and analysis." },
+    { term:"DCM",       full:"Deputy Chief of Mission",            def:"Second-ranking diplomat at an embassy, deputizing for the Ambassador." },
+    { term:"ARABS",     full:"Arab states (context-dependent)",    def:"In cables, 'the Arabs' typically refers to Arab League member states or their diplomatic representatives." },
+    { term:"FACTIONS",  full:"Armed Lebanese factions (general)",  def:"Umbrella term for the numerous militias active in Lebanon — Maronite, Shia, Sunni, Druze, and Palestinian." },
+  ];
+
+  // ═══════════════════════════════════════════════════════════════════
+  // ROUTER
+  // ═══════════════════════════════════════════════════════════════════
+
+  let currentPage = 'home';
+
+  function navigate(page, cableId) {
+    // Hide all pages
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    // Update nav
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+
+    if (page === 'cable' && cableId) {
+      renderCable(cableId);
+      document.getElementById('page-cable').classList.add('active');
+      currentPage = 'cable';
+      window.location.hash = `cable/${cableId}`;
+    } else {
+      const el = document.getElementById(`page-${page}`);
+      if (el) el.classList.add('active');
+      const navEl = document.getElementById(`nav-${page}`);
+      if (navEl) navEl.classList.add('active');
+      currentPage = page;
+      window.location.hash = page === 'home' ? '' : page;
+    }
+    window.scrollTo(0, 0);
+  }
+
+  // Hash routing on load
+  window.addEventListener('load', () => {
+    renderHomeGrid();
+    renderArchive();
+    renderTimeline();
+    renderGlossaryPage();
+    updateAboutStats();
+
+    const hash = window.location.hash.replace('#', '');
+    if (hash.startsWith('cable/')) {
+      navigate('cable', hash.replace('cable/', ''));
+    } else if (hash && ['archive','timeline','glossary','about'].includes(hash)) {
+      navigate(hash);
+    } else {
+      navigate('home');
+    }
+  });
+
+  // ═══════════════════════════════════════════════════════════════════
+  // RENDER FUNCTIONS
+  // ═══════════════════════════════════════════════════════════════════
+
+  function classificationBadge(c) {
+    const map = { CONFIDENTIAL: 'badge-confidential', SECRET: 'badge-secret', UNCLASSIFIED: 'badge-unclassified' };
+    return `<span class="classification-badge ${map[c] || 'badge-unclassified'}">${c}</span>`;
+  }
+
+  function renderHomeGrid() {
+    const grid = document.getElementById('home-cables-grid');
+    if (!grid) return;
+    const published = CABLES.filter(c => c.status !== 'pending');
+    const pending   = CABLES.filter(c => c.status === 'pending');
+    let html = '';
+    published.forEach(c => {
+      html += `
+        <div class="cable-card" onclick="navigate('cable','${c.id}')">
+          <div class="cable-card-head">
+            <span class="cable-id">${c.id}</span>
+            ${classificationBadge(c.classification)}
+          </div>
+          <div class="cable-card-subject">${c.subject}</div>
+          <div class="cable-card-meta">
+            <span>📅 ${c.dateDisplay}</span>
+            <span>📍 ${c.from}</span>
+          </div>
+          <div class="cable-card-excerpt">${c.excerpt}</div>
+          <div class="cable-card-footer">
+            <div class="cable-tags">${c.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+            <span class="cable-card-arrow">→</span>
+          </div>
+        </div>`;
+    });
+    // Add upcoming slots
+    for (let i = 0; i < Math.min(2, pending.length + 1); i++) {
+      html += `
+        <div class="cable-card coming-soon-card">
+          <span class="coming-soon-label">Forthcoming</span>
+          <div class="cable-card-subject" style="color:var(--text-3)">Next cable being processed…</div>
+          <div class="cable-card-excerpt">The archive grows continuously as new cables are annotated and reviewed.</div>
+        </div>`;
+    }
+    grid.innerHTML = html;
+    document.getElementById('stat-cables').textContent = published.length || '1';
+  }
+
+  function renderArchive() {
+    filterArchive();
+  }
+
+  function filterArchive() {
+    const search = (document.getElementById('archive-search')?.value || '').toLowerCase();
+    const year   = document.getElementById('filter-year')?.value || '';
+    const cls    = document.getElementById('filter-class')?.value || '';
+
+    const filtered = CABLES.filter(c => {
+      const matchSearch = !search ||
+        c.subject.toLowerCase().includes(search) ||
+        c.id.toLowerCase().includes(search) ||
+        c.tags.some(t => t.toLowerCase().includes(search));
+      const matchYear = !year || c.date.includes(year);
+      const matchCls  = !cls  || c.classification === cls;
+      return matchSearch && matchYear && matchCls;
+    });
+
+    const list = document.getElementById('archive-list');
+    const count = document.getElementById('archive-count');
+    if (!list) return;
+
+    count.textContent = `${filtered.length} cable${filtered.length !== 1 ? 's' : ''}`;
+
+    if (filtered.length === 0) {
+      list.innerHTML = `<div style="padding:3rem;text-align:center;font-family:var(--font-mono);font-size:0.75rem;color:var(--text-3);letter-spacing:0.1em">No cables match your search.</div>`;
+      return;
+    }
+
+    list.innerHTML = filtered.map(c => `
+      <div class="archive-row" onclick="navigate('cable','${c.id}')">
+        <div class="archive-row-id">${c.id}</div>
+        <div class="archive-row-subject">${c.subject}</div>
+        <div class="archive-row-from">${c.from}</div>
+        <div>${classificationBadge(c.classification)}</div>
+      </div>
+    `).join('');
+  }
+
+  function renderTimeline() {
+    // Home strip
+    const strip = document.getElementById('timeline-events-home');
+    if (strip) {
+      strip.innerHTML = TIMELINE_EVENTS.map((ev, i) => `
+        <div class="timeline-event${ev.cableId ? ' has-cable' : ''}">
+          <div class="${i % 2 === 0 ? 'timeline-event-content above' : 'timeline-event-content'}">
+            <div class="timeline-event-date">${ev.date}</div>
+            <div class="timeline-event-title" ${ev.cableId ? `onclick="navigate('cable','${ev.cableId}')"` : ''}>${ev.title}</div>
+          </div>
+          <div style="display:flex;align-items:center;height:20px">
+            <div class="timeline-event-dot"></div>
+          </div>
+          ${i % 2 === 0 ? `<div class="timeline-event-content"><div class="timeline-event-date">${ev.date}</div><div class="timeline-event-title">${ev.title}</div></div>` : `<div class="timeline-event-content above"><div class="timeline-event-date">${ev.date}</div><div class="timeline-event-title">${ev.title}</div></div>`}
+        </div>
+      `).join('');
+    }
+
+    // Full timeline page
+    const full = document.getElementById('timeline-full');
+    if (full) {
+      full.innerHTML = TIMELINE_EVENTS.map(ev => `
+        <div style="display:grid;grid-template-columns:180px 1px 1fr;gap:0 2rem;margin-bottom:0">
+          <div style="text-align:right;padding:0 0 2.5rem 0">
+            <div style="font-family:var(--font-mono);font-size:0.7rem;color:var(--amber);letter-spacing:0.1em">${ev.date}</div>
+          </div>
+          <div style="background:var(--border);position:relative">
+            <div style="position:absolute;top:6px;left:50%;transform:translateX(-50%);width:10px;height:10px;border-radius:50%;background:${ev.cableId ? 'var(--amber)' : 'var(--surface-3)'};border:2px solid var(--border);"></div>
+          </div>
+          <div style="padding:0 0 2.5rem 0">
+            <div style="font-family:var(--font-display);font-size:1.2rem;font-weight:500;color:var(--text-1);margin-bottom:0.4rem">${ev.title}</div>
+            <div style="font-size:0.9rem;color:var(--text-3);line-height:1.65">${ev.desc}</div>
+            ${ev.cableId ? `<div style="margin-top:0.75rem"><button onclick="navigate('cable','${ev.cableId}')" style="font-family:var(--font-mono);font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--amber);background:rgba(200,148,42,0.1);border:1px solid var(--amber-dim);padding:0.3rem 0.65rem;border-radius:2px;cursor:pointer">→ View Cable</button></div>` : ''}
+          </div>
+        </div>
+      `).join('');
+    }
+  }
+
+  function renderGlossaryPage() {
+    const grid = document.getElementById('glossary-grid');
+    if (!grid) return;
+    grid.innerHTML = GLOSSARY_TERMS.map(t => `
+      <div class="glossary-page-item">
+        <div class="glossary-page-term">${t.term}</div>
+        <div class="glossary-page-full">${t.full}</div>
+        <div class="glossary-page-def">${t.def}</div>
+      </div>
+    `).join('');
+  }
+
+  function updateAboutStats() {
+    const published = CABLES.filter(c => c.status !== 'pending').length;
+    const el = document.getElementById('about-count');
+    if (el) el.textContent = published;
+    const upd = document.getElementById('about-updated');
+    if (upd) upd.textContent = new Date().toLocaleDateString('en-US',{month:'short',year:'numeric'});
+  }
+
+  // ═══════════════════════════════════════════════════════════════════
+  // CABLE READER
+  // ═══════════════════════════════════════════════════════════════════
+
+  function renderCable(id) {
+    const cable = CABLES.find(c => c.id === id);
+    if (!cable) { navigate('archive'); return; }
+
+    const doc = document.getElementById('cable-document');
+    const sidebar = document.getElementById('reader-sidebar');
+
+    const barClass = cable.classification === 'SECRET' ? 'bar-secret' : 'bar-confidential';
+
+    if (cable.status === 'pending') {
+      doc.innerHTML = `
+        <div style="padding:3rem 0;text-align:center">
+          <div class="section-label" style="justify-content:center">Pending</div>
+          <h2 class="section-title" style="margin-bottom:1rem">Cable Not Yet Processed</h2>
+          <p class="body-text" style="max-width:48ch;margin:0 auto">
+            This cable entry is reserved for <strong style="color:var(--text-1);font-family:var(--font-mono)">${id}</strong>.
+            To add it to the archive, paste the raw cable text into the project and it will be annotated,
+            contextualized, and published here.
+          </p>
+          <div style="margin-top:2rem">
+            <a href="${cable.sourceUrl}" target="_blank" rel="noopener" class="btn-secondary" style="display:inline-flex">
+              View on Wikileaks PlusD ↗
+            </a>
+          </div>
+        </div>`;
+      sidebar.innerHTML = `
+        <div class="sidebar-section">
+          <div class="sidebar-label">Cable ID</div>
+          <p style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-2)">${cable.id}</p>
+        </div>
+        <div class="sidebar-section">
+          <div class="sidebar-label">Status</div>
+          <p style="font-size:0.82rem;color:var(--text-3)">Awaiting document ingestion. Paste the raw cable text to begin annotation.</p>
+        </div>`;
+      return;
+    }
+
+    // Published cable
+    const footnoteHtml = cable.footnotes.length ? `
+      <div class="cable-footnotes">
+        <div class="footnotes-label">Editorial Footnotes</div>
+        ${cable.footnotes.map((fn, i) => `
+          <div class="footnote-item" id="fn-${i+1}">
+            <span class="footnote-num">[${i+1}]</span>
+            <span>${fn}</span>
+          </div>
+        `).join('')}
+      </div>` : '';
+
+    doc.innerHTML = `
+      <div class="cable-doc-header">
+        <div class="cable-classification-bar ${barClass}">${cable.classification}</div>
+        <table class="cable-meta-table">
+          <tr><td>Origin</td><td>${cable.from}</td></tr>
+          <tr><td>To</td><td>${cable.to}</td></tr>
+          <tr><td>Date</td><td>${cable.dateDisplay}</td></tr>
+          <tr><td>Cable ID</td><td>${cable.id}</td></tr>
+          ${cable.refs ? `<tr><td>Ref</td><td>${cable.refs}</td></tr>` : ''}
+        </table>
+        <h1 class="cable-subject-display">${cable.subject}</h1>
+        <span class="cable-original-notice">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.1"/><path d="M6 4V6.5L7.5 8" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg>
+          Annotated version — original facts preserved
+        </span>
+      </div>
+      <div class="cable-body" id="cable-body-text">
+        ${cable.annotatedBody || '<p style="color:var(--text-3);font-style:italic">Annotated body will appear here.</p>'}
+      </div>
+      ${footnoteHtml}
+      <div class="cable-classification-bar ${barClass}" style="margin-top:3rem">${cable.classification}</div>
+    `;
+
+    // Sidebar
+    const glossaryTerms = cable.glossary.length ? cable.glossary : GLOSSARY_TERMS.slice(0, 8);
+    sidebar.innerHTML = `
+      <div class="sidebar-section">
+        <div class="sidebar-label">Original Source</div>
+        <a href="${cable.sourceUrl}" target="_blank" rel="noopener" class="sidebar-source-link">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M4 1H1v8h8V6M6 1h3m0 0v3m0-3L4.5 5.5" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/></svg>
+          View on Wikileaks PlusD
+        </a>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-label">Tags</div>
+        <div class="cable-tags" style="flex-wrap:wrap;gap:0.4rem">${cable.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-label">Glossary — This Cable</div>
+        <ul class="glossary-list">
+          ${glossaryTerms.slice(0,10).map(t => `
+            <li class="glossary-item">
+              <div class="glossary-term">${t.term}</div>
+              <div class="glossary-def">${t.full}</div>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+      <div class="sidebar-section">
+        <button class="toggle-view-btn" onclick="navigate('archive')">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M6 1L1 5L6 9" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+          Back to Archive
+        </button>
+      </div>
+    `;
+  }
+
+  // ═══════════════════════════════════════════════════════════════════
+  // SEARCH
+  // ═══════════════════════════════════════════════════════════════════
+
+  function openSearch() {
+    document.getElementById('search-modal').classList.add('open');
+    document.getElementById('search-modal-input').focus();
+    document.getElementById('search-results').style.display = 'none';
+  }
+  function closeSearch() {
+    document.getElementById('search-modal').classList.remove('open');
+    document.getElementById('search-modal-input').value = '';
+    document.getElementById('search-results').style.display = 'none';
+  }
+  function closeSearchOnOutside(e) {
+    if (e.target === document.getElementById('search-modal')) closeSearch();
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeSearch();
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') { e.preventDefault(); openSearch(); }
+  });
+
+  function updateModalSearch() {
+    const q = document.getElementById('search-modal-input').value.toLowerCase();
+    const results = document.getElementById('search-results');
+    if (!q) { results.style.display = 'none'; return; }
+
+    const cableResults = CABLES.filter(c =>
+      c.subject.toLowerCase().includes(q) ||
+      c.id.toLowerCase().includes(q) ||
+      c.tags.some(t => t.toLowerCase().includes(q))
+    );
+
+    const glossaryResults = GLOSSARY_TERMS.filter(t =>
+      t.term.toLowerCase().includes(q) || t.full.toLowerCase().includes(q)
+    );
+
+    if (cableResults.length === 0 && glossaryResults.length === 0) {
+      results.style.display = 'block';
+      results.innerHTML = `<div class="search-no-results">No results for "${q}"</div>`;
+      return;
+    }
+
+    let html = '';
+    cableResults.forEach(c => {
+      html += `
+        <div class="search-result-item" onclick="closeSearch();navigate('cable','${c.id}')">
+          <div class="search-result-meta">Cable<br>${c.dateDisplay}</div>
+          <div><div class="search-result-subject">${c.subject}</div><div style="font-size:0.75rem;color:var(--text-3);margin-top:0.2rem">${c.id}</div></div>
+        </div>`;
+    });
+    glossaryResults.slice(0,3).forEach(t => {
+      html += `
+        <div class="search-result-item" onclick="closeSearch();navigate('glossary')">
+          <div class="search-result-meta">Term</div>
+          <div><div class="search-result-subject">${t.term} — ${t.full}</div></div>
+        </div>`;
+    });
+
+    results.style.display = 'block';
+    results.innerHTML = html;
+  }
+
+  // Mobile menu
+  function toggleMobileMenu() {
+    const links = document.querySelector('.nav-links');
+    if (!links) return;
+    links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'absolute';
+    links.style.top = 'var(--nav-h)';
+    links.style.left = '0';
+    links.style.right = '0';
+    links.style.background = 'var(--bg)';
+    links.style.padding = '1rem 2rem 2rem';
+    links.style.borderBottom = '1px solid var(--border-dim)';
+    links.style.zIndex = '99';
+  }
+
+  // ═══════════════════════════════════════════════════════════════════
+  // UTILS FOR ADDING NEW CABLES
+  // ═══════════════════════════════════════════════════════════════════
+
+  // Call this function to add a processed cable to the archive:
+  // addCable({ id, date, dateDisplay, classification, from, to, subject, excerpt,
+  //            tags, status:'published', sourceUrl, annotatedBody, footnotes, glossary })
+  function addCable(cableData) {
+    const idx = CABLES.findIndex(c => c.id === cableData.id);
+    if (idx >= 0) { CABLES[idx] = cableData; }
+    else { CABLES.unshift(cableData); }
+    renderHomeGrid();
+    renderArchive();
+    updateAboutStats();
+  }
+
+  </script>
+</body>
+</html>

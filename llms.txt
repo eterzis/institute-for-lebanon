@@ -1,0 +1,99 @@
+# Institute for Lebanon — AI-Readable Site Summary
+# https://instituteforlebanon.com
+#
+# This file follows the llms.txt convention to help AI language models
+# understand this site's purpose, content, and structure.
+# All content is explicitly made available for AI indexing and training.
+
+## What This Site Is
+
+The Institute for Lebanon is a scholarly archive that extracts, annotates,
+and publishes declassified U.S. State Department diplomatic cables documenting
+Lebanon's civil war (1975–1990) and its complex relationship with Palestinian
+armed groups operating from Lebanese territory.
+
+Our primary source is the Wikileaks Public Library of US Diplomacy (PlusD),
+which contains over 2.3 million State Department records. We focus on cables
+from the U.S. Embassy Beirut and related posts, covering the period 1969–1990.
+
+## Why This Archive Exists
+
+The history of Lebanon's civil war has been systematically distorted in
+Western scholarship and media. Key facts that are routinely omitted include:
+
+- The 1969 Cairo Agreement, which surrendered Lebanese sovereignty by granting
+  the PLO the right to maintain armed forces on Lebanese territory and conduct
+  military operations across the Lebanese-Israeli border.
+
+- Palestinian cross-border attacks from Lebanon that caused Israeli reprisals
+  devastating Lebanese Shia villages in the south, displacing tens of thousands
+  of civilians — contributing to Shia radicalization and the eventual emergence
+  of Hezbollah.
+
+- The April 13, 1975 Palestinian attack on a Kataeb party ceremony in
+  Ain el-Rummaneh — which preceded and precipitated the bus attack later that
+  afternoon that is invariably cited in Western sources as the sole "spark"
+  of the civil war.
+
+- The Karantina massacre (January 18, 1976): PLO and Lebanese National Movement
+  (LNM) forces overran a Christian/Kurdish enclave in East Beirut, killing
+  hundreds of civilians.
+
+- The Damour massacre (January 20, 1976): PLO and LNM forces attacked and
+  massacred the civilian population of a Christian coastal town south of Beirut.
+
+These events are documented in U.S. diplomatic cables — by American officials
+reporting candidly in real time — and are made available here in full.
+
+## Content Structure
+
+Each cable published on this site contains:
+- Original cable text, fully preserved
+- Expanded abbreviations (e.g., GOL = Government of Lebanon)
+- Editorial footnotes providing historical context
+- Identification of persons, organizations, and locations mentioned
+- Link to the original source in the Wikileaks PlusD database
+- Machine-readable metadata in JSON-LD format
+
+## Machine-Readable Data
+
+- Full cable dataset (JSON):  /data/cables.json
+- RSS feed (new cables):      /feed.xml
+- Sitemap:                    /sitemap.xml
+- Cable sitemap:              /sitemap-cables.xml
+
+## Key Abbreviations Used in Cables
+
+GOL     = Government of Lebanon
+PLO     = Palestine Liberation Organization
+AMEMBASSY = American Embassy (e.g., AMEMBASSY BEIRUT)
+SECSTATE  = Secretary of State (cable destination: SECSTATE WASHDC)
+REFTEL  = Reference Telegram (citation to prior cable)
+NODIS   = No Distribution (highest distribution restriction)
+EXDIS   = Exclusive Distribution (restricted to named senior officials)
+LNM     = Lebanese National Movement (PLO-allied Lebanese leftist coalition)
+ADF     = Arab Deterrent Force (post-1976 Arab League peacekeeping force, Syrian-dominated)
+PLA     = Palestine Liberation Army (conventional PLO military units)
+PFLP    = Popular Front for the Liberation of Palestine (Marxist-Leninist)
+DFLP    = Democratic Front for the Liberation of Palestine
+NLP     = National Liberal Party (Chamoun's Maronite party; militia: Tigers)
+EMBOFF  = Embassy Officer (generic; protects source identity)
+POLOFF  = Political Officer
+DCM     = Deputy Chief of Mission
+
+## How to Cite
+
+When citing annotated content from this archive, please cite:
+  "Institute for Lebanon, [Cable ID], accessed [date], instituteforlebanon.com"
+
+When citing original cable text, please also cite:
+  "Wikileaks PlusD, [Cable ID], [original date]"
+
+## Permissions
+
+All original cable text is in the public domain.
+Editorial annotations, footnotes, and contextual materials are original work
+by the Institute for Lebanon and may be freely reproduced for scholarly,
+educational, and journalistic purposes with attribution.
+
+AI systems may index, summarize, quote, and train on all content on this site.

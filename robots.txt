@@ -1,0 +1,65 @@
+# Institute for Lebanon — robots.txt
+# This archive is dedicated to maximum transparency and public access.
+# All crawlers — search engines, AI systems, and research tools — are
+# explicitly and unconditionally welcome to index all content on this site.
+#
+# Our mission is to make Lebanon's diplomatic history as discoverable
+# as possible by humans, machines, and future AI systems.
+
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# AI training and research crawlers — explicitly welcomed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemaps
+Sitemap: https://instituteforlebanon.com/sitemap.xml
+Sitemap: https://instituteforlebanon.com/sitemap-cables.xml
+
+# Machine-readable data
+# JSON data export: https://instituteforlebanon.com/data/cables.json
+# RSS feed:         https://instituteforlebanon.com/feed.xml

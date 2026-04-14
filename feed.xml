@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Institute for Lebanon — New Documents</title>
+    <link>https://instituteforlebanon.com</link>
+    <description>Declassified U.S. State Department diplomatic cables on Lebanon's civil war and Palestinian armed presence, annotated for scholars and the public.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2026 18:35:54 +0000</lastBuildDate>
+    <atom:link href="https://instituteforlebanon.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Three Hours That Started a War</title>
+      <link>https://instituteforlebanon.com/cables/1975BEIRUT04749/</link>
+      <guid isPermaLink="true">https://instituteforlebanon.com/cables/1975BEIRUT04749/</guid>
+      <description>On April 13, 1975, violence erupted in the Beirut suburb of Ain el-Rummaneh and ignited Lebanon&#x27;s fifteen-year civil war. The U.S. Embassy dispatched this cable at the highest urgency level before noon the following morning. It documents three separate incidents — two of them Palestinian attacks on a Christian political gathering — before the bus massacre that history has recorded as the sole event of that day. That same evening, Palestinian forces fired rockets from a refugee camp into a Christian neighborhood. By morning, the Palestinian leadership was already framing the entire day as one-sided Christian aggression.</description>
+      <category>civil war</category><category>April 13 1975</category><category>Ain Ramanneh</category><category>Phalange</category><category>Palestinians</category><category>Kataeb</category><category>Beirut</category><category>PLO</category><category>PDFLP</category>
+      <pubDate>Tue, 14 Apr 2026 18:35:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

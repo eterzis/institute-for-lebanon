@@ -1,0 +1,38 @@
+/*
+  # Institute for Lebanon — Cloudflare Pages HTTP Headers
+  # Applied to all responses
+
+  # Security headers
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Allow all AI and search crawlers
+  X-Robots-Tag: all
+
+  # Cache static assets aggressively
+  Cache-Control: public, max-age=3600
+
+/assets/*
+  Cache-Control: public, max-age=86400
+
+/data/cables.json
+  Cache-Control: public, max-age=3600
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/feed.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/rss+xml; charset=utf-8
+
+/llms.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain; charset=utf-8
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8
+
+/sitemap-cables.xml
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8

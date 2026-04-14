@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glossary — Diplomatic Terms & Factions | Institute for Lebanon</title>
+  <meta name="description" content="Reference glossary of U.S. State Department abbreviations, Lebanese political factions, and key terms used in the diplomatic cables published by the Institute for Lebanon."/>
+  <link rel="canonical" href="https://instituteforlebanon.com/glossary"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/assets/main.css"/>
+  <style>
+    .gloss-search-wrap { margin-top:1.5rem; max-width:400px; }
+    .cat-section { margin-bottom:0; }
+    .cat-header {
+      font-family:var(--font-mono); font-size:0.62rem; letter-spacing:0.22em; text-transform:uppercase;
+      color:var(--amber); padding:1.25rem clamp(1.5rem,4vw,3rem) 0.75rem;
+      border-bottom:1px solid var(--border-dim); position:sticky; top:64px;
+      background:var(--bg); z-index:10;
+    }
+    .gloss-grid {
+      display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr));
+      gap:0; border-left:1px solid var(--border-dim);
+    }
+    .gloss-item {
+      padding:1.4rem 1.6rem; border-right:1px solid var(--border-dim); border-bottom:1px solid var(--border-dim);
+      transition:background 0.15s;
+    }
+    .gloss-item:hover { background:var(--surface-1); }
+    .gloss-term { font-family:var(--font-mono); font-size:0.82rem; font-weight:500; color:var(--amber); letter-spacing:0.08em; margin-bottom:0.35rem; }
+    .gloss-full { font-size:0.95rem; font-weight:600; color:var(--text-1); margin-bottom:0.5rem; line-height:1.3; }
+    .gloss-def  { font-size:0.85rem; color:var(--text-2); line-height:1.65; }
+    .gloss-item.hidden { display:none; }
+    .cat-count { font-family:var(--font-mono); font-size:0.58rem; color:var(--text-3); margin-left:0.5rem; }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="nav-logo-mark" style="width:20px;height:23px">
+        <svg viewBox="0 0 56 64" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;display:block">
+          <rect x="2"  y="2"  width="13" height="60" rx="1" fill="#c8942a"/>
+          <rect x="21" y="2"  width="13" height="60" rx="1" fill="#c8942a"/>
+          <rect x="21" y="51" width="33" height="11" rx="1" fill="#c8942a"/>
+        </svg>
+      </div>
+      <div class="nav-logo-text">Institute for Lebanon<span>Historical Archive</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/archive">Archive</a></li>
+      <li><a href="/timeline">Timeline</a></li>
+      <li><a href="/glossary" class="active">Glossary</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+    <button class="nav-search-btn" onclick="toggleSearch()" aria-label="Search">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.3"/><path d="M11 11L14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</nav>
+
+<div class="page-wrap">
+  <div class="section-sm container" style="border-bottom:1px solid var(--border-dim)">
+    <div class="section-label">Reference</div>
+    <h1 class="section-title">Diplomatic Glossary</h1>
+    <p class="lead" style="margin-top:0.75rem">State Department cable abbreviations, Lebanese political factions, and key terms — as used in our published documents.</p>
+    <div class="gloss-search-wrap">
+      <div class="search-box">
+        <span class="search-icon">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.2"/><path d="M10 10L13 13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </span>
+        <input type="text" id="gloss-search" placeholder="Search terms…" oninput="filterGlossary()"/>
+      </div>
+    </div>
+  </div>
+
+  <div id="glossary-body"></div>
+</div>
+
+<div id="search-modal" style="display:none;position:fixed;inset:0;background:rgba(12,10,8,0.9);backdrop-filter:blur(12px);z-index:200;align-items:flex-start;justify-content:center;padding-top:20vh" onclick="if(event.target===this)this.style.display='none'">
+  <div style="width:100%;max-width:640px;margin:0 1.5rem">
+    <div style="position:relative;background:var(--surface-2);border:1px solid var(--border);border-radius:2px">
+      <span style="position:absolute;left:1.1rem;top:50%;transform:translateY(-50%);color:var(--text-3)"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M13 13L16.5 16.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></span>
+      <input id="smi" style="width:100%;background:transparent;border:none;padding:1.1rem 1.25rem 1.1rem 3.5rem;font-family:var(--font-display);font-size:1.4rem;color:var(--text-1);outline:none" placeholder="Search…" onkeydown="if(event.key==='Escape')closeSearch()"/>
+    </div>
+  </div>
+</div>
+
+<footer class="footer" style="border-top:1px solid var(--border-dim)">
+  <div class="footer-bottom" style="max-width:var(--max-w);margin:0 auto;padding:2rem clamp(1.5rem,4vw,3rem)">
+    <div class="footer-copy">© Institute for Lebanon. <a href="/archive" style="color:var(--amber)">Browse the cable archive →</a></div>
+  </div>
+</footer>
+
+<script src="/assets/data.js"></script>
+<script>
+function renderGlossary(terms) {
+  const categories = [...new Set(terms.map(t => t.category||'General'))];
+  const body = document.getElementById('glossary-body');
+  body.innerHTML = categories.map(cat => {
+    const catTerms = terms.filter(t => (t.category||'General') === cat);
+    if (!catTerms.length) return '';
+    return `
+    <div class="cat-section">
+      <div class="cat-header">${cat} <span class="cat-count">${catTerms.length}</span></div>
+      <div class="gloss-grid">
+        ${catTerms.map(t => `
+        <div class="gloss-item">
+          <div class="gloss-term">${t.term}</div>
+          <div class="gloss-full">${t.full}</div>
+          <div class="gloss-def">${t.def||''}</div>
+        </div>`).join('')}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function filterGlossary() {
+  const q = document.getElementById('gloss-search').value.toLowerCase();
+  const filtered = GLOSSARY_TERMS.filter(t =>
+    !q || t.term.toLowerCase().includes(q) || t.full.toLowerCase().includes(q) || (t.def||'').toLowerCase().includes(q)
+  );
+  renderGlossary(filtered);
+}
+
+function toggleSearch() {
+  const m = document.getElementById('search-modal');
+  m.style.display = m.style.display==='flex'?'none':'flex';
+  if (m.style.display==='flex') document.getElementById('smi').focus();
+}
+function closeSearch() { document.getElementById('search-modal').style.display='none'; }
+document.addEventListener('keydown', e => {
+  if ((e.metaKey||e.ctrlKey) && e.key==='k') { e.preventDefault(); toggleSearch(); }
+  if (e.key==='Escape') closeSearch();
+});
+
+renderGlossary(GLOSSARY_TERMS);
+</script>
+</body>
+</html>
