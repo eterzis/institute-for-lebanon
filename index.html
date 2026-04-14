@@ -1194,7 +1194,7 @@
   <!-- ─── NAVIGATION ──────────────────────────────────────────────── -->
   <nav class="nav">
     <div class="nav-inner">
-      <a href="#home" class="nav-logo" onclick="navigate('home')">
+      <a href="/" class="nav-logo">
         <div class="nav-logo-mark">
           <svg viewBox="0 0 56 64" xmlns="http://www.w3.org/2000/svg">
             <rect x="2"  y="2"  width="13" height="60" rx="1" fill="#c8942a"/>
@@ -1208,11 +1208,11 @@
         </div>
       </a>
       <ul class="nav-links">
-        <li><a href="#home"     id="nav-home"     onclick="navigate('home')"     class="active">Home</a></li>
-        <li><a href="#archive"  id="nav-archive"  onclick="navigate('archive')">Archive</a></li>
-        <li><a href="#timeline" id="nav-timeline" onclick="navigate('timeline')">Timeline</a></li>
-        <li><a href="#glossary" id="nav-glossary" onclick="navigate('glossary')">Glossary</a></li>
-        <li><a href="#about"    id="nav-about"    onclick="navigate('about')">About</a></li>
+        <li><a href="/"         class="active">Home</a></li>
+        <li><a href="/archive">Archive</a></li>
+        <li><a href="/timeline">Timeline</a></li>
+        <li><a href="/glossary">Glossary</a></li>
+        <li><a href="/about">About</a></li>
       </ul>
       <button class="nav-search-btn" onclick="openSearch()" aria-label="Search">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.3"/><path d="M11 11L14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
@@ -1239,11 +1239,11 @@
               U.S. State Department diplomatic cables — declassified, annotated, and contextualized — revealing what was reported on the ground during Lebanon's most turbulent decades. Read the dispatches that shaped American foreign policy, now made accessible to scholars and the public alike.
             </p>
             <div class="hero-cta-group">
-              <a href="#archive" class="btn-primary" onclick="navigate('archive')">
+              <a href="/archive" class="btn-primary">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="1" y="1" width="12" height="12" rx="1" stroke="currentColor" stroke-width="1.2"/><path d="M4 5H10M4 7H8M4 9H7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
                 Browse the Archive
               </a>
-              <a href="#about" class="btn-secondary" onclick="navigate('about')">
+              <a href="/about" class="btn-secondary">
                 About This Project
               </a>
             </div>
@@ -1296,7 +1296,7 @@
         </div>
       </div>
       <div style="padding:1.5rem 0 2.5rem;text-align:center">
-        <a href="#timeline" class="btn-secondary" onclick="navigate('timeline')" style="font-size:0.75rem">View Full Timeline →</a>
+        <a href="/timeline" class="btn-secondary" style="font-size:0.75rem">View Full Timeline →</a>
       </div>
     </section>
 
@@ -1344,10 +1344,10 @@
         </div>
         <div class="footer-col">
           <div class="footer-col-label">Navigate</div>
-          <a href="#archive"  onclick="navigate('archive')">Cable Archive</a>
-          <a href="#timeline" onclick="navigate('timeline')">Timeline</a>
-          <a href="#glossary" onclick="navigate('glossary')">Glossary</a>
-          <a href="#about"    onclick="navigate('about')">About</a>
+          <a href="/archive">Cable Archive</a>
+          <a href="/timeline">Timeline</a>
+          <a href="/glossary">Glossary</a>
+          <a href="/about">About</a>
         </div>
         <div class="footer-col">
           <div class="footer-col-label">Contact</div>
@@ -1503,27 +1503,19 @@
   <script>
 
   // ═══════════════════════════════════════════════════════════════════
-  // DATA
+  // DATA — loaded live from /data/cables.json so it's always current
   // ═══════════════════════════════════════════════════════════════════
 
-  const CABLES = [
-    {
-      id:             "1975BEIRUT04749",
-      date:           "1975",       // Exact date to be confirmed from cable
-      dateDisplay:    "1975",
-      classification: "CONFIDENTIAL",
-      from:           "AMEMBASSY BEIRUT",
-      to:             "SECSTATE WASHDC",
-      subject:        "[Awaiting Document — Paste Cable Text to Begin]",
-      excerpt:        "This entry is reserved for cable 1975BEIRUT04749. Paste the raw text of the cable into the project chat to begin annotation.",
-      tags:           ["civil war", "Lebanon", "1975"],
-      status:         "pending",
-      sourceUrl:      "https://wikileaks.org/plusd/cables/1975BEIRUT04749_b.html",
-      annotatedBody:  null,
-      footnotes:      [],
-      glossary:       []
-    }
-  ];
+  let CABLES = [];
+
+  fetch('/data/cables.json')
+    .then(r => r.json())
+    .then(data => {
+      CABLES = (data.cables || []).filter(c => c.status === 'published');
+      renderHomeGrid();
+      document.getElementById('stat-cables').textContent = CABLES.length || '0';
+    })
+    .catch(() => { CABLES = []; });
 
   const TIMELINE_EVENTS = [
     {
@@ -1623,46 +1615,24 @@
   // ROUTER
   // ═══════════════════════════════════════════════════════════════════
 
-  let currentPage = 'home';
-
   function navigate(page, cableId) {
-    // Hide all pages
-    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-    // Update nav
-    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
-
-    if (page === 'cable' && cableId) {
-      renderCable(cableId);
-      document.getElementById('page-cable').classList.add('active');
-      currentPage = 'cable';
-      window.location.hash = `cable/${cableId}`;
-    } else {
-      const el = document.getElementById(`page-${page}`);
-      if (el) el.classList.add('active');
-      const navEl = document.getElementById(`nav-${page}`);
-      if (navEl) navEl.classList.add('active');
-      currentPage = page;
-      window.location.hash = page === 'home' ? '' : page;
+    if (page === 'cable' && cableId) { location.href = `/cables/${cableId}/`; return; }
+    if (page === 'archive')          { location.href = '/archive';  return; }
+    if (page === 'timeline')         { location.href = '/timeline'; return; }
+    if (page === 'glossary')         { location.href = '/glossary'; return; }
+    if (page === 'about')            { location.href = '/about';    return; }
+    // Home — redirect any legacy hash links
+    if (window.location.hash && window.location.hash !== '#home') {
+      const hash = window.location.hash.replace('#', '');
+      if (hash.startsWith('cable/')) { location.href = `/cables/${hash.replace('cable/',''  )}/`; return; }
+      if (['archive','timeline','glossary','about'].includes(hash)) { location.href = `/${hash}`; return; }
     }
-    window.scrollTo(0, 0);
   }
 
-  // Hash routing on load
+  // On load: handle any legacy hash links, then render home
   window.addEventListener('load', () => {
-    renderHomeGrid();
-    renderArchive();
-    renderTimeline();
-    renderGlossaryPage();
-    updateAboutStats();
-
-    const hash = window.location.hash.replace('#', '');
-    if (hash.startsWith('cable/')) {
-      navigate('cable', hash.replace('cable/', ''));
-    } else if (hash && ['archive','timeline','glossary','about'].includes(hash)) {
-      navigate(hash);
-    } else {
-      navigate('home');
-    }
+    navigate('home'); // triggers any hash redirects
+    renderHomeGrid(); // renders from fetched data (also called in fetch .then)
   });
 
   // ═══════════════════════════════════════════════════════════════════
@@ -1682,19 +1652,19 @@
     let html = '';
     published.forEach(c => {
       html += `
-        <div class="cable-card" onclick="navigate('cable','${c.id}')">
+        <div class="cable-card" onclick="location.href='/cables/${c.id}/'" style="cursor:pointer">
           <div class="cable-card-head">
             <span class="cable-id">${c.id}</span>
             ${classificationBadge(c.classification)}
           </div>
-          <div class="cable-card-subject">${c.subject}</div>
+          <div class="cable-card-subject">${(c.readerNarrative && c.readerNarrative.headline) || c.subject}</div>
           <div class="cable-card-meta">
             <span>📅 ${c.dateDisplay}</span>
             <span>📍 ${c.from}</span>
           </div>
-          <div class="cable-card-excerpt">${c.excerpt}</div>
+          <div class="cable-card-excerpt">${(c.readerNarrative && c.readerNarrative.summary) ? c.readerNarrative.summary.slice(0,200)+'…' : c.excerpt}</div>
           <div class="cable-card-footer">
-            <div class="cable-tags">${c.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+            <div class="cable-tags">${(c.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
             <span class="cable-card-arrow">→</span>
           </div>
         </div>`;
@@ -1743,7 +1713,7 @@
     }
 
     list.innerHTML = filtered.map(c => `
-      <div class="archive-row" onclick="navigate('cable','${c.id}')">
+      <div class="archive-row" >
         <div class="archive-row-id">${c.id}</div>
         <div class="archive-row-subject">${c.subject}</div>
         <div class="archive-row-from">${c.from}</div>
@@ -1760,7 +1730,7 @@
         <div class="timeline-event${ev.cableId ? ' has-cable' : ''}">
           <div class="${i % 2 === 0 ? 'timeline-event-content above' : 'timeline-event-content'}">
             <div class="timeline-event-date">${ev.date}</div>
-            <div class="timeline-event-title" ${ev.cableId ? `onclick="navigate('cable','${ev.cableId}')"` : ''}>${ev.title}</div>
+            <div class="timeline-event-title" ${ev.cableId ? `` : ''}>${ev.title}</div>
           </div>
           <div style="display:flex;align-items:center;height:20px">
             <div class="timeline-event-dot"></div>
@@ -1784,7 +1754,7 @@
           <div style="padding:0 0 2.5rem 0">
             <div style="font-family:var(--font-display);font-size:1.2rem;font-weight:500;color:var(--text-1);margin-bottom:0.4rem">${ev.title}</div>
             <div style="font-size:0.9rem;color:var(--text-3);line-height:1.65">${ev.desc}</div>
-            ${ev.cableId ? `<div style="margin-top:0.75rem"><button onclick="navigate('cable','${ev.cableId}')" style="font-family:var(--font-mono);font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--amber);background:rgba(200,148,42,0.1);border:1px solid var(--amber-dim);padding:0.3rem 0.65rem;border-radius:2px;cursor:pointer">→ View Cable</button></div>` : ''}
+            ${ev.cableId ? `<div style="margin-top:0.75rem"><button  style="font-family:var(--font-mono);font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--amber);background:rgba(200,148,42,0.1);border:1px solid var(--amber-dim);padding:0.3rem 0.65rem;border-radius:2px;cursor:pointer">→ View Cable</button></div>` : ''}
           </div>
         </div>
       `).join('');
@@ -1913,7 +1883,7 @@
         </ul>
       </div>
       <div class="sidebar-section">
-        <button class="toggle-view-btn" onclick="navigate('archive')">
+        <button class="toggle-view-btn" >
           <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M6 1L1 5L6 9" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
           Back to Archive
         </button>
