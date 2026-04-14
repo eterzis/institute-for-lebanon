@@ -1549,10 +1549,7 @@
             ${classificationBadge(c.classification)}
           </div>
           <div class="cable-card-subject">${(c.readerNarrative && c.readerNarrative.headline) || c.subject}</div>
-          <div class="cable-card-meta">
-            <span>${c.dateDisplay}</span>
-            <span>${c.from}</span>
-          </div>
+          <div class="cable-card-meta"><span>&#128197; ${c.dateDisplay}</span><span>&#8594; ${c.from}</span></div>
           <div class="cable-card-excerpt">${(c.readerNarrative && c.readerNarrative.summary) ? c.readerNarrative.summary.slice(0,200)+'â¦' : c.excerpt}</div>
           <div class="cable-card-footer">
             <div class="cable-tags">${(c.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
