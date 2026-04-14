@@ -1550,8 +1550,8 @@
           </div>
           <div class="cable-card-subject">${(c.readerNarrative && c.readerNarrative.headline) || c.subject}</div>
           <div class="cable-card-meta">
-            <span>ð ${c.dateDisplay}</span>
-            <span>ð ${c.from}</span>
+            <span>${c.dateDisplay}</span>
+            <span>${c.from}</span>
           </div>
           <div class="cable-card-excerpt">${(c.readerNarrative && c.readerNarrative.summary) ? c.readerNarrative.summary.slice(0,200)+'â¦' : c.excerpt}</div>
           <div class="cable-card-footer">
