@@ -1027,3 +1027,124 @@ body::before {
   }
   .article-figure--inline-right img { height: auto; }
 }
+
+
+/* =================================================================
+   FEATURED CABLE -- EDITORIAL LAYOUT (replaces cable-card grid)
+   ================================================================= */
+
+.fc {
+  display: block;
+  padding: 3.5rem 0;
+  border-bottom: 1px solid var(--border-dim);
+  cursor: pointer;
+  position: relative;
+  transition: none;
+}
+.fc:first-child { padding-top: 2.5rem; }
+.fc:last-child  { border-bottom: none; }
+
+.fc-eyebrow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  gap: 2rem;
+}
+.fc-id-text {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+.fc-cls-badge {
+  font-family: var(--font-mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(200, 60, 60, 0.7);
+  flex-shrink: 0;
+}
+.fc-divider {
+  height: 1px;
+  background: linear-gradient(90deg, var(--amber) 0%, var(--border-dim) 60%, transparent 100%);
+  margin-bottom: 2rem;
+}
+.fc-headline {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  color: var(--text-1);
+  margin-bottom: 1.25rem;
+  transition: color 0.25s;
+  max-width: 22ch;
+}
+.fc:hover .fc-headline { color: var(--amber); }
+
+.fc-deck {
+  font-size: 1.05rem;
+  line-height: 1.78;
+  color: var(--text-2);
+  font-style: italic;
+  max-width: 60ch;
+  margin-bottom: 1.75rem;
+}
+.fc-provenance {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--amber);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+.fc-prov-sep { color: var(--text-3); opacity: 0.5; }
+
+.fc-footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.fc-taglist { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.fc-tag {
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--border-dim);
+  border-radius: 2px;
+}
+.fc-read-cta {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--amber);
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: letter-spacing 0.25s;
+}
+.fc:hover .fc-read-cta { letter-spacing: 0.24em; }
+.fc-empty {
+  padding: 3rem 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--text-3);
+}
+
+/* Override old card-grid wrapper */
+#home-cables-grid {
+  background: none !important;
+  border: none !important;
+  gap: 0 !important;
+  display: block !important;
+}
