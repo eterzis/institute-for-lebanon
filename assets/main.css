@@ -971,3 +971,59 @@ body::before {
   .reader-timeline::before { left: 10px; }
   .tl-dot { width: 20px; height: 20px; }
 }
+
+/* ─── ARTICLE FIGURES (inline historical images) ─────────────────── */
+.article-figure {
+  margin: 2.5rem 0;
+  background: var(--surface-1);
+  border: 1px solid var(--border-dim);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.article-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(15%) contrast(1.05);
+  transition: filter 0.3s;
+}
+.article-figure:hover img { filter: grayscale(0%) contrast(1.05); }
+.article-figure figcaption {
+  padding: 0.85rem 1.1rem;
+  font-size: 0.85rem;
+  color: var(--text-2);
+  line-height: 1.65;
+  border-top: 1px solid var(--border-dim);
+  font-style: italic;
+}
+.fig-credit {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--text-3);
+  letter-spacing: 0.06em;
+  display: block;
+  margin-top: 0.35rem;
+  font-style: normal;
+}
+
+/* Inline-right variant (floats portrait alongside text) */
+.article-figure--inline-right {
+  float: right;
+  width: 220px;
+  margin: 0 0 1.5rem 2rem;
+  clear: right;
+}
+.article-figure--inline-right img {
+  height: 280px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+@media (max-width: 600px) {
+  .article-figure--inline-right {
+    float: none;
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+  .article-figure--inline-right img { height: auto; }
+}
