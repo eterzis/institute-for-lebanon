@@ -1,11 +1,6 @@
-# Institute for Lebanon — Cloudflare Pages Redirects
-# These ensure clean URLs work even without .html extensions
+# Institute for Lebanon -- Cloudflare Pages
+# Cloudflare Pages serves archive.html at /archive automatically (Clean URLs).
+# No redirect rules needed -- removing them prevents redirect loops.
 
-/archive        /archive.html    200
-/timeline       /timeline.html   200
-/glossary       /glossary.html   200
-/about          /about.html      200
-
-# Redirect old hash-based URLs to clean pages (if migrating)
-# /index.html#archive   /archive   301
-# /index.html#timeline  /timeline  301
+# Redirect legacy hash URLs to proper pages
+/index.html     /     301
