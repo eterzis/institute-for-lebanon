@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Institute for Lebanon — Declassified Diplomatic Archive</title>
+  <title>Institute for Lebanon &mdash; Declassified Diplomatic Archive</title>
   <meta name="description" content="A scholarly archive of declassified U.S. State Department diplomatic cables on Lebanon's history, its civil conflict, and relations with Palestinian refugees — annotated and contextualized for scholars and the public." />
   <meta name="keywords" content="Lebanon history, Lebanese civil war, Palestinian refugees, State Department cables, diplomatic history, Beirut, PLO, 1975, declassified documents" />
   <meta property="og:title" content="Institute for Lebanon — Declassified Diplomatic Archive" />
@@ -1275,7 +1275,7 @@
       <div class="container">
         <div class="section-label">Declassified Cables</div>
         <h2 class="section-title" style="margin-bottom:2.5rem">Featured Documents</h2>
-        <div class="cables-grid" id="home-cables-grid">
+        <div class="cables-grid" id="home-cables-grid" style="max-width:860px;margin:0 auto">
           <!-- Populated by JS -->
         </div>
       </div>
@@ -1645,41 +1645,39 @@
   }
 
   function renderHomeGrid() {
-    const grid = document.getElementById('home-cables-grid');
+    var grid = document.getElementById('home-cables-grid');
     if (!grid) return;
-    const published = CABLES.filter(c => c.status !== 'pending');
-    const pending   = CABLES.filter(c => c.status === 'pending');
-    let html = '';
-    published.forEach(c => {
-      html += `
-        <div class="cable-card" onclick="location.href='/cables/${c.id}/'" style="cursor:pointer">
-          <div class="cable-card-head">
-            <span class="cable-id">${c.id}</span>
-            ${classificationBadge(c.classification)}
-          </div>
-          <div class="cable-card-subject">${(c.readerNarrative && c.readerNarrative.headline) || c.subject}</div>
-          <div class="cable-card-meta">
-            <span>📅 ${c.dateDisplay}</span>
-            <span>📍 ${c.from}</span>
-          </div>
-          <div class="cable-card-excerpt">${(c.readerNarrative && c.readerNarrative.summary) ? c.readerNarrative.summary.slice(0,200)+'…' : c.excerpt}</div>
-          <div class="cable-card-footer">
-            <div class="cable-tags">${(c.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('')}</div>
-            <span class="cable-card-arrow">→</span>
-          </div>
-        </div>`;
+    var published = CABLES.filter(function(c) { return c.status === 'published'; });
+    var html = '';
+    published.forEach(function(c) {
+      var rn = c.readerNarrative || {};
+      var headline = rn.headline || c.subject || c.id;
+      var subhead  = (rn.subheadline || '').slice(0, 180);
+      var origin   = c.fromFull || c.from || '';
+      var date     = c.dateDisplay || '';
+      var tags     = (c.tags || []).slice(0, 6);
+      html += '<article class="fc" onclick="location.href=\'/cables/' + c.id + '/\'">' +
+        '<div class="fc-eyebrow"><span class="fc-id-text">' + c.id + '</span><span class="fc-cls-badge">' + c.classification + ' &rarr; Declassified</span></div>' +
+        '<div class="fc-divider"></div>' +
+        '<h2 class="fc-headline">' + headline + '</h2>' +
+        (subhead ? '<p class="fc-deck">' + subhead + '</p>' : '') +
+        '<div class="fc-provenance">' +
+          '<span class="fc-date">' + date + '</span>' +
+          '<span class="fc-prov-sep">/</span>' +
+          '<span class="fc-origin">' + origin + '</span>' +
+        '</div>' +
+        '<div class="fc-footer-row">' +
+          '<div class="fc-taglist">' + tags.map(function(t){ return '<span class="fc-tag">' + t + '</span>'; }).join('') + '</div>' +
+          '<span class="fc-read-cta">Read the Record &rarr;</span>' +
+        '</div>' +
+        '</article>';
     });
-    // Add upcoming slots
-    for (let i = 0; i < Math.min(2, pending.length + 1); i++) {
-      html += `
-        <div class="cable-card coming-soon-card">
-          <span class="coming-soon-label">Forthcoming</span>
-          <div class="cable-card-subject" style="color:var(--text-3)">Next cable being processed…</div>
-          <div class="cable-card-excerpt">The archive grows continuously as new cables are annotated and reviewed.</div>
-        </div>`;
+    if (published.length === 0) {
+      html = '<p class="fc-empty">The archive is being prepared. First document forthcoming.</p>';
     }
     grid.innerHTML = html;
-    document.getElementById('stat-cables').textContent = published.length || '1';
+    var stat = document.getElementById('stat-cables');
+    if (stat) stat.textContent = published.length || '0';
   }
 
   function renderArchive() {
