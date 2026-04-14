@@ -1503,134 +1503,31 @@
   <script>
 
   // âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
-  // DATA â loaded live from /data/cables.json so it's always current
-  // âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
-
+  // DATA — fetched live so homepage always shows current cables
   let CABLES = [];
-
   fetch('/data/cables.json')
-    .then(r => r.json())
-    .then(data => {
-      CABLES = (data.cables || []).filter(c => c.status === 'published');
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      CABLES = (data.cables||[]).filter(function(c){ return c.status==='published'; });
       renderHomeGrid();
-      document.getElementById('stat-cables').textContent = CABLES.length || '0';
+      var el=document.getElementById('stat-cables'); if(el) el.textContent=CABLES.length||'0';
     })
-    .catch(() => { CABLES = []; });
+    .catch(function(){ CABLES=[]; });
 
-  const TIMELINE_EVENTS = [
-    {
-      date:    "Nov 3, 1969",
-      title:   "Cairo Agreement â Sovereignty Surrendered",
-      desc:    "Under Egyptian pressure, Lebanon's government grants the PLO the right to maintain armed forces on Lebanese soil and conduct operations across the border into Israel. The agreement effectively exempts Palestinian armed groups from Lebanese law within the refugee camps. Lebanese critics across the political spectrum â and many within the Lebanese Army â regard the agreement as a fatal wound to state sovereignty, one that turns Lebanon into a staging ground for a conflict not of its own making.",
-      cableId: null
-    },
-    {
-      date:    "1970â1975",
-      title:   "PLO Cross-Border Operations and Israeli Reprisals",
-      desc:    "Palestinian armed factions operating from southern Lebanon conduct repeated raids and rocket attacks into northern Israel. The Israeli military responds with large-scale reprisals â air strikes, artillery bombardments, and ground incursions â that devastate Lebanese Shia villages in the south, displacing tens of thousands of civilians northward into Beirut. The Lebanese state, lacking the political will and military capacity to control the PLO, absorbs the consequences of a war it did not choose. Resentment of the Palestinian armed presence deepens across Lebanese communities.",
-      cableId: null
-    },
-    {
-      date:    "Apr 13, 1975 â Morning",
-      title:   "Palestinian Attack on Kataeb Ceremony in Ain el-Rummaneh",
-      desc:    "Palestinian gunmen open fire on a crowd attending a church inauguration ceremony in the Ain el-Rummaneh neighborhood of Beirut. The attack targets members of the Kataeb (Phalange) party, including bodyguards of party leader Pierre Gemayel, killing several. The incident does not occur in a vacuum: it follows months of escalating armed clashes between Palestinian forces and Lebanese Kataeb fighters in Beirut's suburbs. This attack is the proximate trigger for the events that follow later the same day.",
-      cableId: null
-    },
-    {
-      date:    "Apr 13, 1975 â Afternoon",
-      title:   "Retaliatory Attack on Bus in Ain el-Rummaneh",
-      desc:    "Hours after the morning attack on the Kataeb ceremony, Kataeb fighters stop a bus carrying Palestinian passengers through Ain el-Rummaneh and open fire, killing approximately 27 people. The attack is widely portrayed in Western media as the sole spark of the civil war, but its context â the prior Palestinian attack on a civilian religious ceremony â is routinely omitted. Together, the two incidents of April 13 mark the point at which political violence in Lebanon becomes sustained, organized, and communal.",
-      cableId: null
-    },
-    {
-      date:    "AprâSep 1975",
-      title:   "First Phase of the Civil War",
-      desc:    "Fighting spreads across Beirut and the surrounding mountains. The Lebanese Army, torn by sectarian loyalties and lacking clear political direction from a paralyzed government, remains largely on the sidelines. Multiple ceasefires are brokered and collapse within days. Each side â Kataeb and allied Maronite militias on one, PLO and Lebanese National Movement (LNM) forces on the other â consolidates territory.",
-      cableId: null
-    },
-    {
-      date:    "SepâOct 1975",
-      title:   "'Hotel War' â Downtown Beirut",
-      desc:    "Battles for control of Beirut's landmark downtown hotels, used as sniper nests and military positions, devastate the commercial and cultural heart of the city. The fighting accelerates the physical partition of Beirut into Christian East and Muslim-Palestinian West sectors along what will become known as the Green Line.",
-      cableId: null
-    },
-    {
-      date:    "Jan 18, 1976",
-      title:   "Karantina Overrun â Massacre of Civilians",
-      desc:    "PLO and LNM forces overrun Karantina, a predominantly Christian and Kurdish enclave in East Beirut near the port. Hundreds of civilians are killed in what survivors and contemporaneous reports describe as a massacre. The neighborhood is razed. The attack is among the most significant atrocities of the civil war's early phase and is largely absent from standard Western accounts that focus only on Maronite violence.",
-      cableId: null
-    },
-    {
-      date:    "Jan 20, 1976",
-      title:   "Damour Massacre â Retaliatory Attack on Christian Town",
-      desc:    "Two days after Karantina, PLO and LNM forces attack Damour, a Christian coastal town south of Beirut. The town's Kataeb fighters and many civilians attempt to evacuate by sea; those who remain are killed. Estimates of the death toll range from 150 to several hundred. Survivors are expelled. Like Karantina, Damour is a massacre of civilians; unlike Karantina, it is rarely described as such in Western accounts.",
-      cableId: null
-    },
-    {
-      date:    "Mar 1976",
-      title:   "Lebanese Army Splits â Ahdab 'Coup' and the Lebanese Arab Army",
-      desc:    "Sections of the Lebanese Army, led by officers sympathetic to the Palestinian-LNM alliance, mutiny and form the breakaway 'Lebanese Arab Army' under Brigadier Ahmad al-Khatib. Separately, Brigadier Aziz al-Ahdab stages a televised 'coup' demanding the resignation of President Suleiman Frangieh. Neither effort succeeds in reshaping political authority, but the army's fragmentation removes the last institutional buffer between Lebanon's militias.",
-      cableId: null
-    },
-    {
-      date:    "Jun 1976",
-      title:   "Syrian Military Intervention",
-      desc:    "Syrian forces enter Lebanon in force, ostensibly to prevent a PLO-LNM military victory over the Maronite factions â a victory Damascus fears would trigger Israeli intervention and destabilize Syrian strategic interests. Syria's intervention is initially welcomed by Maronite leaders but viewed with deep suspicion by the PLO and its Lebanese allies. Damascus will subsequently shift alliances multiple times over the following decade, demonstrating that Syrian involvement serves Syrian interests above all.",
-      cableId: null
-    },
-    {
-      date:    "Oct 1976",
-      title:   "Riyadh and Cairo Summits â Formal Ceasefire",
-      desc:    "Arab League summits in Riyadh and Cairo produce a ceasefire agreement and establish the Arab Deterrent Force (ADF) to supervise it. The ADF is composed overwhelmingly of Syrian troops, effectively legitimizing Syria's military presence in Lebanon. The ceasefire holds the guns largely quiet â but the underlying conditions that produced the war: armed Palestinian sovereignty within Lebanese territory, the Cairo Agreement, sectarian political paralysis, and unchecked militia power, remain entirely unresolved.",
-      cableId: null
-    },
-  ];
-
-  const GLOSSARY_TERMS = [
-    { term:"GOL",       full:"Government of Lebanon",              def:"The Lebanese national government, typically referring to the cabinet and council of ministers." },
-    { term:"PLO",       full:"Palestine Liberation Organization",  def:"Umbrella body of Palestinian political and military groups, led by Yasser Arafat and Fatah." },
-    { term:"AMEMBASSY", full:"American Embassy",                   def:"Standard cable routing prefix for the U.S. Embassy in a named city." },
-    { term:"SECSTATE",  full:"Secretary of State",                 def:"Cable destination indicating the U.S. Department of State headquarters in Washington, D.C." },
-    { term:"WASHDC",    full:"Washington, D.C.",                   def:"Standard cable abbreviation for the capital; used in routing lines." },
-    { term:"REFTEL",    full:"Reference Telegram",                 def:"Citation to a previously sent cable, identified by its unique identifier." },
-    { term:"NODIS",     full:"No Distribution",                    def:"Cable handling restriction indicating the message is not to be distributed beyond the immediate addressee." },
-    { term:"EXDIS",     full:"Exclusive Distribution",             def:"Restricted distribution â cable to be seen only by specified senior officials." },
-    { term:"LNM",       full:"Lebanese National Movement",         def:"Coalition of leftist, pan-Arab, and Nasserist parties allied with the PLO; led by Kamal Jumblatt." },
-    { term:"KDP",       full:"Kataeb Democratic Party (Phalange)", def:"Maronite Christian political and paramilitary organization founded by Pierre Gemayel in 1936." },
-    { term:"ADF",       full:"Arab Deterrent Force",               def:"Peacekeeping force established by the Arab League after the 1976 Riyadh Agreement, dominated by Syrian troops." },
-    { term:"PLA",       full:"Palestine Liberation Army",          def:"Conventional military arm of the PLO, organized into brigades stationed in various Arab countries." },
-    { term:"PFLP",      full:"Popular Front for the Liberation of Palestine", def:"Marxist-Leninist Palestinian faction; second-largest PLO group after Fatah." },
-    { term:"PDFLP",     full:"Popular Democratic Front for the Liberation of Palestine", def:"Breakaway Marxist faction from PFLP, later known as DFLP." },
-    { term:"NLP",       full:"National Liberal Party",             def:"Maronite political party led by former president Camille Chamoun; maintained its own militia (Tigers)." },
-    { term:"SISMI",     full:"Servizio per le Informazioni e la Sicurezza Militare", def:"Italian military intelligence service; reference appears in cables discussing European diplomacy." },
-    { term:"REF",       full:"Refugees",                           def:"Used in cables to refer to Palestinian refugees in Lebanon, numbering approximately 300,000 in 1975." },
-    { term:"EMBOFF",    full:"Embassy Officer",                    def:"A U.S. Embassy official reporting or taking action; used to preserve source confidentiality." },
-    { term:"POLOFF",    full:"Political Officer",                  def:"Embassy diplomat responsible for political reporting and analysis." },
-    { term:"DCM",       full:"Deputy Chief of Mission",            def:"Second-ranking diplomat at an embassy, deputizing for the Ambassador." },
-    { term:"ARABS",     full:"Arab states (context-dependent)",    def:"In cables, 'the Arabs' typically refers to Arab League member states or their diplomatic representatives." },
-    { term:"FACTIONS",  full:"Armed Lebanese factions (general)",  def:"Umbrella term for the numerous militias active in Lebanon â Maronite, Shia, Sunni, Druze, and Palestinian." },
-  ];
-
-  // âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
-  // ROUTER
-  // âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
-
-  function navigate(page, cableId) {
-    if (page === 'cable' && cableId) { location.href = '/cables/' + cableId + '/'; return; }
-    if (page === 'archive')  { location.href = '/archive';  return; }
-    if (page === 'timeline') { location.href = '/timeline'; return; }
-    if (page === 'glossary') { location.href = '/glossary'; return; }
-    if (page === 'about')    { location.href = '/about';    return; }
-    const h = window.location.hash.replace('#','');
-    if (h.startsWith('cable/')) { location.href = '/cables/' + h.replace('cable/','') + '/'; }
-    else if (['archive','timeline','glossary','about'].includes(h)) { location.href = '/' + h; }
+  // ROUTER — all pages except home redirect to proper URLs
+  function navigate(page,cableId){
+    if(page==='cable'&&cableId){ location.href='/cables/'+cableId+'/'; return; }
+    if(page==='archive'){  location.href='/archive';  return; }
+    if(page==='timeline'){ location.href='/timeline'; return; }
+    if(page==='glossary'){ location.href='/glossary'; return; }
+    if(page==='about'){    location.href='/about';    return; }
+    var h=window.location.hash.replace('#','');
+    if(h.indexOf('cable/')===0){ location.href='/cables/'+h.replace('cable/','')+'/'; }
+    else if(['archive','timeline','glossary','about'].indexOf(h)>=0){ location.href='/'+h; }
   }
+  window.addEventListener('load',function(){ navigate('home'); renderHomeGrid(); });
 
-  // On load: handle any legacy hash links, then render home
-  window.addEventListener('load', () => { navigate('home'); renderHomeGrid(); }););
-
-  // âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
-  // RENDER FUNCTIONS
+    // RENDER FUNCTIONS
   // âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
   function classificationBadge(c) {
