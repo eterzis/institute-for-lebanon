@@ -121,7 +121,18 @@
   </div>
 </footer>
 
-<script src="/assets/data.js"></script>
+<script>
+var CABLES = [];
+var GLOSSARY_TERMS = [];
+var TIMELINE_EVENTS = [];
+fetch('/data/cables.json')
+  .then(function(r){ return r.json(); })
+  .then(function(data){
+    CABLES = (data.cables || []);
+    filterArchive();
+  })
+  .catch(function(){ CABLES = []; });
+</script>
 <script>
 function classificationBadge(c) {
   const map = { CONFIDENTIAL:'badge-confidential', SECRET:'badge-secret', UNCLASSIFIED:'badge-unclassified' };
