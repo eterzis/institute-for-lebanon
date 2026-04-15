@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>The Ceasefire That Almost Wasn’t | Institute for Lebanon</title>
+  <meta name="description" content="The Ceasefire That Almost Wasn’t — Cable 1975BEIRUT04860, April 16, 1975. Declassified U.S. diplomatic cable annotated by the Institute for Lebanon."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/assets/main.css?v=2"/>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"DigitalDocument","name":"The Ceasefire That Almost Wasn’t","identifier":"1975BEIRUT04860","url":"https://instituteforlebanon.com/cables/1975BEIRUT04860/","publisher":{"@type":"Organization","name":"Institute for Lebanon","url":"https://instituteforlebanon.com"}}</script>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <div class="nav-logo-mark" style="width:20px;height:23px">
+        <svg viewBox="0 0 56 64" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;display:block">
+          <rect x="2" y="2" width="13" height="60" rx="1" fill="#c8942a"/>
+          <rect x="21" y="2" width="13" height="60" rx="1" fill="#c8942a"/>
+          <rect x="21" y="51" width="33" height="11" rx="1" fill="#c8942a"/>
+        </svg>
+      </div>
+      <div class="nav-logo-text">Institute for Lebanon<span>Historical Archive</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/archive" class="active">Archive</a></li>
+      <li><a href="/timeline">Timeline</a></li>
+      <li><a href="/glossary">Glossary</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </div>
+</nav>
+<div style="padding-top:var(--nav-h);min-height:100vh;display:flex;align-items:center;justify-content:center" id="loader-wrap">
+  <div style="text-align:center;max-width:600px;padding:3rem">
+    <div style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-3);margin-bottom:1.5rem">1975BEIRUT04860 &middot; April 16, 1975 &middot; CONFIDENTIAL</div>
+    <h1 style="font-family:var(--font-display);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:300;color:var(--text-1);margin-bottom:1.5rem;line-height:1.15">The Ceasefire That Almost Wasn’t</h1>
+    <div id="loader-status" style="font-family:var(--font-mono);font-size:0.7rem;color:var(--text-3);letter-spacing:0.1em">Loading document&hellip;</div>
+  </div>
+</div>
+<script>
+// Load cable data from cables.json and render the full page
+fetch('/data/cables.json')
+  .then(function(r){return r.json();})
+  .then(function(data){
+    var cable = (data.cables||[]).filter(function(c){return c.id==='1975BEIRUT04860';})[0];
+    if(!cable){document.getElementById('loader-status').textContent='Document not found.';return;}
+    var rn = cable.readerNarrative||{};
+    document.title = (rn.headline||cable.subject)+' | Institute for Lebanon';
+    document.getElementById('loader-wrap').innerHTML =
+      '<div style="max-width:800px;margin:3rem auto;padding:0 clamp(1.5rem,4vw,3rem)">' +
+      '<div style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--text-3);margin-bottom:1rem">'+cable.id+' &middot; '+cable.dateDisplay+' &middot; '+cable.classification+'</div>' +
+      '<h1 style="font-family:var(--font-display);font-size:clamp(2rem,4.5vw,3.5rem);font-weight:300;line-height:1.1;color:var(--text-1);margin-bottom:1.25rem">'+(rn.headline||cable.subject)+'</h1>' +
+      '<p style="font-size:1rem;line-height:1.75;color:var(--text-2);font-style:italic;max-width:65ch;margin-bottom:1.5rem">'+(rn.subheadline||'')+'</p>' +
+      '<div style="font-family:var(--font-mono);font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-3);margin-bottom:2rem">'+cable.dateDisplay+' / '+cable.fromFull+'</div>' +
+      '<p style="font-size:1.05rem;line-height:1.82;color:var(--text-1);margin-bottom:2rem">'+(rn.summary||cable.excerpt||'')+'</p>' +
+      '<div style="padding:1.5rem;background:var(--surface-1);border:1px solid var(--border-dim);border-radius:2px;margin-bottom:2rem">' +
+        '<div style="font-family:var(--font-mono);font-size:0.6rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--amber);margin-bottom:1rem">Source</div>' +
+        '<p style="font-family:var(--font-mono);font-size:0.72rem;color:var(--text-2);line-height:1.7">'+cable.id+' &mdash; Wikileaks PlusD. <a href="'+cable.sourceUrl+'" target="_blank" rel="noopener" style="color:var(--cedar-light)">View original &rarr;</a></p>' +
+        '<p style="font-family:var(--font-mono);font-size:0.65rem;color:var(--text-3);margin-top:0.75rem">Full annotated version available when the next site update is deployed.</p>' +
+      '</div>' +
+      '<a href="/archive" style="font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-2)">&larr; Back to Archive</a>' +
+      '</div>';
+  }).catch(function(){document.getElementById('loader-status').textContent='Unable to load document.';});
+</script>
+</body>
+</html>
