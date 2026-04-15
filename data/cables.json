@@ -7,9 +7,9 @@
     "primarySource": "Wikileaks Public Library of US Diplomacy (PlusD)",
     "license": "Cable texts: public domain. Editorial annotations: free for scholarly/educational use with attribution.",
     "contact": "contact@instituteforlebanon.com",
-    "lastUpdated": "2026-04-14",
-    "totalCables": 1,
-    "publishedCables": 1,
+    "lastUpdated": "2026-04-15",
+    "totalCables": 3,
+    "publishedCables": 3,
     "pendingCables": 0
   },
   "cables": [
@@ -351,6 +351,139 @@
             "type": "context"
           }
         ]
+      }
+    },
+    {
+      "@type": "DigitalDocument",
+      "id": "1975BEIRUT04829",
+      "date": "1975-04-15",
+      "dateDisplay": "April 15, 1975",
+      "year": 1975,
+      "classification": "CONFIDENTIAL",
+      "from": "AMEMBASSY BEIRUT",
+      "fromFull": "U.S. Embassy, Beirut, Lebanon",
+      "to": "SECSTATE WASHDC",
+      "toFull": "Secretary of State, Washington D.C.",
+      "subject": "Beirut Situation Report — 1200Z",
+      "excerpt": "A two-section situation report filed at noon on April 15, documenting 80–90 dead throughout Lebanon, the spread of violence to Tripoli (three Christian churches bombed) and Sidon (three non-Phalangist villages rocketed), and the Embassy’s own assessment that the casualty balance ran against the Palestinian and Muslim side.",
+      "tags": [
+        "April 1975",
+        "Tripoli",
+        "Sidon",
+        "civilian villages",
+        "PLO",
+        "Kataeb",
+        "Beirut"
+      ],
+      "topics": [
+        "Geographic Spread of Violence",
+        "Civilian Casualties",
+        "PLO Command Structure"
+      ],
+      "status": "published",
+      "sourceUrl": "https://wikileaks.org/plusd/cables/1975BEIRUT04829_b.html",
+      "refs": "BEIRUT 4749; BEIRUT 4794",
+      "persons": [
+        "Abu Iyad",
+        "Nayif Hawatmeh",
+        "Kamal Jumblatt",
+        "Rashid Solh",
+        "Mahmoud Riad",
+        "G. McMurtrie Godley"
+      ],
+      "organizations": [
+        "PLO",
+        "Fatah",
+        "PDFLP",
+        "Kataeb (Phalange)",
+        "Arab League",
+        "PSP"
+      ],
+      "locations": [
+        "Beirut",
+        "Tripoli",
+        "Sidon",
+        "Mieh Mieh",
+        "Quarantina",
+        "Ashrafiye"
+      ],
+      "footnoteCount": 17,
+      "footnotes": [],
+      "glossary": [],
+      "relatedCables": [
+        "1975BEIRUT04749",
+        "1975BEIRUT04860"
+      ],
+      "readerNarrative": {
+        "headline": "The Second Day: What Spread Beyond Beirut",
+        "subheadline": "This cable, filed April 15, 1975 at noon, documents how the violence of April 13 spread beyond Beirut within 48 hours. Three churches were bombed in Tripoli. Three non-combatant Christian villages near Sidon were rocketed and then entered. These events appear in this cable. They do not appear in the standard account of April 1975.",
+        "dateline": "Beirut, April 15, 1975",
+        "summary": "Less than 48 hours after April 13, 1975, the Embassy filed this two-section situation report. The casualty count had reached 80 to 90 throughout Lebanon. The cable documents the geographic spread: three Christian churches bombed in Tripoli, three non-Phalangist Christian villages near Sidon rocketed and then entered. The Embassy’s own assessment: the casualty balance at this point ran against the Palestinian and Muslim side, not against the Phalange."
+      }
+    },
+    {
+      "@type": "DigitalDocument",
+      "id": "1975BEIRUT04860",
+      "date": "1975-04-16",
+      "dateDisplay": "April 16, 1975",
+      "year": 1975,
+      "classification": "CONFIDENTIAL",
+      "from": "AMEMBASSY BEIRUT",
+      "fromFull": "U.S. Embassy, Beirut, Lebanon",
+      "to": "SECSTATE WASHDC",
+      "toFull": "Secretary of State, Washington D.C.",
+      "subject": "Beirut Situation Report — 1000Z",
+      "excerpt": "A situation report filed April 16, documenting the ceasefire negotiations: the Kataeb delivered two suspects as agreed; the PLO then stated seven were sought. Contains an unconfirmed Embassy report that Arafat had favored a ceasefire for 36 hours while his deputy Abu Iyad opposed it — a command dispute not in the standard account.",
+      "tags": [
+        "ceasefire",
+        "April 1975",
+        "PLO",
+        "Kataeb",
+        "Beirut",
+        "Arafat",
+        "Arab League"
+      ],
+      "topics": [
+        "Ceasefire Negotiations",
+        "Internal PLO Dynamics",
+        "Lebanese Government"
+      ],
+      "status": "published",
+      "sourceUrl": "https://wikileaks.org/plusd/cables/1975BEIRUT04860_b.html",
+      "refs": "BEIRUT 4845; BEIRUT 4844",
+      "persons": [
+        "Mahmoud Riad",
+        "Pierre Gemayel",
+        "Yasser Arafat",
+        "Abu Iyad",
+        "Imam Musa Sadr",
+        "G. McMurtrie Godley"
+      ],
+      "organizations": [
+        "PLO",
+        "Kataeb (Phalange)",
+        "Arab League",
+        "Fatah"
+      ],
+      "locations": [
+        "Beirut",
+        "Ain al-Rammaneh",
+        "Ras Beirut",
+        "Sidon",
+        "Damascus"
+      ],
+      "footnoteCount": 17,
+      "footnotes": [],
+      "glossary": [],
+      "relatedCables": [
+        "1975BEIRUT04749",
+        "1975BEIRUT04829"
+      ],
+      "readerNarrative": {
+        "headline": "The Ceasefire That Almost Wasn’t",
+        "subheadline": "This cable, filed April 16, 1975, documents the ceasefire negotiations that followed April 13. It records two facts not in the standard account: a documented asymmetry in the demands made of each side, and an unconfirmed report of a command dispute within PLO leadership over whether to accept a ceasefire at all.",
+        "dateline": "Beirut, April 16, 1975",
+        "summary": "Three days after April 13, the Embassy filed this situation report. It records a nominal ceasefire and two specific developments the standard account does not carry: the Kataeb delivered two suspects as agreed, after which the PLO stated seven were sought; and an unconfirmed report that Arafat had favored a ceasefire for 36 hours while being opposed by his designated deputy Abu Iyad."
       }
     }
   ],
