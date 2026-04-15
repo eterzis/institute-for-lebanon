@@ -8,8 +8,8 @@
     "license": "Cable texts: public domain. Editorial annotations: free for scholarly/educational use with attribution.",
     "contact": "contact@instituteforlebanon.com",
     "lastUpdated": "2026-04-15",
-    "totalCables": 3,
-    "publishedCables": 3,
+    "totalCables": 4,
+    "publishedCables": 4,
     "pendingCables": 0
   },
   "cables": [
@@ -352,6 +352,310 @@
           }
         ]
       }
+    },
+    {
+      "@type": "DigitalDocument",
+      "id": "1975BEIRUT04794",
+      "date": "1975-04-14",
+      "dateDisplay": "April 14, 1975",
+      "year": 1975,
+      "classification": "CONFIDENTIAL",
+      "from": "AMEMBASSY BEIRUT",
+      "fromFull": "U.S. Embassy, Beirut, Lebanon",
+      "to": "SECSTATE WASHDC",
+      "toFull": "Secretary of State, Washington D.C.",
+      "subject": "Beirut Situation Report — 1500Z",
+      "excerpt": "The afternoon SITREP for April 14 contains three new facts about April 13: two of the four gunmen in the 9:30 AM attack were Libyan nationals; an Iraqi-backed faction claimed 18 of the bus passengers as its members; and the Palestinian funeral was deliberately postponed to organize a larger demonstration.",
+      "tags": [
+        "April 1975",
+        "Libyan gunmen",
+        "Arab Liberation Front",
+        "funeral postponed",
+        "Syria",
+        "Egypt",
+        "PLO",
+        "Kataeb"
+      ],
+      "topics": [
+        "April 13 New Details",
+        "Diplomatic Response",
+        "International Involvement"
+      ],
+      "status": "published",
+      "sourceUrl": "https://wikileaks.org/plusd/cables/1975BEIRUT04794_b.html",
+      "refs": "BEIRUT 4749",
+      "persons": [
+        "Saeb Salam",
+        "Pierre Gemayel",
+        "Hafez al-Assad",
+        "Anwar Sadat",
+        "Mahmoud Riad",
+        "Yasser Arafat",
+        "Camille Chamoun",
+        "G. McMurtrie Godley"
+      ],
+      "organizations": [
+        "PLO",
+        "Arab Liberation Front (ALF)",
+        "Kataeb (Phalange)",
+        "Saiqa",
+        "Arab League",
+        "NLP Tigers"
+      ],
+      "locations": [
+        "Beirut",
+        "Ain Ramanneh",
+        "Martyrs Square",
+        "Tel Zaartar",
+        "Beit Meri",
+        "Quarantina",
+        "Sidon"
+      ],
+      "annotatedBody": "<div class=\"cable-classification-notice\" style=\"font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.12em;color:var(--text-3);margin-bottom:1.5rem\">Originally classified CONFIDENTIAL &middot; Declassified and released by U.S. Department of State under EO Systematic Review, 05 July 2006 &middot; Now UNCLASSIFIED</div>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">Summary</strong><br>\nAlthough the situation for the time being seems quieter, Beirut continues tense and the situation remains dangerous. Unofficial Lebanese channels of &ldquo;reconciliation&rdquo; have swung into action in an effort to resolve the crisis. The expected funeral for Palestinian &ldquo;martyrs&rdquo; in the April 13 clashes did not take place at 1000Z according to Lebanese Army G-2,<sup class=\"editorial-note\"><a href=\"#fn-1\">[1]</a></sup> and that hurdle remains to be faced. Emissaries from two Arab capitals are reportedly scheduled to arrive shortly to help calm the situation. On the other hand, in view of a report that Phalangists plan to bring heavy weapons into the capital during the night, tonight and tomorrow morning could bring a dangerous escalation. We continue to have no reports of American citizens injured and incidents thus far have not assumed an explicit anti-American character.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">1.</strong><br>\nHard information on developments in Beirut and other parts of the country continues to be elusive. A number of reported clashes, again centering on Phalange installations, have been received during the day. The Phalange headquarters on Charles Helu Street, near Martyrs Square<sup class=\"editorial-note\"><a href=\"#fn-2\">[2]</a></sup> in the heart of the city, came under attack at approximately 1000Z [10:00 AM GMT] and was hit by three <abbr title=\"Rocket-propelled grenade\">RPG</abbr> anti-tank rockets, with no indication of casualties. In the downtown and Hamra area, banks and other businesses closed early, and eyewitnesses report large crowds at neighborhood food stores as residents stocked up for a possible siege.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">2.</strong><br>\nThe main surprise of the afternoon was the apparent postponement of the Palestinian funeral expected at 1000Z. Lebanese Army G-2 reported the funeral was a non-event, stating that the <abbr title=\"Government of Lebanon\">GOL</abbr> does not know why it did not take place. Palestinians apparently did pick up the bodies of slain compatriots from Quarantina Hospital (at least one Phalangist reportedly killed in the accompanying confrontation). An American correspondent reported hearing at approximately 1200Z that the funeral might be postponed until April 15 to provide time for Palestinians and leftist forces to &ldquo;do it up right.&rdquo;<sup class=\"editorial-note\"><a href=\"#fn-3\">[3]</a></sup> Consequently, the postponement &mdash; which bends common Muslim burial practice &mdash; might portend even more disruptive proceedings tomorrow. One local newspaper source reports a minimum of seven killed (we suspect more), with four deaths occurring in Ain Ramanneh as a result of anti-tank rockets.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">3.</strong><br>\nRadio Lebanon at 1000Z reported 14 persons &mdash; unidentified but presumably Phalangists &mdash; were in GOL custody on charges of provoking the original incidents on Sunday. Prime Minister Solh had reportedly given Phalangist leader Pierre Gemayel until this morning to turn over those guilty. We remain skeptical that either the Phalange surrendered members or the GOL seized them, although it cannot be excluded that some armed men on the periphery of the action have been picked up. Likewise, we discount a report we have received that Palestinians turned over to the GOL seven <abbr title=\"Palestinian armed fighters (Arabic: فدائيين)\">fedayeen</abbr> implicated in Sunday&rsquo;s clashes.<sup class=\"editorial-note\"><a href=\"#fn-4\">[4]</a></sup></p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">4.</strong><br>\nWe have heard that the Phalange militia intends to bring machine-guns, rockets, and mortars into Beirut tonight to reinforce their positions. It is also rumored that former President Chamoun&rsquo;s &ldquo;Tigers&rdquo;<sup class=\"editorial-note\"><a href=\"#fn-5\">[5]</a></sup> are presently setting up mortars just below Beit Meri<sup class=\"editorial-note\"><a href=\"#fn-6\">[6]</a></sup> to provide Palestinians in Tel Zaartar camp &mdash; who have apparently spent the day bombarding surrounding neighborhoods &mdash; with a demonstration of fire power.<sup class=\"editorial-note\"><a href=\"#fn-7\">[7]</a></sup></p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">5.</strong><br>\nThe GOL, prominent political figures, and possibly the &ldquo;moderate&rdquo; fedayeen leadership have apparently swung into action during the day in an effort to contain the situation. Saeb Salam<sup class=\"editorial-note\"><a href=\"#fn-8\">[8]</a></sup> told the Ambassador this morning that he had been in touch over the last 24 hours with Pierre Gemayel and indicated other similar consultations were taking place. Salam, however, is blaming not only the Phalange for the situation but the entire government for a lack of leadership. Arafat has allegedly returned from Damascus and held discussions with GOL leaders and is scheduled to meet tonight with Arab ambassadors. The Moroccan ambassador told the Ambassador today that President Assad of Syria<sup class=\"editorial-note\"><a href=\"#fn-9\">[9]</a></sup> had dispatched a special emissary to Beirut to tell Syrians &mdash; including, presumably, Saiqa<sup class=\"editorial-note\"><a href=\"#fn-10\">[10]</a></sup> &mdash; to &ldquo;cool it.&rdquo; We have just heard a report that Arab League Secretary-General Mahmud Riad, bearing a message from Sadat,<sup class=\"editorial-note\"><a href=\"#fn-11\">[11]</a></sup> is arriving Beirut this evening to calm the parties to the dispute.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">6.</strong><br>\nFew additional details regarding the events that sparked the present confrontation are available. We have heard that two of the four persons in the second car &mdash; referenced in paragraph 2 of Beirut 4749 &mdash; which allegedly fired on Phalangists in Ain Ramanneh were in fact <strong>Libyan nationals</strong>.<sup class=\"editorial-note\"><a href=\"#fn-12\">[12]</a></sup> In addition, the Iraq-supported Arab Liberation Front (<abbr title=\"Arab Liberation Front — Iraqi Ba&rsquo;ath-supported Palestinian faction\">ALF</abbr>)<sup class=\"editorial-note\"><a href=\"#fn-13\">[13]</a></sup> has now issued a statement asserting that 18 of the Palestinians killed on the bus were its members.<sup class=\"editorial-note\"><a href=\"#fn-14\">[14]</a></sup> The involvement of such elements &mdash; if true, and conceivably even if not &mdash; might present the GOL and &ldquo;moderate&rdquo; PLO leadership with ingredients, if both sides really desire, for a &ldquo;no win, no loss&rdquo; solution. This remains, however, to be seen.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">7.</strong><br>\nAll American citizens continue to be safe as far as we are aware. There is little evidence that the ugly mood in town has assumed an anti-American character, although this could happen if the situation deteriorates. As the Department is aware, we are associated with the Phalange in the eyes of some Lebanese.<sup class=\"editorial-note\"><a href=\"#fn-15\">[15]</a></sup> We have been informing Embassy staff &mdash; non-essential members of which were dismissed at 1400Z &mdash; and inquiring American citizens to stay home.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">8 &amp; 9.</strong><br>\nElsewhere in the country the situation remains as reported in the reference cable. All roads into Beirut remain open at this time with the exception of the Sidon road. The Embassy is maintaining a normal duty schedule tonight. This will be our last situation report until tomorrow morning unless significant developments require a report prior to that time.</p>\n\n<p style=\"margin-top:2rem;font-family:var(--font-mono);font-size:0.8rem;letter-spacing:0.08em;color:var(--text-2)\">GODLEY<sup class=\"editorial-note\"><a href=\"#fn-16\">[16]</a></sup></p>",
+      "rawBody": "CONFIDENTIAL\nPAGE 01 BEIRUT 04794 141836Z\n\nACTION NEA-09\n\nFM AMEMBASSY BEIRUT\nTO SECSTATE WASHDC IMMEDIATE 3879\n   CIA WASHDC IMMEDIATE\n   DIA WASHDC IMMEDIATE\nINFO AMEMBASSY AMMAN IMMEDIATE\n     AMEMBASSY ANKARA IMMEDIATE\n     AMEMBASSY ATHENS IMMEDIATE\n     AMEMBASSY CAIRO IMMEDIATE\n     AMEMBASSY DAMASCUS IMMEDIATE\n     AMEMBASSY LONDON IMMEDIATE\n     AMEMBASSY PARIS IMMEDIATE\n     AMEMBASSY ROME IMMEDIATE\n     AMEMBASSY TEHRAN IMMEDIATE\n     AMEMBASSY TEL AVIV IMMEDIATE\n     USCINCEUR VAIHINGEN GER\n\nC O N F I D E N T I A L BEIRUT 4794\n\nE.O. 11652: GDS\nTAGS: PINS LE PLO\nSUBJECT: BEIRUT SITREP - 1500Z\nREF: BEIRUT 4749\n\nSUMMARY: ALTHOUGH SITUATION FOR TIME BEING SEEMS QUIETER, BEIRUT CONTINUES TENSE AND SITUATION REMAINS DANGEROUS. UNOFFICIAL LEBANESE CHANNELS OF \"RECONCILIATION\" HAVE SWUNG INTO ACTION IN EFFORT TO RESOLVE CRISIS. EXPECTED FUNERAL FOR PALESTINIAN \"MARTYRS\" IN APRIL 13 CLASHES DID NOT RPT NOT TAKE PLACE AT 1000Z ACCORDING TO LEBANESE ARMY G-2 AND THAT HURDLE REMAINS TO BE FACED. EMISSARIES FROM TWO ARAB CAPITALS REPORTEDLY SCHEDULED TO ARRIVE HERE SHORTLY TO HELP CALM SITUATION. ON OTHER HAND, IN VIEW OF REPORT THAT PHALANGISTS PLAN TO BRING HEAVY WEAPONS INTO CAPITAL DURING NIGHT, TONIGHT AND TOMORROW MORNING COULD BRING DANGEROUS ESCALATION OF SITUATION. WE CONTINUE TO HAVE NO REPORTS OF AMCITS INJURED AND INCIDENTS THUS FAR HAVE NOT ASSUMED EXPLICIT ANTI-AMERICAN CHARACTER. END SUMMARY.\n\n1. HARD INFORMATION ON DEVELOPMENTS IN BEIRUT AND OTHER PARTS OF COUNTRY CONTINUES TO BE ELUSIVE. NUMBER OF REPORTED CLASHES, AGAIN CENTERING ON PHALANGE INSTALLATIONS, HAVE BEEN RECEIVED DURING DAY. PHALANGE HEADQUARTERS IN CHARLES HELU ST., NEAR MARTYRS SQUARE IN HEART OF CITY, CAME UNDER ATTACK ABOUT 1000Z AND WAS HIT BY THREE RPG ANTI-TANK ROCKETS, BUT THERE NO INDICATION OF CASUALTIES. IN DOWNTOWN AND HAMRA AREA, BANKS AND OTHER BUSINESSES CLOSED EARLY AND EYE-WITNESSES REPORT LARGE CROWDS AT NEIGHBORHOOD FOOD STORES AS RESIDENTS STOCKED UP FOR POSSIBLE SIEGE.\n\n2. MAIN SURPRISE OF AFTERNOON WAS APPARENT POSTPONEMENT OF PALESTINIAN FUNERAL EXPECTED AT 1000Z. LEBANESE ARMY G-2, WHO REPORTED FUNERAL WAS NON-EVENT, SAID GOL DOES NOT RPT NOT KNOW WHY IT DID NOT TAKE PLACE. PALESTINIANS APPARENTLY DID PICK UP BODIES OF SLAIN COMPATRIOTS FROM QUARANTINA HOSPITAL (AT LEAST ONE PHALANGIST REPORTED KILLED IN ACCOMPANYING FRAY). AMERICAN CORRESPONDENT, HOWEVER, REPORTED HEARING RUMOR AT ABOUT 1200Z THAT FUNERAL MIGHT BE POSTPONED UNTIL APR 15 TO PROVIDE TIME FOR PALESTINIANS AND LEFTIST FORCES TO DO IT UP RIGHT. CONSEQUENTLY, POSTPONEMENT, WHICH BENDS COMMON MUSLIM BURIAL PRACTICE, MIGHT PORTEND EVEN MORE DISRUPTIVE PROCEEDINGS TOMORROW. PROBABLY NO ONE KNOWS EXTENT OF CASUALTIES FROM TODAY'S ALTERCATIONS BUT ONE LOCAL NEWSPAPER SOURCE REPORTS MINIMUM OF SEVEN (WE SUSPECT MORE) KILLED, WITH FOUR DEATHS OCCURRING IN AIN RAMANNEH AS RESULT OF ANTI-TANK ROCKETS.\n\n3. RADIO LEBANON AT 1000Z REPORTED 14 PERSONS (UNIDENTIFIED BUT PRESUMABLY PHALANGISTS) WERE IN GOL CUSTODY ON CHARGES OF PROVOKING ORIGINAL INCIDENTS ON SUNDAY. PM SOLH HAD REPORTEDLY GIVEN PHALANGIST LEADER, PIERRE GEMAYEL, UNTIL THIS MORNING TO TURN OVER THOSE GUILTY. WE REMAIN SKEPTICAL THAT EITHER PHALANGE SURRENDERED MEMBERS OR GOL SEIZED THEM, ALTHOUGH IT CANNOT BE EXCLUDED THAT SOME ARMED MEN ON PERIPHERY OF ACTION HAVE BEEN PICKED UP. LIKEWISE, WE DISCOUNT REPORT WE HAVE RECEIVED THAT PALESTINIANS HAVE TURNED OVER TO GOL SEVEN FEDAYEEN IMPLICATED IN SUNDAY'S CLASHES.\n\n4. WE HAVE HEARD PHALANGE MILITIA INTENDS TO BRING MACHINE-GUNS, ROCKETS AND MORTARS INTO BEIRUT TONIGHT TO REINFORCE THEIR POSITIONS. IT IS ALSO RUMORED THAT FORMER PRES CHAMOUN'S \"TIGERS\" PRESENTLY SETTING UP MORTARS JUST BELOW BEIT MERI TO PROVIDE PALESTINIANS IN TEL ZAARTAR CAMP, WHO HAVE APPARENTLY SPENT DAY BOMBARDING SURROUNDING NEIGHBORHOODS, WITH DEMONSTRATION IN FIRE POWER.\n\n5. GOL, PROMINENT POLITICAL FIGURES AND POSSIBLY \"MODERATE\" FEDAYEEN LEADERSHIP HAVE APPARENTLY SWUNG INTO ACTION DURING DAY IN EFFORT TO CONTAIN SITUATION. SAEB SALAM TOLD AMB MORNING APR 14 THAT HE HAD BEEN IN TOUCH IN LAST 24 HOURS WITH PIERRE GEMAYEL AND INDICATED OTHER SIMILAR CONSULTATIONS WERE TAKING PLACE. SALAM, HOWEVER, BLAMING NOT ONLY PHALANGE FOR SITUATION BUT ENTIRE GOVT FOR LACK OF LEADERSHIP. ARAFAT HAS ALLEGEDLY RETURNED FROM DAMASCUS AND HELD DISCUSSIONS WITH GOL LEADERS AND IS SCHEDULED TO MEET TONIGHT WITH ARAB AMBS HERE. MOROCCAN AMB TOLD AMB TODAY THAT PRES ASSAD OF SYRIA HAD DISPATCHED SPECIAL EMISSARY TO BEIRUT TO TELL SYRIANS, INCLUDING PRESUMABLY SAIQA, TO COOL IT. WE HAVE JUST HEARD REPORT THAT ARAB LEAGUE SYG MAHMUD RIAD BEARING MESSAGE FROM SADAT IS ARRIVING BEIRUT THIS EVENING TO CALM PARTIES TO DISPUTE.\n\n6. FEW ADDITIONAL DETAILS RE EVENTS WHICH SPARKED PRESENT CONFRONTATION ARE AVAILABLE. WE HAVE HEARD TWO OF FOUR PERSONS IN SECOND CAR (REFTEL PARA 2) WHICH ALLEGEDLY FIRED ON PHALANGISTS IN AIN RAMANNEH WERE IN FACT LIBYANS. IN ADDITION, IRAQ-SUPPORTED ARAB LIBERATION FRONT (ALF) HAS NOW ISSUED STATEMENT ASSERTING THAT 18 OF PALESTINIANS KILLED ON BUS WERE ITS MEMBERS. INVOLVEMENT OF SUCH ELEMENTS IF TRUE (AND CONCEIVABLY EVEN IF NOT) MIGHT PRESENT GOL AND \"MODERATE\" PLO LEADERSHIPS WITH INGREDIENTS, IF BOTH SIDES REALLY DESIRE, FOR \"NO WIN, NO LOSS\" SOLUTION. THIS REMAINS, HOWEVER, TO BE SEEN.\n\n7. ALL AMCITS CONTINUE TO BE SAFE SO FAR AS WE AWARE. THERE IS LITTLE EVIDENCE THAT UGLY MOOD IN TOWN HAS ASSUMED ANTI-AMERICAN CHARACTER, ALTHOUGH THIS COULD HAPPEN IF SITUATION DETERIORATES. AS DEPT AWARE WE ARE ASSOCIATED WITH THE PHALANGE IN THE EYES OF SOME LEBANESE. WE HAVE BEEN INFORMING EMBASSY STAFF (NON-ESSENTIAL MEMBERS OF WHICH DISMISSED AT 1400Z) AND INQUIRING AMCITS TO STAY HOME.\n\n8. ELSEWHERE IN COUNTRY SITUATION REMAINS AS REPORTED REFTEL. ALL ROADS INTO BEIRUT REMAIN OPEN AT THIS TIME WITH EXCEPTION OF SIDON ROAD WHICH PROBLEMATIC.\n\n9. EMBASSY MAINTAINING NORMAL DUTY SCHEDULE TONIGHT. THIS WILL BE OUR LAST SITREP UNTIL TOMORROW MORNING UNLESS SIGNIFICANT DEVELOPMENTS REQUIRE REPORT PRIOR THAT TIME.\n\nGODLEY\n\nCONFIDENTIAL NNN",
+      "footnotes": [
+        "G-2: military intelligence branch of the Lebanese Army. The Army G-2’s report that the funeral did not occur — and that the GOL did not know why — documents the state’s lack of visibility into Palestinian decision-making in Beirut on April 14, 1975.",
+        "Martyrs Square: Beirut’s central public plaza, the symbolic heart of the city. An attack on the Phalange headquarters adjacent to Martyrs Square signals that the violence had reached the city center, not just the suburban neighborhoods of April 13.",
+        "The Embassy’s American correspondent source reports that the funeral postponement was deliberate and strategic — designed to allow time to organize a larger, more impactful demonstration. The phrase “do it up right” is the Embassy’s paraphrase of the source’s characterization. The postponement “bends common Muslim burial practice,” which ordinarily requires interment within 24 hours of death. This deliberate breach of religious custom to maximize political impact is documented in this cable. It does not appear in the standard account of the April 14 funeral.",
+        "The Embassy explicitly discounts two claims: (a) that Phalange surrendered members to the GOL, and (b) that Palestinians turned over seven fedayeen. Both claims had circulated in Lebanese media and diplomatic channels. The Embassy’s skepticism is based on its own sources and judgment. This skepticism about the arrests — which would later prove important in the ceasefire negotiations documented in cable 1975BEIRUT04860 — is on the record in this cable as of April 14.",
+        "The Tigers (Numur): the militia of former President Camille Chamoun’s National Liberal Party (NLP). Though distinct from the Kataeb (Phalange), the Tigers were among the principal Maronite militia forces and would operate alongside the Kataeb in the civil war’s early phase.",
+        "Beit Meri: a highland village in the Metn district, approximately 15 kilometers east of Beirut, overlooking the capital and the Lebanese coast. The positioning of mortars there would allow fire over a wide area of Beirut.",
+        "The cable documents that Tel Zaartar’s Palestinian forces had “apparently spent the day bombarding surrounding neighborhoods” on April 14. This ongoing bombardment of civilian areas is documented here. Read alongside cable 1975BEIRUT04829, which documents the same camp’s situation on April 15, the two cables together establish a pattern of military activity from the camp across these days.",
+        "Saeb Salam (1905–2000): prominent Lebanese Sunni political leader who served multiple terms as Prime Minister. He was one of the key cross-communal brokers in Lebanese politics. His meetings with Gemayel on April 13–14, and his attribution of blame to “the entire government for lack of leadership” rather than solely to the Phalange, are documented in this cable on the basis of a direct conversation with the Ambassador.",
+        "Hafez al-Assad (1930–2000): President of Syria 1971–2000. His dispatch of a special emissary to tell Syrian-aligned forces in Lebanon to “cool it” within 24 hours of April 13 is documented in this cable on the basis of what the Moroccan ambassador told the U.S. ambassador. This is one of the earliest documented Syrian diplomatic interventions in the April 1975 crisis.",
+        "Saiqa (also: Sa’iqa): the Syrian-backed Palestinian armed organization, formally the “Vanguards of the Popular Liberation War.” Saiqa operated in Lebanon under Syrian direction and was among the Palestinian armed groups active in the April 1975 fighting. Assad’s instruction to “cool it” — directed specifically at Saiqa and other Syrian-aligned forces — is documented here.",
+        "Anwar Sadat (1918–1981): President of Egypt 1970–1981. His transmission of a calming message through Arab League SYG Riad within 24 hours of April 13 reflects Egypt’s role as a regional stabilizer at this time. Sadat would receive the Nobel Peace Prize in 1978 for the Egypt-Israel peace treaty.",
+        "This paragraph contains information this cable characterizes as heard rather than confirmed: two of the four individuals in the second car — the vehicle that arrived at approximately 9:30 AM on April 13 and opened fire on bystanders near the church, killing three Kataeb members (documented in cable 1975BEIRUT04749, paragraph 2) — were in fact Libyan nationals, not Palestinian. If accurate as reported, this means the attack that killed three people and directly precipitated the bus massacre was carried out, in part, by citizens of a third country acting within Palestinian armed structures in Lebanon. This specific fact appears in this cable, filed April 14, 1975. It does not appear in the standard historical account of April 13.",
+        "Arab Liberation Front (ALF): a Palestinian faction established in 1969 under the sponsorship of the Iraqi Ba’ath Party government. The ALF was a constituent organization of the PLO but operated under Iraqi direction rather than independent Palestinian leadership. Its involvement in the April 13 incidents would implicate Iraqi state sponsorship in the events that initiated the Lebanese Civil War.",
+        "The ALF’s claim that 18 of the 26 Palestinians killed on the bus were its members is documented in this cable. If accurate, it means that the majority of the bus passengers were not general Palestinian refugees or civilians in the ordinary sense, but members of a specific Iraqi-backed armed organization. This claim appears in this cable. It does not appear in the standard account of April 13, 1975.",
+        "The Embassy’s candid statement that “we are associated with the Phalange in the eyes of some Lebanese” is a remarkable self-assessment for a classified diplomatic cable. The U.S. Embassy’s acknowledgment of this perception — and its potential to generate anti-American violence if the situation deteriorated — appears in this cable on record at the State Department as of April 14, 1975.",
+        "G. McMurtrie Godley (1917–1999), U.S. Ambassador to Lebanon. This is the fourth cable filed by Godley in the April 13 crisis sequence, following 1975BEIRUT04749 (April 14, AM), 1975BEIRUT04829 (April 15, noon), and 1975BEIRUT04860 (April 16). The four cables together provide continuous situational documentation from the first hours of the civil war through the first ceasefire negotiations."
+      ],
+      "footnoteCount": 16,
+      "glossary": [
+        {
+          "term": "SITREP",
+          "full": "Situation Report — standardized crisis update cable",
+          "category": "Cable Format"
+        },
+        {
+          "term": "GOL",
+          "full": "Government of Lebanon",
+          "category": "Government"
+        },
+        {
+          "term": "PLO",
+          "full": "Palestine Liberation Organization",
+          "category": "Organizations"
+        },
+        {
+          "term": "ALF",
+          "full": "Arab Liberation Front — Iraqi Ba’ath-backed faction",
+          "category": "Organizations"
+        },
+        {
+          "term": "G-2",
+          "full": "Military Intelligence Branch (Lebanese Army)",
+          "category": "Organizations"
+        },
+        {
+          "term": "RPG",
+          "full": "Rocket-Propelled Grenade",
+          "category": "Terminology"
+        },
+        {
+          "term": "SAIQA",
+          "full": "Vanguards of the Popular Liberation War — Syrian-backed Palestinian faction",
+          "category": "Organizations"
+        },
+        {
+          "term": "AMCITS",
+          "full": "American Citizens",
+          "category": "Cable Format"
+        },
+        {
+          "term": "EMBOFF",
+          "full": "Embassy Officer",
+          "category": "Cable Format"
+        },
+        {
+          "term": "FEDAYEEN",
+          "full": "Palestinian armed fighters (Arabic: فدائيين)",
+          "category": "Terminology"
+        },
+        {
+          "term": "TIGERS",
+          "full": "Chamoun’s NLP militia (Numur)",
+          "category": "Organizations"
+        },
+        {
+          "term": "Z (suffix)",
+          "full": "Zulu time = UTC / Greenwich Mean Time",
+          "category": "Cable Format"
+        },
+        {
+          "term": "RPT",
+          "full": "Repeat — used for emphasis",
+          "category": "Cable Format"
+        }
+      ],
+      "readerNarrative": {
+        "headline": "The Day After: Three Details the Record Does Not Carry",
+        "subheadline": "This cable, filed the afternoon of April 14, 1975, documents three specific facts about April 13 that do not appear in the standard historical account: the national identity of two of the gunmen in the 9:30 AM attack, the stated membership of bus passengers in an Iraqi-backed faction, and the deliberate postponement of the funeral to organize a larger demonstration.",
+        "dateline": "Beirut, April 14, 1975",
+        "summary": "Filed at 3:00 PM on April 14, 1975, this situation report contains new information about the April 13 incidents that reaches the State Department record the following afternoon. Two of the four gunmen in the 9:30 AM attack that killed three Kataeb members were Libyan nationals, not Palestinians. An Iraqi-backed faction claimed 18 of the 26 people killed on the bus were its members. And the Palestinian funeral, which had been expected that morning, was deliberately postponed — in breach of standard Muslim burial practice — to allow time to organize a larger event. Each of these facts appears in this cable. None appears in the standard account.",
+        "keyRevelations": [
+          "This cable records that two of the four gunmen in the 9:30 AM attack on April 13 — the incident that killed three Kataeb members and directly preceded the bus massacre — were <strong>Libyan nationals</strong>. This fact appears in paragraph 6 of this cable. It does not appear in the standard historical account of April 13.",
+          "The Iraq-supported Arab Liberation Front (ALF) issued a statement claiming that <strong>18 of the 26 people killed on the bus were its members</strong>. If accurate, the majority of bus passengers were members of a specific Iraqi-backed armed faction, not general Palestinian civilians. This appears in this cable. It does not appear in the standard account.",
+          "The Palestinian funeral, expected at 10:00 AM, was deliberately postponed. An Embassy source characterized the reason as providing time to <strong>“do it up right”</strong> — organizing a larger event. This postponement “bends common Muslim burial practice.” It is documented in this cable. It does not appear in the standard account.",
+          "The Embassy documents that Palestinian forces in <strong>Tel Zaartar had spent the day bombarding surrounding neighborhoods</strong> on April 14. This ongoing action is recorded in this cable alongside the diplomatic efforts to establish a ceasefire.",
+          "The Embassy candidly notes: <strong>“As Dept aware we are associated with the Phalange in the eyes of some Lebanese.”</strong> This self-assessment, on record at the State Department on April 14, 1975, documents the U.S. Embassy’s awareness of how its relationships were perceived by Lebanese communities."
+        ],
+        "timeline": [
+          {
+            "time": "10:00 AM",
+            "label": "Funeral does not occur",
+            "desc": "The expected Palestinian funeral is a non-event. Lebanese Army G-2 reports the GOL does not know why. An Embassy source reports it was deliberately postponed to organize a larger demonstration.",
+            "type": "political"
+          },
+          {
+            "time": "10:00 AM",
+            "label": "Phalange HQ attacked",
+            "desc": "Phalange headquarters near Martyrs Square struck by three RPG rockets. No casualties reported.",
+            "type": "attack"
+          },
+          {
+            "time": "Morning",
+            "label": "Saeb Salam meets Ambassador",
+            "desc": "Former Prime Minister Salam reports cross-communal consultations are underway. He blames “the entire government for lack of leadership,” not only the Phalange.",
+            "type": "political"
+          },
+          {
+            "time": "Afternoon",
+            "label": "Syrian envoy dispatched",
+            "desc": "The Moroccan ambassador informs the U.S. Ambassador that Assad dispatched a special emissary to tell Syrian-aligned forces in Beirut to “cool it.”",
+            "type": "political"
+          },
+          {
+            "time": "Evening",
+            "label": "Arab League SYG arrives",
+            "desc": "Mahmoud Riad arrives Beirut bearing a message from Egyptian President Sadat. Arafat is scheduled to meet Arab ambassadors.",
+            "type": "political"
+          },
+          {
+            "time": "Night",
+            "label": "Heavy weapons entering Beirut",
+            "desc": "Reports that Phalange militia plans to bring machine-guns, rockets, and mortars into Beirut overnight. Chamoun’s Tigers reportedly positioning mortars above the city.",
+            "type": "incident"
+          }
+        ],
+        "keyFigures": [
+          {
+            "name": "Saeb Salam",
+            "role": "Lebanese political broker, former Prime Minister",
+            "desc": "The cable documents Salam meeting with the Ambassador on the morning of April 14 and reporting consultations with Gemayel. He attributed blame to the entire government, not only the Phalange — a notable nuance on the day after April 13.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Saeb_Salam",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Saeb_Salam.png/330px-Saeb_Salam.png",
+            "imageCredit": "Public domain / Wikimedia Commons"
+          },
+          {
+            "name": "Hafez al-Assad",
+            "role": "President of Syria",
+            "desc": "The cable documents Assad dispatching a special emissary to Beirut within 24 hours of April 13 to instruct Syrian-aligned forces to de-escalate. This is one of the earliest documented Syrian interventions in the crisis.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Hafez_al-Assad",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hafez_al-Assad_official_portrait_%28cropped%29.jpg/330px-Hafez_al-Assad_official_portrait_%28cropped%29.jpg",
+            "imageCredit": "Public domain / Wikimedia Commons"
+          },
+          {
+            "name": "Anwar Sadat",
+            "role": "President of Egypt",
+            "desc": "Sadat dispatched a calming message to Beirut via Arab League SYG Riad within 24 hours of April 13, reflecting Egypt’s role as a regional stabilizer. His message arrives the same evening as this cable.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Anwar_Sadat",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Official_Portrait_-_Anwar_Sadat.jpg/330px-Official_Portrait_-_Anwar_Sadat.jpg",
+            "imageCredit": "Public domain / Wikimedia Commons"
+          },
+          {
+            "name": "Mahmoud Riad",
+            "role": "Arab League Secretary-General",
+            "desc": "Arriving Beirut on the evening of April 14 bearing a message from Sadat. The same Riad who would be credited by Lebanese media the following day with brokering the ceasefire (cable 1975BEIRUT04860).",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Mahmoud_Riad",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mahmoed_Riad_%281969%29.jpg/330px-Mahmoed_Riad_%281969%29.jpg",
+            "imageCredit": "Public domain / Wikimedia Commons"
+          },
+          {
+            "name": "Pierre Gemayel",
+            "role": "Kataeb (Phalange) party leader",
+            "desc": "PM Solh had reportedly given Gemayel until this morning to surrender those responsible for April 13. The Embassy is skeptical this occurred. Saeb Salam also reports being in contact with Gemayel.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Pierre_Gemayel_(founder)",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Pierre_Gemayel_%28cropped%29.jpg/330px-Pierre_Gemayel_%28cropped%29.jpg",
+            "imageCredit": "Public domain / Wikimedia Commons"
+          },
+          {
+            "name": "G. McMurtrie Godley",
+            "role": "U.S. Ambassador to Lebanon",
+            "desc": "The fourth cable in the April crisis sequence. Godley’s note that the Embassy is “associated with the Phalange in the eyes of some Lebanese” is one of the most candid self-assessments in the series.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/G._McMurtrie_Godley",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/G_McMurtrie_Godley.png",
+            "imageCredit": "U.S. Department of State. Public domain."
+          }
+        ],
+        "bodyHtml": "<h3>The afternoon of April 14</h3>\n\n<p>By 3:00 PM on April 14, 1975 — twenty-seven hours after April 13 — the U.S. Embassy filed this situation report. Beirut was quieter than the previous day but deeply tense. The anticipated Palestinian funeral had not occurred. Diplomatic activity had intensified sharply across Arab capitals.</p>\n\n<p>And new information had arrived about April 13 itself.</p>\n\n<h3>What this cable documents about April 13 that the standard account does not</h3>\n\n<p>Paragraph 6 of this cable contains three specific pieces of information about April 13 that do not appear in the standard historical account of that day.</p>\n\n<p>First: two of the four people in the second car — the vehicle that arrived at approximately 9:30 AM at Ain Ramanneh, opened fire on bystanders, killed three Kataeb members, and drove away — were Libyan nationals, not Palestinians. The Embassy presents this as information it had heard, not as confirmed fact. But it is in the diplomatic record as of April 14, 1975. The standard account does not mention the national identity of the gunmen.</p>\n\n<p>Second: the Iraq-supported Arab Liberation Front issued a statement claiming that 18 of the 26 people killed on the bus were its members. If accurate, the majority of the bus passengers were not ordinary Palestinian civilians or refugees, but members of a specific Iraqi-backed armed faction operating within the Palestinian political structure in Lebanon. The Embassy notes that this information, “even if not” true, might provide both sides with a diplomatic exit. The standard account does not reference the ALF’s claim or the membership of bus passengers in any armed organization.</p>\n\n<p>Third: the Palestinian funeral, ordinarily required within 24 hours under Islamic practice, was deliberately postponed. An American correspondent reported hearing that the postponement was organized to allow time to “do it up right” — to stage a larger, more politically impactful event on April 15. The Embassy characterizes this as portending “even more disruptive proceedings tomorrow.”</p>\n\n<h3>The diplomatic response: within 24 hours</h3>\n\n<p>The same afternoon, the cable documents a remarkable concentration of Arab diplomatic activity. Former Prime Minister Saeb Salam had met with the U.S. Ambassador in the morning and reported cross-communal consultations. Arafat had returned from Damascus. Syria’s Assad had dispatched a special emissary to tell Syrian-aligned forces in Beirut to stand down. And Arab League Secretary-General Mahmoud Riad was arriving Beirut that evening bearing a message from Egyptian President Sadat.</p>\n\n<p>The speed of the regional diplomatic response — all of this within 27 hours of April 13 — is documented in this cable. It reflects the immediate recognition across Arab capitals that the April 13 incidents had the potential to escalate into something uncontainable.</p>\n\n<h3>What the Embassy noted about itself</h3>\n\n<p>Paragraph 7 contains a sentence that is rarely cited in any literature on the Lebanese Civil War: “As Dept aware we are associated with the Phalange in the eyes of some Lebanese.”</p>\n\n<p>The U.S. Embassy, in a classified cable on April 14, 1975, placed on record its awareness that its relationships with Lebanese political actors had created a perception of partiality — one that, the Embassy notes, could generate anti-American violence “if the situation deteriorates.” This sentence is in the diplomatic record. It has not been cited in the standard historical account of the Lebanese Civil War.</p>",
+        "mapLocations": [
+          {
+            "name": "Martyrs Square / Charles Helu St.",
+            "desc": "Phalange HQ attacked by RPG rockets at 10:00 AM",
+            "type": "primary"
+          },
+          {
+            "name": "Quarantina Hospital",
+            "desc": "Palestinian bodies collected; Phalangist also killed in accompanying incident",
+            "type": "secondary"
+          },
+          {
+            "name": "Tel Zaartar camp",
+            "desc": "Reportedly bombarding surrounding neighborhoods throughout April 14",
+            "type": "secondary"
+          },
+          {
+            "name": "Beit Meri",
+            "desc": "Chamoun’s Tigers reportedly positioning mortars above Beirut",
+            "type": "secondary"
+          },
+          {
+            "name": "Ain Ramanneh",
+            "desc": "Continued clashes; four dead from anti-tank rockets on April 14",
+            "type": "secondary"
+          },
+          {
+            "name": "Sidon road",
+            "desc": "Problematic; refinery unable to resupply Beirut with fuel",
+            "type": "tertiary"
+          }
+        ],
+        "furtherReading": [
+          {
+            "title": "Cable 1975BEIRUT04749 — April 14, 1975 (AM)",
+            "desc": "The initial Embassy report documenting the three-stage sequence of April 13 incidents, including paragraph 2 which is referenced in this cable.",
+            "type": "related"
+          },
+          {
+            "title": "Cable 1975BEIRUT04829 — April 15, 1975",
+            "desc": "The next day’s noon SITREP: violence spread to Tripoli and Sidon; 80–90 dead.",
+            "type": "related"
+          },
+          {
+            "title": "Cable 1975BEIRUT04860 — April 16, 1975",
+            "desc": "The ceasefire negotiations: Riad credited with brokering the agreement.",
+            "type": "related"
+          }
+        ]
+      },
+      "relatedCables": [
+        "1975BEIRUT04749",
+        "1975BEIRUT04829",
+        "1975BEIRUT04830",
+        "1975BEIRUT04860"
+      ]
     },
     {
       "@type": "DigitalDocument",

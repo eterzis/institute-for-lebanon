@@ -1,4 +1,2 @@
-/archive  /archive.html  200!
-/timeline /timeline.html 200!
-/glossary /glossary.html 200!
-/about    /about.html    200!
+# Cloudflare Pages handles clean URLs natively (archive.html served at /archive etc.)
+# No rewrite rules needed — they cause infinite redirect loops with Cloudflare's own clean-URL feature.
