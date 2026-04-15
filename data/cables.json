@@ -8,11 +8,245 @@
     "license": "Cable texts: public domain. Editorial annotations: free for scholarly/educational use with attribution.",
     "contact": "contact@instituteforlebanon.com",
     "lastUpdated": "2026-04-15",
-    "totalCables": 4,
-    "publishedCables": 4,
+    "totalCables": 5,
+    "publishedCables": 5,
     "pendingCables": 0
   },
   "cables": [
+    {
+      "@type": "DigitalDocument",
+      "id": "1973BEIRUT04974",
+      "date": "1973-04-30",
+      "dateDisplay": "April 30, 1973",
+      "year": 1973,
+      "classification": "CONFIDENTIAL",
+      "from": "AMEMBASSY BEIRUT",
+      "fromFull": "U.S. Embassy, Beirut, Lebanon",
+      "to": "SECSTATE WASHDC",
+      "toFull": "Secretary of State, Washington D.C.",
+      "subject": "Internal Security Developments in Lebanon",
+      "excerpt": "Two years before the civil war: Fatah members arrested at Beirut airport with 10 kg of TNT. Black September threatened to blow up the airport. A 2-kg bomb was found and defused. The Lebanese Army G-2 assessed that Arafat may have covertly tipped off Lebanese authorities about a bomb planted by his own movement’s hardliners he could not control.",
+      "tags": [
+        "1973",
+        "pre-war",
+        "Fatah",
+        "BSO",
+        "Black September",
+        "airport bomb",
+        "Beirut airport",
+        "Shatila"
+      ],
+      "topics": [
+        "Pre-War Context",
+        "Palestinian Armed Presence",
+        "Lebanese Government Firmness"
+      ],
+      "status": "published",
+      "sourceUrl": "https://wikileaks.org/plusd/cables/1973BEIRUT04974_b.html",
+      "refs": "BEIRUT 4874 (not in this archive)",
+      "persons": [
+        "Suleiman Frangieh",
+        "Bashir al-Awar",
+        "Yasser Arafat",
+        "Dwight J. Houghton"
+      ],
+      "organizations": [
+        "Fatah",
+        "BSO (Black September Organization)",
+        "Lebanese Army",
+        "PLO",
+        "UNTSO"
+      ],
+      "locations": [
+        "Beirut International Airport",
+        "Shatila",
+        "Sabra",
+        "Beirut"
+      ],
+      "annotatedBody": "<div class=\"cable-classification-notice\" style=\"font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.12em;color:var(--text-3);margin-bottom:1.5rem\">Originally classified CONFIDENTIAL &middot; Declassified and released by U.S. Department of State under EO Systematic Review, 30 June 2005 &middot; Now UNCLASSIFIED</div>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">Summary</strong><br>\nFollowing several weekend incidents involving fedayeen<sup class=\"editorial-note\"><a href=\"#fn-1\">[1]</a></sup> that produced considerable tension here, Lebanese authorities have instituted heavy security precautions in and around Beirut Airport. The Lebanese Army&rsquo;s patrolling activities along the Israeli border have also been intensified. We regard these developments as encouraging initial signs on the part of the new Lebanese government.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">1.</strong><br>\nBeirut International Airport is under strict security on April 30, following a weekend of tension that began the afternoon of April 27 when airport authorities &mdash; in the process of conducting a thorough search of departing passengers &mdash; arrested three men (2 Lebanese and 1 Palestinian) who were about to board an Air France flight to Paris with <strong>10 kilograms of TNT and detonating devices in their baggage</strong>.<sup class=\"editorial-note\"><a href=\"#fn-2\">[2]</a></sup> Upon learning that the individuals were Fatah<sup class=\"editorial-note\"><a href=\"#fn-3\">[3]</a></sup> members, Lebanese Army and security forces &mdash; fearing an adverse fedayeen reaction when the arrests became known &mdash; moved quickly to block the main access road to the airport and cordon off the southern entrance to the Sabra quarter and the fedayeen stronghold at the nearby Shatila refugee camp.<sup class=\"editorial-note\"><a href=\"#fn-4\">[4]</a></sup></p>\n\n<p>No reaction occurred that day, but on April 28 airport authorities received a series of anonymous telephone calls threatening that <abbr title=\"Black September Organization — covert Fatah terrorist unit responsible for the 1972 Munich Olympics massacre\">BSO</abbr><sup class=\"editorial-note\"><a href=\"#fn-5\">[5]</a></sup> would blow up airport facilities if the arrested fedayeen and their munitions were not released. One such call, made late on April 28, indicated that a bomb had been placed in a water cooler at the airport terminal. A hectic search of the building &mdash; supervised personally by Minister of Interior Bashir al-Awar<sup class=\"editorial-note\"><a href=\"#fn-6\">[6]</a></sup> and senior Lebanese security officials &mdash; led to the discovery of a <strong>2-kilogram plastic charge timed to explode at 2:30 AM on April 29</strong> in a water cooler.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">2.</strong><br>\nAs of noon on April 30, army and security forces are maintaining intensified security precautions around the entire airport area, with roadblocks established on main access routes, cars being thoroughly searched, and only travelers being allowed to enter the terminal proper. Airline traffic continues as scheduled. The general atmosphere of tension was heightened further on the night of April 28&ndash;29 by the explosion of a stick of dynamite thrown at the Jordanian ambassador&rsquo;s residence from a passing car (no casualties resulted and damage was negligible).</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">3.</strong><br>\nMinister of Interior Awar has stated publicly that the <abbr title=\"Government of Lebanon\">GOL</abbr> resolved not to give in to blackmail in connection with the April 27 airport incident. We understand from a reliable Presidency source that Awar received orders directly from President Frangieh<sup class=\"editorial-note\"><a href=\"#fn-7\">[7]</a></sup> himself not to yield to the bomb threat.</p>\n\n<p>The Lebanese Army investigation is still in progress, but G-2 believes that the airport bomb was planted by BSO activists acting in defiance of Arafat&rsquo;s desire to avoid confrontation with the GOL over the April 27 arrests &mdash; and that the phone call which led to the bomb&rsquo;s discovery was possibly an effort by Arafat to assist Lebanese authorities in warding off action by BSO hotheads <strong>whose behavior he could not control</strong>.<sup class=\"editorial-note\"><a href=\"#fn-8\">[8]</a></sup></p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">4.</strong><br>\nIn addition to the GOL&rsquo;s firmness with the fedayeen over the airport affair, both Lebanese Army and <abbr title=\"United Nations Truce Supervision Organization\">UNTSO</abbr><sup class=\"editorial-note\"><a href=\"#fn-9\">[9]</a></sup> sources report that the Lebanese Army has intensified its patrolling in the frontier area over the weekend of April 28&ndash;29, with patrols more frequent by night and day.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">5. Comment</strong><br>\nAlthough we are unable to say how far the tightening of GOL security precautions will go or how long it will continue &mdash; especially if it results in armed clashes between the army and reckless fedayeen elements &mdash; we regard it as a heartening initial sign of determination on the part of a new government that has yet to receive a parliamentary vote of confidence.<sup class=\"editorial-note\"><a href=\"#fn-10\">[10]</a></sup></p>\n\n<p style=\"margin-top:2rem;font-family:var(--font-mono);font-size:0.8rem;letter-spacing:0.08em;color:var(--text-2)\">HOUGHTON<sup class=\"editorial-note\"><a href=\"#fn-11\">[11]</a></sup></p>",
+      "rawBody": "CONFIDENTIAL\nPAGE 01 BEIRUT 04974 301820Z\n\nACTION NEA-12\n\nFM AMEMBASSY BEIRUT\nTO SECSTATE WASHDC 1899\n   DIA WASHDC\nINFO AMEMBASSY AMMAN\n     AMCONSUL JERUSALEM\n     AMEMBASSY TEL AVIV\n     USCINCEUR\n\nC O N F I D E N T I A L BEIRUT 4974\n\nEO 11652: GDS\nTAGS: PINS LE\nSUBJECT: INTERNAL SECURITY DEVELOPMENTS IN LEBANON\n\nSUMMARY: FOLLOWING SEVERAL WEEKEND INCIDENTS INVOLVING FEDAYEEN THAT PRODUCED CONSIDERABLE TENSION HERE, LEBANESE AUTHORITIES HAVE INSTITUTED HEAVY SECURITY PRECAUTIONS IN AND AROUND BEIRUT AIRPORT. LEBANESE ARMY'S PATROLLING ACTIVITIES ALONG ISRAELI BORDER HAVE ALSO BEEN INTENSIFIED. WE REGARD THESE DEVELOPMENTS AS ENCOURAGING INITIAL SIGNS ON PART OF NEW LEBANESE GOVT. END SUMMARY.\n\n1. BEIRUT INTERNATIONAL AIRPORT UNDER STRICT SECURITY APR 30 AFTER WEEKEND OF TENSION THAT BEGAN AFTERNOON APR 27, WHEN AIRPORT AUTHORITIES -- IN PROCESS OF CONDUCTING THOROUGH SEARCH OF DEPARTING PASSENGERS -- ARRESTED 3 MEN (2 LEBANESE AND 1 PALESTINIAN) WHO WERE ABOUT TO BOARD AIR FRANCE FLIGHT TO PARIS WITH 10 KGS OF TNT AND DETONATING DEVICES IN THEIR BAGGAGE. UPON LEARNING THAT CULPRITS WERE FATAH MEMBERS, LEBANESE ARMY AND SECURITY FORCES -- FEARING ADVERSE FEDAYEEN REACTION WHEN ARRESTS BECAME KNOWN -- MOVED QUICKLY TO BLOCK MAIN ACCESS ROAD TO AIRPORT AND CORDON OFF SOUTHERN ENTRANCE TO SABRA QUARTER AND FEDAYEEN STRONGHOLD AT NEARBY SHATILA REFUGEE CAMP. NO REACTION OCCURRED THAT DAY, BUT ON APR 28 AIRPORT AUTHORITIES RECEIVED SERIES OF ANONYMOUS TELEPHONE CALLS THREATENING THAT BSO WOULD BLOW UP AIRPORT FACILITIES IF ARRESTED FEDAYEEN AND THEIR MUNITIONS WERE NOT RELEASED. ONE SUCH CALL, MADE LATE APR 28, ACTUALLY INDICATED BOMB HAD BEEN PLACED IN WATER-COOLER AT AIRPORT TERMINAL, AND HECTIC SEARCH OF BUILDING, SUPERVISED PERSONALLY BY MININT BASHIR AL AWAR AND SENIOR LEBANESE SECURITY OFFICIALS, LED TO DISCOVERY OF 2-KG PLASTIC CHARGE TIMED TO EXPLODE AT 0230 HOURS APR 29 IN A WATER COOLER.\n\n2. AS OF NOON APR 30, ARMY AND SECURITY FORCES ARE MAINTAINING INTENSIFIED SECURITY PRECAUTIONS AROUND ENTIRE AIRPORT AREA, WITH ROADBLOCKS ESTABLISHED ON MAIN ACCESS ROUTES, CARS BEING THOROUGHLY SEARCHED, AND ONLY TRAVELLERS BEING ALLOWED TO ENTER TERMINAL PROPER. AIRLINE TRAFFIC CONTINUES AS SCHEDULED. GENERAL ATMOSPHERE OF TENSION, HOWEVER, WAS HEIGHTENED FURTHER NIGHT OF APR 28-29 BY EXPLOSION OF STICK OF DYNAMITE THROWN AT JORDANIAN AMBASSADOR'S RESIDENCE FROM PASSING CAR (NO CASUALTIES RESULTED AND DAMAGE WAS NEGLIGIBLE), AND STRICTER SECURITY MEASURES HAVE BEEN ESTABLISHED IN THAT NEIGHBORHOOD AS WELL.\n\n3. MININT AWAR HAS STATED PUBLICLY THAT GOL HAD RESOLVED NOT TO GIVE IN TO BLACKMAIL IN CONNECTION WITH APR 27 AIRPORT INCIDENT. (WE UNDERSTAND FROM RELIABLE PRESIDENCY SOURCE THAT AWAR RECEIVED ORDERS DIRECTLY FROM PRES FRANGIE HIMSELF NOT TO GIVE IN TO BOMB THREAT.) LEBANESE ARMY INVESTIGATION OF ENTIRE AFFAIR STILL IN PROGRESS, BUT G-2 BELIEVES THAT AIRPORT BOMB WAS PLANTED BY BSO ACTIVISTS ACTING IN DEFIANCE OF ARAFAT'S DESIRE TO AVOID CONFRONTATION WITH GOL OVER APR 27 ARRESTS AND THAT PHONE CALL WHICH LED TO BOMB'S DISCOVERY WAS POSSIBLY EFFORT BY ARAFAT TO ASSIST LEBANESE AUTHORITIES WARD OFF ACTION BY BSO HOT HEADS WHOSE BEHAVIOR HE COULD NOT CONTROL (DETAILS BEING REPORTED VIA SEPARATE CHANNEL).\n\n4. IN ADDITION TO GOL FIRMNESS WITH FEDAYEEN RE AIRPORT AFFAIR, WE HAVE BEEN TOLD BY BOTH LEBANESE ARMY AND UNTSO SOURCES THAT LEBANESE ARMY HAS INTENSIFIED ITS PATROLLING IN FRONTIER AREA OVER WEEKEND APR 28-29. PATROLS MORE FREQUENT BY NIGHT AND DAY.\n\n5. COMMENT: ALTHOUGH WE UNABLE SAY HOW FAR TIGHTENING UP OF GOL SECURITY PRECAUTIONS DESCRIBED ABOVE WILL GO OR HOW LONG IT WILL CONTINUE -- ESPECIALLY IF IT RESULTS IN ARMED CLASHES BETWEEN ARMY AND RECKLESS FEDAYEEN ELEMENTS -- WE REGARD IT AS HEARTENING INITIAL SIGN OF DETERMINATION ON PART OF NEW GOVT THAT HAS YET TO RECEIVE PARLIAMENTARY VOTE OF CONFIDENCE.\n\nHOUGHTON\n\nCONFIDENTIAL NNN",
+      "footnotes": [
+        "Fedayeen (Arabic: فدائيين, “those who sacrifice themselves”): Palestinian armed fighters. In the Lebanese context of 1973, “fedayeen” referred collectively to the armed members of PLO constituent organizations — Fatah, PFLP, DFLP, and others — operating from bases in Lebanese refugee camps under the protection of the 1969 Cairo Agreement.",
+        "10 kilograms of TNT with detonating devices constitutes a significant quantity of high explosive capable of catastrophic damage to an aircraft or airport facility. The three individuals — two Lebanese and one Palestinian — were about to board a civilian Air France flight to Paris. This event — a Fatah-linked bomb plot targeting civilian aviation departing from Lebanese soil — is documented in this cable, filed April 30, 1973. It does not appear in the standard historical account of pre-war Lebanon.",
+        "Fatah (حركة التحرير الوطني الفلسطيني, Palestinian National Liberation Movement): The largest constituent faction of the PLO, founded in 1959 by Yasser Arafat and others. Fatah was the dominant organization within the PLO and operated the largest armed presence in Lebanon under the Cairo Agreement. The fact that the arrested individuals were identified as Fatah members — not a smaller splinter group — made the incident politically sensitive for Arafat’s leadership of the PLO.",
+        "Shatila refugee camp: Palestinian refugee camp established in 1949 on the southwestern outskirts of Beirut. By 1973, Shatila and the adjacent Sabra area had become a significant armed base for Palestinian factions. The Lebanese Army’s immediate cordon of the camp upon the April 27 arrests — anticipating a violent response — documents the Lebanese state’s awareness of the armed capacity in the camps and its own vulnerability to retaliation. The same Shatila camp would be the site of the September 1982 massacre.",
+        "BSO: Black September Organization. A covert Fatah-linked terrorist unit established in the aftermath of the 1970–71 Jordanian Army’s expulsion of Palestinian armed groups (“Black September”). The BSO was responsible for the September 1972 Munich Olympics massacre in which 11 Israeli athletes and coaches were killed. By 1973, BSO was active in international terrorism while Arafat maintained official distance from its operations. The BSO’s threat to blow up Beirut International Airport — and its actual planting of a bomb in the airport terminal — is documented in this cable.",
+        "Bashir al-Awar: Lebanese Minister of Interior in the cabinet of Prime Minister Amin al-Hafez, formed in April 1973. His personal supervision of the search that discovered the airport bomb documents the seriousness with which the Lebanese government treated the threat. This is the same new government the cable refers to as not yet having received a parliamentary vote of confidence.",
+        "President Suleiman Frangieh (1910–1992): President of Lebanon 1970–1976. His direct order to the Interior Minister not to yield to the BSO bomb threat — received from a reliable Presidency source by the Embassy — is documented in this cable. This is the same Frangieh who would be hospitalized during the April 13, 1975 crisis (cable 1975BEIRUT04749) and who would personally handle contacts with Kataeb leader Gemayel during the ceasefire negotiations (cable 1975BEIRUT04860). The 1973 cable establishes his governing pattern: direct engagement and a firm stance toward Palestinian armed pressure — a stance that would become harder to maintain as the 1970s progressed.",
+        "This paragraph contains one of the most significant intelligence assessments in the pre-war cable record. The Lebanese Army G-2 believed: (a) the bomb was planted by BSO activists acting against Arafat’s wishes; and (b) the anonymous phone call that led to the bomb’s discovery was possibly Arafat himself covertly assisting Lebanese authorities against his own organization’s hardliners. If the G-2 assessment was accurate, it documents an internal PLO command structure problem in 1973 that is directly continuous with the internal disputes documented in the 1975 cables (cable 1975BEIRUT04860 records an unconfirmed report of a similar Arafat-vs-subordinates dispute during the April 1975 ceasefire negotiations). This assessment is in the diplomatic record as of April 30, 1973. It has not been cited in the standard historical account of PLO operations in Lebanon.",
+        "UNTSO: United Nations Truce Supervision Organization. The UN observer mission established in 1948 to monitor the Israel-Arab armistice agreements. UNTSO observers stationed along the Lebanese-Israeli border provided the U.S. Embassy with an independent source for reports on Lebanese Army patrol activity — distinct from Lebanese Army self-reporting.",
+        "The cable’s framing of this as the behavior of a “new government” — one that had not yet received a parliamentary vote of confidence — contextualizes the firmness as a deliberate political choice by a government trying to establish its credibility. The Hafez cabinet had been appointed in April 1973 amid a political crisis triggered by Israeli commando raids into Beirut. The government’s willingness to confront the BSO despite its fragile political position is documented here.",
+        "Dwight J. Houghton: U.S. Ambassador to Lebanon 1970–1974. Houghton’s posting preceded that of G. McMurtrie Godley (1974–1976), whose cables document the April 1975 crisis. Houghton’s 1973 reporting on PLO behavior and Lebanese government responses provides the pre-war context for understanding the structural conditions that produced the 1975 crisis. His characterization of Lebanese government firmness as “heartening” would prove, in retrospect, to have been reporting on a pattern that the Lebanese state was progressively losing the capacity to sustain."
+      ],
+      "footnoteCount": 11,
+      "glossary": [
+        {
+          "term": "GOL",
+          "full": "Government of Lebanon",
+          "category": "Government"
+        },
+        {
+          "term": "FEDAYEEN",
+          "full": "Palestinian armed fighters (Arabic: فدائيين)",
+          "category": "Terminology"
+        },
+        {
+          "term": "BSO",
+          "full": "Black September Organization — covert Fatah terrorist unit",
+          "category": "Organizations"
+        },
+        {
+          "term": "FATAH",
+          "full": "Palestinian National Liberation Movement — dominant PLO faction",
+          "category": "Organizations"
+        },
+        {
+          "term": "UNTSO",
+          "full": "United Nations Truce Supervision Organization",
+          "category": "Organizations"
+        },
+        {
+          "term": "MININT",
+          "full": "Minister of Interior",
+          "category": "Cable Format"
+        },
+        {
+          "term": "G-2",
+          "full": "Military Intelligence Branch (Lebanese Army)",
+          "category": "Organizations"
+        },
+        {
+          "term": "PINS",
+          "full": "Political Affairs — Internal Security (TAGS code)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "Z (suffix)",
+          "full": "Zulu time = UTC / Greenwich Mean Time",
+          "category": "Cable Format"
+        },
+        {
+          "term": "AMCONSUL",
+          "full": "American Consulate",
+          "category": "Cable Format"
+        }
+      ],
+      "readerNarrative": {
+        "headline": "The Pattern Before the War: Fatah Bombs, Blackmail, and a President Who Said No",
+        "subheadline": "This cable, filed April 30, 1973 — two years before the civil war — documents three facts the standard account of pre-war Lebanon does not carry: a Fatah bomb plot targeting an Air France flight from Beirut, a Black September Organization threat to blow up the airport terminal, and a Lebanese Army intelligence assessment that Arafat may have covertly tipped off Lebanese authorities about a bomb planted by his own organization’s hardliners.",
+        "dateline": "Beirut, April 30, 1973",
+        "summary": "Two years before the Lebanese Civil War, the U.S. Embassy filed this cable documenting a weekend of Fatah-linked violence at Beirut International Airport. Three men including Fatah members were arrested trying to board an Air France flight with 10 kilograms of TNT. The Black September Organization threatened to blow up the airport. A 2-kilogram bomb timed to explode at 2:30 AM was found and defused in a water cooler. The Lebanese Army G-2 concluded that the bomb was planted by BSO activists acting against Arafat’s wishes — and that Arafat may have covertly helped Lebanese authorities find it. President Frangieh personally ordered his Interior Minister not to yield to the blackmail. None of this appears in the standard account of pre-war Lebanon.",
+        "keyRevelations": [
+          "In April 1973 — two full years before the civil war — three men including Fatah members were arrested at Beirut airport trying to board an Air France flight to Paris with <strong>10 kg of TNT and detonating devices</strong>. This event is documented in this cable. It does not appear in the standard account of pre-war Lebanon.",
+          "The Black September Organization threatened to blow up Beirut International Airport. An <strong>actual 2-kg bomb timed to explode at 2:30 AM</strong> was found in an airport water cooler. This is documented in this cable. It does not appear in the standard account.",
+          "The Lebanese Army G-2 assessed that the bomb was planted <strong>against Arafat’s wishes</strong> by BSO hardliners he could not control — and that Arafat <strong>may have covertly tipped off Lebanese authorities</strong> about the bomb. This is in the diplomatic record as of April 30, 1973. It is not in the standard account.",
+          "President Frangieh gave a <strong>direct personal order</strong> to his Interior Minister not to yield to the BSO bomb threat. The same Frangieh would be hospitalized and partially sidelined during the April 1975 crisis two years later.",
+          "The cable documents that the Lebanese Army immediately <strong>cordoned off Shatila refugee camp</strong> upon the April 27 arrests — fearing armed reprisal from the camp. This documents the Lebanese state’s awareness of Shatila as an armed base, twelve years before the 1982 massacre."
+        ],
+        "timeline": [
+          {
+            "time": "April 27, 1973",
+            "label": "Fatah bomb plot at airport",
+            "desc": "Three men — Fatah members — arrested boarding Air France flight to Paris with 10 kg TNT. Lebanese Army immediately cordons Shatila refugee camp fearing reprisal.",
+            "type": "attack"
+          },
+          {
+            "time": "April 28, 1973",
+            "label": "BSO threatens airport bombing",
+            "desc": "Black September Organization calls threatening to blow up airport facilities if the arrested men are not released. A second call says a bomb has been placed in the terminal water cooler.",
+            "type": "incident"
+          },
+          {
+            "time": "April 28–29, 2:30 AM",
+            "label": "Bomb found and defused",
+            "desc": "2-kg plastic charge, timed to explode at 2:30 AM, found in airport water cooler. Minister of Interior personally supervises search. Lebanese Army G-2 assesses Arafat may have enabled the discovery.",
+            "type": "incident"
+          },
+          {
+            "time": "April 28–29 night",
+            "label": "Jordanian Embassy bombed",
+            "desc": "Dynamite thrown from a passing car at the Jordanian ambassador’s residence. No casualties. Adds to the general atmosphere of tension.",
+            "type": "attack"
+          },
+          {
+            "time": "April 30, 1973",
+            "label": "This cable filed",
+            "desc": "Embassy files situation report. Airport under intensified security. Government publicly vows no yield to blackmail on orders from President Frangieh himself.",
+            "type": "political"
+          }
+        ],
+        "keyFigures": [
+          {
+            "name": "Suleiman Frangieh",
+            "role": "President of Lebanon",
+            "desc": "Frangieh personally ordered his Interior Minister not to yield to the BSO bomb threat. This 1973 stance documents his governing pattern. The same Frangieh would be hospitalized during the April 1975 crisis — and progressively sidelined as the Lebanese state lost its capacity to confront Palestinian armed pressure.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Suleiman_Frangieh",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Suleiman_Frangieh_official_portrait.jpg/330px-Suleiman_Frangieh_official_portrait.jpg",
+            "imageCredit": "Public domain / Wikimedia Commons"
+          },
+          {
+            "name": "Yasser Arafat",
+            "role": "PLO Chairman, Fatah leader",
+            "desc": "The cable documents the Lebanese Army G-2’s assessment that Arafat wanted to avoid confrontation with the Lebanese government, and may have covertly tipped off authorities about the airport bomb planted by BSO hardliners he could not control. This command-and-control problem in 1973 is directly continuous with the internal PLO disputes documented in the 1975 crisis cables.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Yasser_Arafat",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg/330px-Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg",
+            "imageCredit": "Public domain / Wikimedia Commons"
+          },
+          {
+            "name": "G. McMurtrie Godley",
+            "role": "U.S. Ambassador (1974–1976)",
+            "desc": "Not yet the Ambassador in 1973 — that was Dwight Houghton. But this cable establishes the pre-war pattern that Godley would inherit: PLO factions operating freely from Lebanese soil, Lebanese state firmness gradually eroding, and Arafat unable to control hardline elements within his own movement.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/G._McMurtrie_Godley",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/G_McMurtrie_Godley.png",
+            "imageCredit": "U.S. Department of State. Public domain."
+          }
+        ],
+        "bodyHtml": "<h3>Two years before the war</h3>\n\n<p>On the afternoon of April 27, 1973, airport security at Beirut International Airport found something extraordinary in the baggage of three men about to board an Air France flight to Paris: 10 kilograms of TNT and the devices to detonate it. The men were Fatah members.</p>\n\n<p>What happened over the following 48 hours is documented in this cable, filed by the U.S. Embassy on April 30, 1973. It does not appear in the standard historical account of pre-war Lebanon.</p>\n\n<h3>The bomb threat and the bomb that was found</h3>\n\n<p>When news of the arrests spread, the Lebanese Army immediately cordoned Shatila refugee camp — a documented acknowledgment that it expected armed retaliation from the camp’s armed organizations. The next day, the Black September Organization called the airport and threatened to blow up its facilities if the arrested men and their explosives were not released.</p>\n\n<p>One call went further: a bomb had been placed in an airport water cooler. The Lebanese Minister of Interior personally supervised the search. They found it: a 2-kilogram plastic charge, timed to explode at 2:30 AM on April 29.</p>\n\n<h3>The G-2 assessment: what it means</h3>\n\n<p>The Lebanese Army’s military intelligence branch — G-2 — offered a conclusion that is among the most significant in the pre-war diplomatic record. The airport bomb, G-2 assessed, was planted by BSO hardliners acting against Arafat’s explicit wishes. Arafat had been trying to avoid a confrontation with the Lebanese government. And the anonymous phone call that led to the bomb’s discovery was, G-2 believed, possibly Arafat himself — covertly helping Lebanese authorities defuse an action by his own organization’s elements he could not control.</p>\n\n<p>This conclusion — in the Lebanese Army’s intelligence assessment, transmitted through the U.S. Embassy, on record at the State Department as of April 30, 1973 — documents a specific dynamic: Arafat leading an organization with armed factions he could not fully command. Read alongside the 1975 cables, which document a strikingly similar internal PLO command dispute during the April ceasefire negotiations, the pattern spans two years and is consistent.</p>\n\n<h3>Frangieh said no</h3>\n\n<p>President Suleiman Frangieh gave a direct order to his Interior Minister: do not yield to the blackmail. The Embassy understood this from a reliable Presidency source. The new Lebanese government — which had not yet received a parliamentary vote of confidence — stood firm.</p>\n\n<p>The Embassy called this a “heartening initial sign of determination.” Two years later, during the April 13 crisis, Frangieh would be in the hospital recovering from surgery, the Lebanese Army would have orders to stand aside, and the “determination” the Embassy saw in 1973 would be very difficult to find.</p>\n\n<h3>What this cable establishes</h3>\n\n<p>The standard historical account of the Lebanese Civil War begins, in most treatments, with April 13, 1975. This cable establishes that the structural conditions of that war — PLO armed factions operating autonomously from Lebanese soil, the Lebanese state attempting to enforce order and being met with armed blackmail, Arafat’s imperfect control over hardline elements within his own movement — were documented realities two full years earlier.</p>\n\n<p>The war did not begin on April 13, 1975. The diplomatic record shows it had been building, documented in real time, since at least 1973.</p>",
+        "mapLocations": [
+          {
+            "name": "Beirut International Airport",
+            "desc": "Site of the Fatah bomb plot and BSO bomb threat, April 27–30",
+            "type": "primary"
+          },
+          {
+            "name": "Shatila refugee camp",
+            "desc": "Cordoned by Lebanese Army immediately after April 27 arrests",
+            "type": "secondary"
+          },
+          {
+            "name": "Sabra quarter",
+            "desc": "Adjacent to Shatila; southern entrance also cordoned",
+            "type": "secondary"
+          },
+          {
+            "name": "Jordanian Embassy residence",
+            "desc": "Dynamite thrown from passing car, night of April 28–29",
+            "type": "secondary"
+          },
+          {
+            "name": "Lebanese-Israeli border",
+            "desc": "Army patrols intensified over same weekend",
+            "type": "tertiary"
+          }
+        ],
+        "furtherReading": [
+          {
+            "title": "Cairo Agreement (November 3, 1969)",
+            "desc": "The agreement that granted the PLO the right to maintain armed forces on Lebanese territory and conduct operations across the border — the structural basis for the autonomous armed presence documented in this 1973 cable.",
+            "type": "context"
+          },
+          {
+            "title": "Cable 1975BEIRUT04749 — April 14, 1975",
+            "desc": "The initial Embassy report on the April 13 incidents. The same Arafat-command structure problem documented here appears again in the 1975 crisis — two years and one civil war later.",
+            "type": "related"
+          }
+        ]
+      },
+      "relatedCables": [
+        "1975BEIRUT04749",
+        "1975BEIRUT04794"
+      ]
+    },
     {
       "@type": "DigitalDocument",
       "id": "1975BEIRUT04749",
