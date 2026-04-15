@@ -1,7 +1,2 @@
-# Institute for Lebanon -- Cloudflare Pages routing
-# These 200 rewrites serve .html files at clean URLs
-
-/archive  /archive.html  200
-/timeline /timeline.html 200
-/glossary /glossary.html 200
-/about    /about.html    200
+# Cloudflare Pages handles clean URLs natively.
+# No rewrite rules needed.
