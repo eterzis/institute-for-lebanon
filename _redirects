@@ -1,2 +1,4 @@
-# Cloudflare Pages handles clean URLs natively.
-# No rewrite rules needed.
+/archive  /archive.html  200!
+/timeline /timeline.html 200!
+/glossary /glossary.html 200!
+/about    /about.html    200!
