@@ -1028,9 +1028,9 @@ body::before {
   .article-figure--inline-right img { height: auto; }
 }
 
-
 /* =================================================================
-   FEATURED CABLE -- EDITORIAL LAYOUT (replaces cable-card grid)
+   FEATURED CABLE — EDITORIAL LAYOUT (homepage)
+   No card borders. Clean type. Editorial spacing.
    ================================================================= */
 
 .fc {
@@ -1038,10 +1038,8 @@ body::before {
   padding: 3.5rem 0;
   border-bottom: 1px solid var(--border-dim);
   cursor: pointer;
-  position: relative;
-  transition: none;
 }
-.fc:first-child { padding-top: 2.5rem; }
+.fc:first-child { padding-top: 2rem; }
 .fc:last-child  { border-bottom: none; }
 
 .fc-eyebrow {
@@ -1063,12 +1061,12 @@ body::before {
   font-size: 0.58rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(200, 60, 60, 0.7);
+  color: rgba(200, 60, 60, 0.75);
   flex-shrink: 0;
 }
 .fc-divider {
   height: 1px;
-  background: linear-gradient(90deg, var(--amber) 0%, var(--border-dim) 60%, transparent 100%);
+  background: linear-gradient(90deg, var(--amber) 0%, var(--border-dim) 55%, transparent 100%);
   margin-bottom: 2rem;
 }
 .fc-headline {
@@ -1079,8 +1077,8 @@ body::before {
   letter-spacing: -0.015em;
   color: var(--text-1);
   margin-bottom: 1.25rem;
-  transition: color 0.25s;
   max-width: 22ch;
+  transition: color 0.25s;
 }
 .fc:hover .fc-headline { color: var(--amber); }
 
@@ -1091,6 +1089,7 @@ body::before {
   font-style: italic;
   max-width: 60ch;
   margin-bottom: 1.75rem;
+  font-weight: 400;
 }
 .fc-provenance {
   font-family: var(--font-mono);
@@ -1103,8 +1102,7 @@ body::before {
   gap: 0.75rem;
   margin-bottom: 1.75rem;
 }
-.fc-prov-sep { color: var(--text-3); opacity: 0.5; }
-
+.fc-prov-sep { color: var(--text-3); opacity: 0.4; }
 .fc-footer-row {
   display: flex;
   align-items: center;
@@ -1132,245 +1130,7 @@ body::before {
   flex-shrink: 0;
   transition: letter-spacing 0.25s;
 }
-.fc:hover .fc-read-cta { letter-spacing: 0.24em; }
-.fc-empty {
-  padding: 3rem 0;
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  color: var(--text-3);
-}
+.fc:hover .fc-read-cta { letter-spacing: 0.26em; }
 
-/* Override old card-grid wrapper */
-#home-cables-grid {
-  background: none !important;
-  border: none !important;
-  gap: 0 !important;
-  display: block !important;
-}
-
-
-/* ================================================================
-   DESIGN OVERHAUL -- Academic / Minimal
-   Less gold. More contrast. X.com-level restraint.
-   ================================================================ */
-
-:root {
-  --bg:          #090909;
-  --bg-2:        #0d0d0d;
-  --surface-1:   #111111;
-  --surface-2:   #161616;
-  --surface-3:   #1e1e1e;
-  --border:      #262626;
-  --border-dim:  #1a1a1a;
-  --text-1:      #e4e2de;
-  --text-2:      #a8a6a2;
-  --text-3:      #606060;
-  --amber:       #a07828;
-  --amber-light: #b88a34;
-  --amber-dim:   #5a4418;
-  --cedar:       #3a6048;
-  --cedar-light: #4a7458;
-  --red-stamp:   #8a2020;
-}
-
-/* Brighter base text */
-body { font-weight: 400; color: var(--text-1); }
-.lead, .body-text, .article-body, .cable-body { color: var(--text-1); }
-
-/* Nav -- cleaner, less gold */
-.nav { background: rgba(9,9,9,0.96); border-bottom: 1px solid var(--border); }
-.nav-links a { color: var(--text-3); }
-.nav-links a:hover, .nav-links a.active { color: var(--text-1); background: none; }
-.nav-links a.active { border-bottom: 2px solid var(--text-1); padding-bottom: 0.3rem; }
-.section-label { color: var(--text-3); font-size: 0.6rem; }
-.section-label::after { background: var(--border); }
-
-/* Featured cable -- editorial, no box */
-#home-cables-grid {
-  background: none !important;
-  border: none !important;
-  display: block !important;
-  border-top: 1px solid var(--border) !important;
-  max-width: 800px;
-  margin: 2rem auto 0;
-}
-.fc {
-  display: block !important;
-  padding: 2.5rem 0 !important;
-  border-bottom: 1px solid var(--border) !important;
-  cursor: pointer;
-  background: none !important;
-}
-.fc:first-child { padding-top: 2rem !important; }
-.fc-eyebrow {
-  display: flex !important;
-  justify-content: space-between !important;
-  align-items: baseline !important;
-  gap: 1.5rem !important;
-  margin-bottom: 1rem !important;
-}
-.fc-id-text {
-  font-family: var(--font-mono);
-  font-size: 0.58rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--text-3);
-}
-.fc-cls-badge {
-  font-family: var(--font-mono);
-  font-size: 0.56rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--red-stamp);
-  opacity: 0.7;
-  flex-shrink: 0;
-}
-.fc-divider {
-  height: 1px !important;
-  background: var(--border) !important;
-  margin-bottom: 1.5rem !important;
-}
-.fc-headline {
-  font-family: var(--font-display) !important;
-  font-size: clamp(1.9rem, 3.5vw, 2.9rem) !important;
-  font-weight: 400 !important;
-  line-height: 1.12 !important;
-  letter-spacing: -0.01em !important;
-  color: var(--text-1) !important;
-  margin-bottom: 1rem !important;
-  max-width: 28ch !important;
-  transition: color 0.2s !important;
-}
-.fc:hover .fc-headline { color: var(--text-1) !important; text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 4px; }
-.fc-deck {
-  font-size: 0.98rem !important;
-  line-height: 1.75 !important;
-  color: var(--text-2) !important;
-  font-style: italic !important;
-  max-width: 62ch !important;
-  margin-bottom: 1.5rem !important;
-}
-.fc-provenance {
-  font-family: var(--font-mono) !important;
-  font-size: 0.62rem !important;
-  letter-spacing: 0.1em !important;
-  text-transform: uppercase !important;
-  color: var(--text-3) !important;
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.6rem !important;
-  margin-bottom: 1.5rem !important;
-}
-.fc-prov-sep { color: var(--border) !important; }
-.fc-footer-row {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  gap: 1.5rem !important;
-}
-.fc-taglist {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 0.35rem !important;
-}
-.fc-tag {
-  font-family: var(--font-mono) !important;
-  font-size: 0.54rem !important;
-  letter-spacing: 0.08em !important;
-  text-transform: uppercase !important;
-  color: var(--text-3) !important;
-  padding: 0.15rem 0.5rem !important;
-  border: 1px solid var(--border) !important;
-  border-radius: 2px !important;
-  background: none !important;
-}
-.fc-read-cta {
-  font-family: var(--font-mono) !important;
-  font-size: 0.6rem !important;
-  letter-spacing: 0.15em !important;
-  text-transform: uppercase !important;
-  color: var(--text-2) !important;
-  white-space: nowrap !important;
-  flex-shrink: 0 !important;
-}
-.fc:hover .fc-read-cta { color: var(--text-1) !important; }
-
-/* Article body -- brighter, more readable */
-.article-hero { border-bottom: 1px solid var(--border); }
-.article-headline { color: var(--text-1) !important; font-weight: 400 !important; }
-.article-subheadline { color: var(--text-2) !important; }
-.article-summary { color: var(--text-1) !important; border-left-color: var(--border) !important; }
-.article-source-chip { color: var(--text-3) !important; background: none !important; border-color: var(--border) !important; }
-.article-class-chip.badge-confidential { color: var(--red-stamp) !important; background: none !important; border-color: var(--border) !important; }
-.article-dateline { color: var(--text-3) !important; }
-
-/* Key revelations -- less gold box */
-.kr-label { background: none !important; border: none !important; border-bottom: 1px solid var(--border) !important; padding: 0.6rem 0 !important; color: var(--text-3) !important; }
-.kr-list { background: none !important; border: 1px solid var(--border) !important; border-top: none !important; }
-.kr-list li { color: var(--text-1) !important; font-size: 0.92rem !important; }
-.kr-list li::before { color: var(--text-3) !important; }
-
-/* Tab bar -- minimal */
-.view-tab-bar { background: rgba(9,9,9,0.97) !important; border-bottom: 1px solid var(--border) !important; }
-.view-tab { color: var(--text-3) !important; border-bottom-color: transparent !important; }
-.view-tab.active { color: var(--text-1) !important; border-bottom-color: var(--text-1) !important; }
-.view-tab-meta { color: var(--text-3) !important; }
-
-/* Timeline -- reduce gold */
-.tl-time { color: var(--text-3) !important; }
-.tl-label { color: var(--text-1) !important; }
-.tl-desc  { color: var(--text-2) !important; }
-.timeline-cable-link { color: var(--text-2) !important; background: none !important; border-color: var(--border) !important; }
-.timeline-cable-link:hover { color: var(--text-1) !important; }
-
-/* Cable reader -- brighter */
-.cable-doc-header, .cable-body { color: var(--text-1) !important; }
-.cable-meta-table td { color: var(--text-2) !important; }
-.cable-meta-table td:first-child { color: var(--text-3) !important; }
-.cable-subject-display { color: var(--text-1) !important; }
-.footnote-item { color: var(--text-2) !important; }
-.footnote-num { color: var(--text-3) !important; }
-
-/* Archive table -- cleaner */
-.archive-row-subject { color: var(--text-1) !important; }
-.archive-row:hover { background: var(--surface-1) !important; }
-
-/* Glossary */
-.glossary-page-full { color: var(--text-1) !important; }
-.glossary-page-def  { color: var(--text-2) !important; }
-.glossary-page-term { color: var(--text-3) !important; }
-
-/* About page */
-.prose p { color: var(--text-2) !important; }
-.prose h2 { color: var(--text-1) !important; }
-
-/* Buttons -- less amber */
-.btn-primary { background: var(--text-1) !important; color: var(--bg) !important; }
-.btn-primary:hover { background: #ffffff !important; }
-.btn-secondary { border-color: var(--border) !important; color: var(--text-2) !important; }
-.btn-secondary:hover { border-color: var(--text-2) !important; color: var(--text-1) !important; }
-
-/* Sidebar source link -- less green */
-.sidebar-source-link { color: var(--text-2) !important; background: none !important; border-color: var(--border) !important; }
-.sidebar-source-link:hover { background: var(--surface-1) !important; color: var(--text-1) !important; }
-
-/* Figure captions */
-.article-figure figcaption { color: var(--text-3) !important; }
-
-/* Hero */
-.display-title { color: var(--text-1) !important; }
-.display-title em { color: var(--text-1) !important; font-style: italic; }
-.hero-sub { color: var(--text-2) !important; }
-.hero-stat-num { color: var(--text-1) !important; font-weight: 300; }
-.hero-stat-label { color: var(--text-3) !important; }
-.hero-kicker { color: var(--text-3) !important; }
-.hero-kicker::before { background: var(--border); }
-
-/* Section labels -- no gold */
-.section-label { color: var(--text-3) !important; }
-
-/* Footer */
-.footer { background: var(--bg-2) !important; border-top-color: var(--border) !important; }
-.footer-col a:hover { color: var(--text-1) !important; }
-.footer-col-label { color: var(--text-3) !important; }
+/* Kill the old card-grid box look for the homepage wrapper */
+#home-cables-grid { background: none !important; border: none !important; display: block !important; }

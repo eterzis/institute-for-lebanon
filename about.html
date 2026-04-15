@@ -147,26 +147,7 @@
   </div>
 </footer>
 
-<script>
-var CABLES = [];
-var GLOSSARY_TERMS = [];
-fetch('/data/cables.json')
-  .then(function(r){ return r.json(); })
-  .then(function(data){
-    CABLES = data.cables || [];
-    GLOSSARY_TERMS = data.glossary || [];
-    // Re-populate stats
-    var published = CABLES.filter(function(c){ return c.status === 'published'; });
-    var el = document.getElementById('stats-block');
-    if(el) {
-      el.innerHTML =
-        '<div class="stat-card"><div class="stat-card-label">Cables Published</div><div class="stat-card-val">' + published.length + '</div><div class="stat-card-sub">Growing continuously</div></div>' +
-        '<div class="stat-card"><div class="stat-card-label">Period Covered</div><div class="stat-card-val" style="font-size:1.3rem">1969&ndash;1990</div><div class="stat-card-sub">Cairo Agreement to Taif Accord</div></div>' +
-        '<div class="stat-card"><div class="stat-card-label">Glossary Terms</div><div class="stat-card-val">' + GLOSSARY_TERMS.length + '</div><div class="stat-card-sub">Abbreviations &amp; key terminology</div></div>';
-    }
-  })
-  .catch(function(){ CABLES = []; GLOSSARY_TERMS = []; });
-</script>
+<script src="/assets/data.js"></script>
 <script>
 // Populate live stats
 const published = CABLES.filter(c => c.status === 'published');

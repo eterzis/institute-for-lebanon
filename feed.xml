@@ -5,15 +5,31 @@
     <link>https://instituteforlebanon.com</link>
     <description>Declassified U.S. State Department diplomatic cables on Lebanon's civil war and Palestinian armed presence, annotated for scholars and the public.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 21:37:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 04:07:56 +0000</lastBuildDate>
     <atom:link href="https://instituteforlebanon.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Three Hours That Started a War</title>
       <link>https://instituteforlebanon.com/cables/1975BEIRUT04749/</link>
       <guid isPermaLink="true">https://instituteforlebanon.com/cables/1975BEIRUT04749/</guid>
-      <description>On April 13, 1975, violence erupted in the Beirut suburb of Ain el-Rummaneh and ignited Lebanon&#x27;s fifteen-year civil war. The U.S. Embassy dispatched this cable at the highest urgency level before noon the following morning. It documents three separate incidents — two of them Palestinian attacks on a Christian political gathering — before the bus massacre that history has recorded as the sole event of that day. That same evening, Palestinian forces fired rockets from a refugee camp into a Christian neighborhood. By morning, the Palestinian leadership was already framing the entire day as one-sided Christian aggression.</description>
+      <description>Three separate incidents occurred on April 13, 1975, in the Ain el-Rummaneh suburb of Beirut. The U.S. Embassy documented all three in a cable dispatched at the NIACT IMMEDIATE level — the highest available urgency designation, requiring attention regardless of the hour received — before noon the following day. The historical literature has consistently identified one of these incidents as the event that ignited Lebanon’s fifteen-year civil war. This cable contains the Embassy’s contemporaneous account of what preceded it and what followed it that same evening. Neither has been incorporated into the standard documentary record of April 13, 1975.</description>
       <category>civil war</category><category>April 13 1975</category><category>Ain Ramanneh</category><category>Phalange</category><category>Palestinians</category><category>Kataeb</category><category>Beirut</category><category>PLO</category><category>PDFLP</category>
-      <pubDate>Tue, 14 Apr 2026 21:37:59 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 04:07:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Second Day: What Spread Beyond Beirut</title>
+      <link>https://instituteforlebanon.com/cables/1975BEIRUT04829/</link>
+      <guid isPermaLink="true">https://instituteforlebanon.com/cables/1975BEIRUT04829/</guid>
+      <description>Less than 48 hours after April 13, 1975, the U.S. Embassy filed this two-section situation report as of noon on April 15. The casualty count had reached 80 to 90 throughout Lebanon. The cable documents the geographic spread of violence beyond Beirut: three Christian churches bombed in Tripoli, three non-Phalangist Christian villages near Sidon rocketed from refugee camps and then entered by armed forces. It also documents, on the basis of the Embassy’s own assessment, that the casualty balance at that point ran against the Palestinian and Muslim side — not against the Phalange.</description>
+      <category>April 1975</category><category>Tripoli</category><category>Sidon</category><category>Mieh Mieh</category><category>churches</category><category>civilian villages</category><category>PLO</category><category>Kataeb</category><category>Beirut</category>
+      <pubDate>Wed, 15 Apr 2026 04:07:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Ceasefire That Almost Wasn’t</title>
+      <link>https://instituteforlebanon.com/cables/1975BEIRUT04860/</link>
+      <guid isPermaLink="true">https://instituteforlebanon.com/cables/1975BEIRUT04860/</guid>
+      <description>Three days after April 13, 1975, the U.S. Embassy filed this situation report as of 10:00 AM on April 16. It records negotiations that had produced a nominal ceasefire. It also records two specific developments that the standard account of these events does not carry: first, that the Kataeb delivered two suspects to Lebanese government authorities as agreed, after which the PLO stated that seven — not two — were sought; and second, an unconfirmed report that PLO Chairman Arafat had favored a ceasefire for 36 hours before returning to Beirut, having been opposed during that period by his designated deputy in the city.</description>
+      <category>ceasefire</category><category>April 1975</category><category>PLO</category><category>Kataeb</category><category>Beirut</category><category>Arafat</category><category>Arab League</category>
+      <pubDate>Wed, 15 Apr 2026 04:07:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
