@@ -2,6 +2,26 @@ const SITE = {name:"Institute for Lebanon",url:"https://instituteforlebanon.com"
 
 const CABLES = [
   {
+    id:"1973BEIRUT04974",date:"1973-04-30",dateDisplay:"April 30, 1973",year:1973,
+    classification:"CONFIDENTIAL",from:"AMEMBASSY BEIRUT",fromFull:"U.S. Embassy, Beirut, Lebanon",
+    to:"SECSTATE WASHDC",subject:"Internal Security Developments in Lebanon",
+    excerpt:"Two years before the civil war: Fatah members arrested at Beirut airport with 10 kg of TNT. Black September threatened to blow up the airport. A 2-kg bomb was found and defused. The Lebanese Army G-2 assessed that Arafat may have covertly tipped off Lebanese authorities about a bomb planted by his own movement\u2019s hardliners he could not control.",
+    tags:["1973","pre-war","Fatah","BSO","Black September","airport bomb","Beirut airport","Shatila"],
+    topics:["Pre-War Context","Palestinian Armed Presence","Lebanese Government Firmness"],status:"published",
+    sourceUrl:"https://wikileaks.org/plusd/cables/1973BEIRUT04974_b.html",
+    readerNarrative:{headline:"The Pattern Before the War: Fatah Bombs, Blackmail, and a President Who Said No",subheadline:"This cable, filed April 30, 1973 \u2014 two years before the civil war \u2014 documents three facts the standard account of pre-war Lebanon does not carry: a Fatah bomb plot targeting an Air France flight from Beirut, a Black September Organization threat to blow up the airport terminal, and a Lebanese Army intelligence assessment that Arafat may have covertly tipped off Lebanese authorities about a bomb planted by his own organization\u2019s hardliners.",dateline:"Beirut, April 30, 1973",summary:"Two years before the Lebanese Civil War, the U.S. Embassy filed this cable documenting a weekend of Fatah-linked violence at Beirut International Airport. Three men including Fatah members were arrested trying to board an Air France flight with 10 kilograms of TNT. The Black September Organization threatened to blow up the airport. A 2-kilogram bomb timed to explode at 2:30 AM was found and defused in a water cooler. The Lebanese Army G-2 concluded that the bomb was planted by BSO activists acting against Arafat\u2019s wishes \u2014 and that Arafat may have covertly helped Lebanese authorities find it. President Frangieh personally ordered his Interior Minister not to yield to the blackmail."}
+  },
+  {
+    id:"1973BEIRUT05159",date:"1973-05-08",dateDisplay:"May 8, 1973",year:1973,
+    classification:"CONFIDENTIAL",from:"AMEMBASSY BEIRUT",fromFull:"U.S. Embassy, Beirut, Lebanon",
+    to:"SECSTATE WASHDC",subject:"Internal Security, SITREP #1",
+    excerpt:"More than two years before the civil war: the Lebanese Army deploys aircraft and tanks against Palestinian refugee camps in Beirut. The Prime Minister resigns before dawn. The U.S. Embassy documents Syrian manipulation of Palestinian hardliners to torpedo negotiations.",
+    tags:["1973","pre-war","SITREP","Lebanese Army","Sabra Chatila","PDFLP","PFLP/GC","Sa'iqa","Arafat","Syria","Khaddam","ceasefire"],
+    topics:["Pre-War Context","Palestinian Armed Presence","Lebanese Government Firmness","Syrian Involvement"],status:"published",
+    sourceUrl:"https://wikileaks.org/plusd/cables/1973BEIRUT05159_b.html",
+    readerNarrative:{headline:"Before the Civil War: The Lebanese Army Opened Fire on Palestinian Camps",subheadline:"This cable, filed at 8:08 AM on May 8, 1973 \u2014 more than two years before the civil war \u2014 documents the Lebanese Army deploying aircraft and tanks against Palestinian refugee camps in Beirut, a Prime Minister resigning in mid-crisis, and U.S. Embassy documentation of Syrian manipulation of Palestinian factions to prevent a negotiated settlement.",dateline:"Beirut, May 8, 1973",summary:"At 8:08 AM on May 8, 1973, the U.S. Embassy filed this Night Action Immediate cable. By that point, the Lebanese Army had already deployed aircraft and tanks against Palestinian refugee camps in Beirut\u2019s southeastern suburbs: Sabra/Chatila, Bir Hassan, and Borj el Brajne. The Prime Minister had resigned at 5:00 AM. The fighting had been a deliberate attempt, in the Embassy\u2019s assessment, by Palestinian factions including the PDFLP, PFLP/GC, and Syria\u2019s client faction Sa\u2019iqa, to torpedo ongoing negotiations."}
+  },
+  {
     id:"1975BEIRUT04749",date:"1975-04-14",dateDisplay:"April 14, 1975",year:1975,
     classification:"CONFIDENTIAL",from:"AMEMBASSY BEIRUT",fromFull:"U.S. Embassy, Beirut, Lebanon",
     to:"SECSTATE WASHDC",subject:"Beirut Tense in Aftermath of April 13 Clashes",
@@ -10,6 +30,16 @@ const CABLES = [
     topics:["Civil War Origins","April 13 1975","Palestinian Armed Presence"],status:"published",
     sourceUrl:"https://wikileaks.org/plusd/cables/1975BEIRUT04749_b.html",
     readerNarrative:{headline:"Three Hours That Started a War",subheadline:"This cable documents three separate violent incidents at the same location on April 13. The historical literature has consistently recorded one.",dateline:"Beirut, April 14, 1975",summary:"Three separate incidents occurred on April 13, 1975, in the Ain el-Rummaneh suburb of Beirut. The U.S. Embassy documented all three. The historical literature has consistently identified one of these incidents as the founding event of Lebanon\u2019s fifteen-year civil war."}
+  },
+  {
+    id:"1975BEIRUT04794",date:"1975-04-14",dateDisplay:"April 14, 1975",year:1975,
+    classification:"CONFIDENTIAL",from:"AMEMBASSY BEIRUT",fromFull:"U.S. Embassy, Beirut, Lebanon",
+    to:"SECSTATE WASHDC",subject:"Beirut Situation Report \u2014 1500Z",
+    excerpt:"The afternoon SITREP for April 14 contains three new facts about April 13: two of the four gunmen in the 9:30 AM attack were Libyan nationals; an Iraqi-backed faction claimed 18 of the bus passengers as its members; and the Palestinian funeral was deliberately postponed to organize a larger demonstration.",
+    tags:["April 1975","Libyan gunmen","Arab Liberation Front","funeral postponed","Syria","Egypt","PLO","Kataeb"],
+    topics:["April 13 New Details","Diplomatic Response","International Involvement"],status:"published",
+    sourceUrl:"https://wikileaks.org/plusd/cables/1975BEIRUT04794_b.html",
+    readerNarrative:{headline:"The Day After: Three Details the Record Does Not Carry",subheadline:"This cable, filed the afternoon of April 14, 1975, documents three specific facts about April 13 that do not appear in the standard historical account: the national identity of two of the gunmen in the 9:30 AM attack, the stated membership of bus passengers in an Iraqi-backed faction, and the deliberate postponement of the funeral to organize a larger demonstration.",dateline:"Beirut, April 14, 1975",summary:"Filed at 3:00 PM on April 14, 1975, this situation report contains new information about the April 13 incidents. Two of the four gunmen in the 9:30 AM attack that killed three Kataeb members were Libyan nationals, not Palestinians. An Iraqi-backed faction claimed 18 of the 26 people killed on the bus were its members. And the Palestinian funeral was deliberately postponed \u2014 in breach of standard Muslim burial practice \u2014 to allow time to organize a larger event."}
   },
   {
     id:"1975BEIRUT04829",date:"1975-04-15",dateDisplay:"April 15, 1975",year:1975,
@@ -33,13 +63,11 @@ const CABLES = [
   }
 ];
 
-const TIMELINE_EVENTS = [];
-const GLOSSARY_TERMS = [];
-
 function classificationBadge(c){var m={CONFIDENTIAL:'badge-confidential',SECRET:'badge-secret',UNCLASSIFIED:'badge-unclassified'};return '<span class="classification-badge '+(m[c]||'badge-unclassified')+'">'+c+'</span>';}
 function publishedCables(){return CABLES.filter(function(c){return c.status==='published';});}
 
 const TIMELINE_EVENTS = [
+  {date:"May 8, 1973",isoDate:"1973-05-08",title:"Lebanese Army Deploys Aircraft and Tanks Against Beirut Camps",desc:"Palestinian factions (PDFLP, PFLP/GC, Sa\u2019iqa) open rocket and mortar fire on Lebanese Army installations to torpedo negotiations. The Lebanese Army responds with aircraft and tank fire against Sabra/Chatila, Bir Hassan, and Borj el Brajne camps. The PM resigns before dawn. A ceasefire holds. The Melkart Protocol follows nine days later \u2014 resolving nothing structurally.",cableId:"1973BEIRUT05159",tags:["Lebanese Army","Sabra Chatila","pre-war","Syria","ceasefire"]},
   {date:"April 30, 1973",isoDate:"1973-04-30",title:"Fatah Bomb Plot at Beirut Airport",desc:"Three Fatah members arrested boarding Air France flight to Paris with 10 kg TNT. BSO threatens to blow up the airport. A 2-kg bomb is found and defused in an airport water cooler. President Frangieh personally orders his minister not to yield to blackmail.",cableId:"1973BEIRUT04974",tags:["Fatah","BSO","airport","pre-war"]},
   {date:"November 3, 1969",isoDate:"1969-11-03",title:"Cairo Agreement — Sovereignty Surrendered",desc:"Under Egyptian pressure, Lebanon grants the PLO the right to maintain armed forces on Lebanese soil and conduct operations across the border into Israel. The agreement effectively exempts Palestinian armed groups from Lebanese law within the refugee camps.",cableId:null,tags:["Cairo Agreement","PLO","sovereignty"]},
   {date:"April 13, 1975 — Morning",isoDate:"1975-04-13",title:"Palestinian Attack on Kataeb Ceremony in Ain el-Rummaneh",desc:"Palestinian gunmen open fire on a crowd attending a church ceremony in Ain el-Rummaneh, killing three Kataeb militia members. This event precedes and precipitates the afternoon bus attack — and is absent from virtually all Western accounts.",cableId:"1975BEIRUT04749",tags:["Ain Ramanneh","Kataeb","April 13"]},
