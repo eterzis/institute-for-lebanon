@@ -12,49 +12,79 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="/assets/main.css"/>
   <style>
-    .filter-bar { display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:1.5rem; }
+    .filter-bar { display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:1.5rem; align-items:center; }
     .filter-chip {
       font-family:var(--font-mono); font-size:0.6rem; letter-spacing:0.12em; text-transform:uppercase;
-      padding:0.35rem 0.8rem; border:1px solid var(--border); border-radius:20px;
+      padding:0.4rem 0.85rem; border:1px solid var(--border); border-radius:20px;
       color:var(--text-3); cursor:pointer; transition:all 0.2s; background:transparent;
     }
-    .filter-chip:hover, .filter-chip.active { border-color:var(--amber); color:var(--amber); background:rgba(200,148,42,0.08); }
+    .filter-chip:hover, .filter-chip.active {
+      border-color:var(--amber); color:var(--amber); background:rgba(200,148,42,0.08);
+    }
+    .filter-chip .chip-count {
+      font-size:0.55rem; color:var(--text-3); margin-left:0.4rem;
+      padding:0 0.35rem; background:var(--surface-2); border-radius:10px;
+    }
+    .filter-chip.active .chip-count { color:var(--amber); background:rgba(200,148,42,0.15); }
+    .filter-divider { width:1px; height:22px; background:var(--border-dim); margin:0 0.25rem; }
+    .tl-count-note {
+      font-family:var(--font-mono); font-size:0.6rem; color:var(--text-3);
+      letter-spacing:0.1em; margin-left:auto;
+    }
     .tl-wrapper { max-width:860px; margin:0 auto; padding:3rem clamp(1.5rem,4vw,3rem) 5rem; }
-    .tl-year-group { margin-bottom:0; }
     .tl-year-marker {
       font-family:var(--font-display); font-size:3rem; font-weight:300;
       color:var(--border); line-height:1; margin:3rem 0 0;
       padding:2rem 0 0;
+      position:relative;
+    }
+    .tl-year-marker .tl-era-label {
+      position:absolute; bottom:0; left:0;
+      font-family:var(--font-mono); font-size:0.58rem; letter-spacing:0.2em;
+      text-transform:uppercase; color:var(--amber); padding:0.3rem 0 0.3rem;
     }
     .tl-entry {
-      display:grid; grid-template-columns:160px 1px 1fr; gap:0 2rem;
+      display:grid; grid-template-columns:170px 1px 1fr; gap:0 2rem;
       opacity:1; transition:opacity 0.25s;
     }
     .tl-entry.hidden { display:none; }
-    .tl-date-col { text-align:right; padding:0 0 3rem; padding-top:0.3rem; }
-    .tl-date-text { font-family:var(--font-mono); font-size:0.7rem; color:var(--amber); letter-spacing:0.1em; line-height:1.5; }
+    .tl-date-col { text-align:right; padding:0 0 2.75rem; padding-top:0.3rem; }
+    .tl-date-text { font-family:var(--font-mono); font-size:0.7rem; color:var(--amber); letter-spacing:0.08em; line-height:1.5; }
     .tl-spine { background:var(--border); position:relative; }
     .tl-dot {
       position:absolute; top:7px; left:50%; transform:translateX(-50%);
       width:11px; height:11px; border-radius:50%;
       background:var(--surface-2); border:2px solid var(--border); z-index:1;
     }
-    .tl-dot.has-cable { background:var(--amber); border-color:var(--amber); box-shadow:0 0 0 3px rgba(200,148,42,0.2); }
-    .tl-content-col { padding:0 0 3rem; }
-    .tl-title { font-family:var(--font-display); font-size:1.25rem; font-weight:500; color:var(--text-1); margin-bottom:0.5rem; line-height:1.25; }
+    .tl-dot.has-cable {
+      background:var(--amber); border-color:var(--amber);
+      box-shadow:0 0 0 3px rgba(200,148,42,0.2);
+    }
+    .tl-content-col { padding:0 0 2.75rem; }
+    .tl-title {
+      font-family:var(--font-display); font-size:1.3rem; font-weight:500;
+      color:var(--text-1); margin-bottom:0.55rem; line-height:1.25;
+    }
     .tl-desc { font-size:0.93rem; color:var(--text-1); line-height:1.75; font-weight:400; }
     .tl-cable-btn {
       display:inline-flex; align-items:center; gap:0.4rem; margin-top:0.85rem;
       font-family:var(--font-mono); font-size:0.6rem; letter-spacing:0.12em; text-transform:uppercase;
       color:var(--amber); background:rgba(200,148,42,0.08); border:1px solid var(--amber-dim);
-      padding:0.3rem 0.75rem; border-radius:2px; text-decoration:none; transition:background 0.2s;
+      padding:0.35rem 0.85rem; border-radius:2px; text-decoration:none; transition:background 0.2s, transform 0.1s;
     }
-    .tl-cable-btn:hover { background:rgba(200,148,42,0.16); }
+    .tl-cable-btn:hover { background:rgba(200,148,42,0.16); transform:translateX(2px); }
     .tl-tags { display:flex; flex-wrap:wrap; gap:0.35rem; margin-top:0.75rem; }
+    .tl-empty {
+      padding:4rem 2rem; text-align:center;
+      color:var(--text-3); font-family:var(--font-mono); font-size:0.75rem;
+      border:1px dashed var(--border); border-radius:2px;
+    }
     @media(max-width:600px) {
       .tl-entry { grid-template-columns:1px 1fr; gap:0 1rem; }
       .tl-date-col { display:none; }
-      .tl-year-marker { font-size:2rem; }
+      .tl-year-marker { font-size:2rem; padding-top:1.5rem; }
+      .tl-title { font-size:1.15rem; }
+      .tl-count-note { display:none; }
     }
   </style>
 </head>
@@ -82,18 +112,18 @@
     <button class="nav-search-btn" onclick="toggleSearch()" aria-label="Search">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.3"/><path d="M11 11L14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
     </button>
+    <button class="nav-mobile-btn" onclick="toggleMobileMenu()" aria-label="Menu" aria-controls="nav-links" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
 <div class="page-wrap">
   <section class="section-sm container" style="border-bottom:1px solid var(--border-dim)">
-    <div class="section-label">1969–1990</div>
+    <div class="section-label">1948–1990</div>
     <h1 class="section-title">Lebanon — Civil War Chronology</h1>
-    <p class="lead" style="margin-top:0.75rem">Key events from the Cairo Agreement to the Taif Accord — cross-referenced with U.S. diplomatic cables in our archive. Events with a linked cable are marked in amber.</p>
-    <div class="filter-bar" id="filter-bar">
-      <button class="filter-chip active" data-tag="all" onclick="setFilter('all',this)">All Events</button>
-      <button class="filter-chip" data-tag="cable" onclick="setFilter('cable',this)">Has Cable</button>
-    </div>
+    <p class="lead" style="margin-top:0.75rem">From the arrival of the first Palestinian refugees through the Taif Accord that ended the war — cross-referenced with every U.S. diplomatic cable in our archive. Events with a linked cable are marked in amber.</p>
+    <div class="filter-bar" id="filter-bar"></div>
   </section>
 
   <div class="tl-wrapper" id="timeline-wrap"></div>
@@ -116,39 +146,108 @@
 </footer>
 
 <script src="/assets/data.js"></script>
+<script src="/assets/nav.js"></script>
 <script>
+// ── FILTER STATE ─────────────────────────────────────────────────────
+// Filters: 'all' | 'cable' | era key (context | 1973 | 1974 | 1975 | 1976 | long-war)
 let activeFilter = 'all';
+
+const ERA_LABELS = {
+  'context':   'Context · 1948–1972',
+  '1973':      '1973 · Two-Day War',
+  '1974':      '1974 · Warnings',
+  '1975':      '1975 · Sidon & the War',
+  '1976':      '1976 · Massacres',
+  'long-war':  '1977–1990'
+};
+
+const FILTERS = [
+  {key:'all',      label:'All Events'},
+  {key:'cable',    label:'With Cable'},
+  {key:'context',  label:'Context (1948–72)'},
+  {key:'1973',     label:'1973'},
+  {key:'1974',     label:'1974'},
+  {key:'1975',     label:'1975'},
+  {key:'1976',     label:'1976'},
+  {key:'long-war', label:'1977–90'}
+];
+
+function sortedEvents() {
+  // Sort chronologically (oldest first). Events without isoDate fall back to date parse.
+  return TIMELINE_EVENTS.slice().sort((a, b) => {
+    const ka = a.isoDate || a.date || '';
+    const kb = b.isoDate || b.date || '';
+    return ka.localeCompare(kb);
+  });
+}
+
+function countFor(key, events) {
+  if (key === 'all')   return events.length;
+  if (key === 'cable') return events.filter(e => !!e.cableId).length;
+  return events.filter(e => (e.era || '') === key).length;
+}
+
+function renderFilterBar() {
+  const bar = document.getElementById('filter-bar');
+  const events = sortedEvents();
+  const chips = FILTERS.map(f => {
+    const count = countFor(f.key, events);
+    if (count === 0) return '';
+    const active = (f.key === activeFilter) ? ' active' : '';
+    return `<button class="filter-chip${active}" data-tag="${f.key}" onclick="setFilter('${f.key}',this)">${f.label}<span class="chip-count">${count}</span></button>`;
+  }).join('');
+  const cableCount = events.filter(e => !!e.cableId).length;
+  const total = events.length;
+  bar.innerHTML = chips + `<span class="tl-count-note">${cableCount} of ${total} events backed by a cable</span>`;
+}
 
 function setFilter(tag, btn) {
   activeFilter = tag;
   document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-  btn.classList.add('active');
+  if (btn) btn.classList.add('active');
   renderTimeline();
+}
+
+function matches(ev) {
+  if (activeFilter === 'all')   return true;
+  if (activeFilter === 'cable') return !!ev.cableId;
+  return (ev.era || '') === activeFilter;
 }
 
 function renderTimeline() {
   const wrap = document.getElementById('timeline-wrap');
+  const events = sortedEvents().filter(matches);
+
+  if (!events.length) {
+    wrap.innerHTML = '<div class="tl-empty">No events match the current filter.</div>';
+    return;
+  }
+
   let lastYear = null;
+  let lastEra = null;
   let html = '';
 
-  TIMELINE_EVENTS.forEach(ev => {
-    const year = ev.isoDate ? ev.isoDate.slice(0,4) : ev.date.slice(-4);
-    const hasCable = !!ev.cableId;
-    if (activeFilter === 'cable' && !hasCable) return;
+  events.forEach(ev => {
+    const year = ev.isoDate ? ev.isoDate.slice(0,4) : (ev.date.match(/\d{4}/) || [''])[0];
+    const eraLabel = ev.era && ev.era !== lastEra ? ERA_LABELS[ev.era] : null;
 
     if (year !== lastYear) {
-      html += `<div class="tl-year-marker">${year}</div>`;
+      const eraHtml = eraLabel ? `<span class="tl-era-label">${eraLabel}</span>` : '';
+      html += `<div class="tl-year-marker">${year}${eraHtml}</div>`;
       lastYear = year;
+      if (eraLabel) lastEra = ev.era;
     }
 
+    const hasCable = !!ev.cableId;
     const cableBtn = hasCable
       ? `<a href="/cables/${ev.cableId}/" class="tl-cable-btn">→ Read the cable</a>` : '';
-    const tagHtml = (ev.tags||[]).slice(0,4).map(t=>`<span class="tag">${t}</span>`).join('');
+    const tagHtml = (ev.tags || []).slice(0,4)
+      .map(t => `<span class="tag">${t}</span>`).join('');
 
     html += `
     <div class="tl-entry">
       <div class="tl-date-col"><div class="tl-date-text">${ev.date}</div></div>
-      <div class="tl-spine"><div class="tl-dot${hasCable?' has-cable':''}"></div></div>
+      <div class="tl-spine"><div class="tl-dot${hasCable ? ' has-cable' : ''}"></div></div>
       <div class="tl-content-col">
         <div class="tl-title">${ev.title}</div>
         <div class="tl-desc">${ev.desc}</div>
@@ -158,7 +257,7 @@ function renderTimeline() {
     </div>`;
   });
 
-  wrap.innerHTML = html || `<div style="padding:4rem;text-align:center;color:var(--text-3);font-family:var(--font-mono);font-size:0.75rem">No events match the current filter.</div>`;
+  wrap.innerHTML = html;
 }
 
 function toggleSearch() {
@@ -172,6 +271,7 @@ document.addEventListener('keydown', e => {
   if (e.key==='Escape') closeSearch();
 });
 
+renderFilterBar();
 renderTimeline();
 </script>
 </body>

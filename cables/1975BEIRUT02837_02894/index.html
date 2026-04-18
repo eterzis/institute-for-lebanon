@@ -251,6 +251,9 @@
     <button class="nav-search-btn" onclick="toggleSearch()" aria-label="Search">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.3"/><path d="M11 11L14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
     </button>
+    <button class="nav-mobile-btn" onclick="toggleMobileMenu()" aria-label="Menu" aria-controls="nav-links" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
@@ -957,6 +960,7 @@ As of mid-day March 4, Sidon reportedly was again quiet but still under insurgen
   </div>
 </footer>
 
+<script src="/assets/nav.js"></script>
 <script>
 // ── View switching ───────────────────────────────────────────────────
 function switchView(v) {
