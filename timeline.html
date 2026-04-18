@@ -32,17 +32,24 @@
       letter-spacing:0.1em; margin-left:auto;
     }
     .tl-wrapper { max-width:860px; margin:0 auto; padding:3rem clamp(1.5rem,4vw,3rem) 5rem; }
+    .tl-era-divider {
+      margin:3.5rem 0 0.5rem;
+      display:flex; align-items:center; gap:0.75rem;
+    }
+    .tl-era-divider .tl-era-label {
+      font-family:var(--font-mono); font-size:0.62rem; letter-spacing:0.22em;
+      text-transform:uppercase; color:var(--amber); white-space:nowrap;
+    }
+    .tl-era-divider::after {
+      content:''; flex:1; height:1px;
+      background:linear-gradient(90deg, var(--amber-dim) 0%, var(--border-dim) 60%, transparent 100%);
+    }
     .tl-year-marker {
       font-family:var(--font-display); font-size:3rem; font-weight:300;
-      color:var(--border); line-height:1; margin:3rem 0 0;
-      padding:2rem 0 0;
-      position:relative;
+      color:var(--border); line-height:1; margin:1.5rem 0 0;
+      padding:0 0 0.5rem;
     }
-    .tl-year-marker .tl-era-label {
-      position:absolute; bottom:0; left:0;
-      font-family:var(--font-mono); font-size:0.58rem; letter-spacing:0.2em;
-      text-transform:uppercase; color:var(--amber); padding:0.3rem 0 0.3rem;
-    }
+    .tl-era-divider + .tl-year-marker { margin-top:0.75rem; }
     .tl-entry {
       display:grid; grid-template-columns:170px 1px 1fr; gap:0 2rem;
       opacity:1; transition:opacity 0.25s;
@@ -82,9 +89,14 @@
     @media(max-width:600px) {
       .tl-entry { grid-template-columns:1px 1fr; gap:0 1rem; }
       .tl-date-col { display:none; }
-      .tl-year-marker { font-size:2rem; padding-top:1.5rem; }
+      .tl-year-marker { font-size:2.25rem; margin-top:0.5rem; padding:0 0 0.25rem; }
+      .tl-era-divider { margin:2.5rem 0 0.25rem; gap:0.5rem; }
+      .tl-era-divider .tl-era-label { font-size:0.58rem; letter-spacing:0.18em; }
       .tl-title { font-size:1.15rem; }
       .tl-count-note { display:none; }
+      .filter-bar { gap:0.35rem; }
+      .filter-chip { padding:0.32rem 0.6rem; font-size:0.55rem; }
+      .tl-wrapper { padding:2rem 1.25rem 3.5rem; }
     }
   </style>
 </head>
@@ -231,11 +243,13 @@ function renderTimeline() {
     const year = ev.isoDate ? ev.isoDate.slice(0,4) : (ev.date.match(/\d{4}/) || [''])[0];
     const eraLabel = ev.era && ev.era !== lastEra ? ERA_LABELS[ev.era] : null;
 
+    if (eraLabel) {
+      html += `<div class="tl-era-divider"><span class="tl-era-label">${eraLabel}</span></div>`;
+      lastEra = ev.era;
+    }
     if (year !== lastYear) {
-      const eraHtml = eraLabel ? `<span class="tl-era-label">${eraLabel}</span>` : '';
-      html += `<div class="tl-year-marker">${year}${eraHtml}</div>`;
+      html += `<div class="tl-year-marker">${year}</div>`;
       lastYear = year;
-      if (eraLabel) lastEra = ev.era;
     }
 
     const hasCable = !!ev.cableId;
