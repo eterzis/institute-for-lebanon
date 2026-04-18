@@ -10,11 +10,12 @@
   # Allow all AI and search crawlers
   X-Robots-Tag: all
 
-  # Cache static assets aggressively
-  Cache-Control: public, max-age=3600
+  # HTML pages: short cache so new asset-version URLs propagate fast after deploy
+  Cache-Control: public, max-age=300, must-revalidate
 
 /assets/*
-  Cache-Control: public, max-age=86400
+  # Assets are content-hashed at build time (?v=HASH) so they can cache forever
+  Cache-Control: public, max-age=31536000, immutable
 
 /data/cables.json
   Cache-Control: public, max-age=3600
