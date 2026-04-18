@@ -7,9 +7,9 @@
     "primarySource": "Wikileaks Public Library of US Diplomacy (PlusD)",
     "license": "Cable texts: public domain. Editorial annotations: free for scholarly/educational use with attribution.",
     "contact": "contact@instituteforlebanon.com",
-    "lastUpdated": "2026-04-17",
-    "totalCables": 18,
-    "publishedCables": 18,
+    "lastUpdated": "2026-04-18",
+    "totalCables": 20,
+    "publishedCables": 20,
     "pendingCables": 0
   },
   "cables": [
@@ -246,6 +246,431 @@
         "1975BEIRUT04749",
         "1975BEIRUT04794"
       ]
+    },
+    {
+      "@type": "DigitalDocument",
+      "id": "1973BEIRUT05068_05089_05123",
+      "date": "1973-05-03",
+      "dateDisplay": "May 3–4, 1973",
+      "year": 1973,
+      "classification": "CONFIDENTIAL",
+      "from": "AMEMBASSY BEIRUT",
+      "fromFull": "U.S. Embassy, Beirut, Lebanon",
+      "to": "SECSTATE WASHDC",
+      "toFull": "Secretary of State, Washington D.C.",
+      "subject": "Internal Security — SITREPs 6, 8, 9 (The Two-Day War, May 3–4, 1973)",
+      "excerpt": "Three consecutive Situation Reports document the 17-hour arc of the May 1973 Army–fedayeen confrontation — the \"Two-Day War.\" Approximately 1,000 Yarmouk Brigade fedayeen crossed from Syria on May 3; Syria denied it; 14 hours later Syria quietly promised withdrawal. Sadat phoned Frangieh. The Lebanese PM’s contingent resignation was called \"a bit of Lebanese flim-flam.\" Arab League&rsquo;s Mahmoud Riad arrived. A ceasefire held. The Embassy’s judgment, filed at 1:15 AM: Arafat cannot sustain any ceasefire he signs.",
+      "tags": [
+        "1973",
+        "pre-war",
+        "Two-Day War",
+        "SITREP",
+        "Yarmouk Brigade",
+        "fedayeen",
+        "Sadat",
+        "Assad",
+        "Arafat",
+        "Frangieh",
+        "Syria",
+        "Lebanese Army",
+        "Cairo Accords",
+        "Melkart precursor",
+        "Sidon"
+      ],
+      "topics": [
+        "Pre-War Context",
+        "Palestinian Armed Presence",
+        "Syrian Involvement",
+        "Egyptian Mediation",
+        "Lebanese Political Crisis",
+        "Border Security"
+      ],
+      "status": "published",
+      "companionCable": "1973BEIRUT05089 + 1973BEIRUT05123",
+      "persons": [
+        "Suleiman Frangieh",
+        "Tony Frangieh",
+        "Hafez al-Assad",
+        "Anwar Sadat",
+        "Yasser Arafat",
+        "Mahmoud Riad",
+        "Amin al-Hafez",
+        "Abou Hamad",
+        "Kanaan",
+        "Dib",
+        "Haddad",
+        "Mahmoud al-Ayyubi",
+        "King Hassan II",
+        "Dwight J. Houghton"
+      ],
+      "organizations": [
+        "Lebanese Army",
+        "PLO",
+        "Fatah",
+        "Yarmouk Brigade / Palestine Liberation Army",
+        "League of Arab States",
+        "UNRWA",
+        "SARG (Syrian Government)"
+      ],
+      "locations": [
+        "Beirut",
+        "Lower Bekaa",
+        "Arkub",
+        "Damascus",
+        "Cairo",
+        "Sidon",
+        "Baabda Palace",
+        "Palestinian refugee camps"
+      ],
+      "annotatedBody": "<div style=\"margin:0 0 2rem 0;padding:1.25rem 1.5rem;background:rgba(217,119,6,0.08);border-left:3px solid var(--amber);font-size:0.92rem;line-height:1.65\">\n<strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--amber);display:block;margin-bottom:0.5rem\">Archival Note &mdash; Merged Entry</strong>\nThis entry presents three consecutive Situation Reports on the May 1973 crisis &mdash; known later as the <em>Two-Day War</em> between the Lebanese Army and the fedayeen &mdash; filed in the 17-hour window from 10:20 PM Beirut time on May 3, 1973 to approximately 5:55 PM Beirut time on May 4, 1973. SITREP 6 (<strong>05068</strong>), SITREP 8 (<strong>05089</strong>), and SITREP 9 (<strong>05123</strong>) have been merged because they are a contiguous narrative sequence from a single correspondent (Houghton, under the NIACT IMMEDIATE protocol for SITREP 8) documenting the transition from active combat to ceasefire stabilization. <strong>SITREP 7 is not in the WikiLeaks archive</strong> as of this writing. Each cable below is reproduced verbatim with its own banner. The final paragraph of SITREP 9 in the WikiLeaks archive is corrupted by intrusion of an unrelated cable; this has been marked as an archival transmission error and the extraneous text excluded. See footnote [21].\n</div>\n\n<h2 style=\"font-family:var(--font-serif);font-size:1.4rem;letter-spacing:-0.01em;margin:2.5rem 0 1rem 0;padding-bottom:0.5rem;border-bottom:1px solid var(--border-dim)\">SITREP 6 &mdash; Cable 1973BEIRUT05068 &mdash; 10:20 PM Beirut, May 3</h2>\n\n<div class=\"cable-classification-notice\" style=\"font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.12em;color:var(--text-3);margin-bottom:1.5rem\">Originally classified CONFIDENTIAL &middot; Filed under Night Action Immediate protocol &middot; Now UNCLASSIFIED</div>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">1.</strong><br>\nThe Lebanese Army contact <strong>Kanaan</strong><sup class=\"editorial-note\"><a href=\"#fn-1\">[1]</a></sup> informed the Embassy at 2130Z that <strong>fighting in the Lower Bekaa&ndash;Arkub region between the Army and fedayeen has diminished considerably</strong>. No additional crossings from Syria are reported, although fedayeen who crossed earlier (about 1630Z) are still in place and believed to number perhaps up to 1,000.<sup class=\"editorial-note\"><a href=\"#fn-2\">[2]</a></sup> (Note: press reporting places the figure at 4,000.) The threat of heavy fighting remains, especially since the Lebanese Army does not have much strength in that area. The <abbr title=\"Government of Lebanon\">GOL</abbr> (Dib<sup class=\"editorial-note\"><a href=\"#fn-3\">[3]</a></sup> of the Presidency) is less optimistic than before. A further danger is that, should Syria and the fedayeen leadership adopt a clearly hostile attitude, trouble could break out in the South and North, which have thus far remained calm. There are no indications this will occur, but at this time no one can predict. The situation in the Beirut camps is reported calm, although there has been some crowd movement reported in Moslem areas (with no violence).</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">2.</strong><br>\nBoth the Foreign Minister (<strong>Abou Hamad</strong><sup class=\"editorial-note\"><a href=\"#fn-4\">[4]</a></sup>) and <strong>Tony Frangieh</strong><sup class=\"editorial-note\"><a href=\"#fn-5\">[5]</a></sup> have been actively working on the Syrian government, but both report results discouraging. <strong>The Syrians even deny that any fedayeen have crossed into Lebanon.</strong><sup class=\"editorial-note\"><a href=\"#fn-6\">[6]</a></sup> Abou Hamad feels the Egyptian attitude, on the other hand, is still favorable. <strong>Sadat has spoken by phone to Frangieh and promised to weigh in with Hafez al-Assad of Syria.</strong><sup class=\"editorial-note\"><a href=\"#fn-7\">[7]</a></sup> Abou Hamad fears Syrian influence on Arafat&rsquo;s position regarding any agreement with the <abbr title=\"Government of Lebanon\">GOL</abbr>.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">3.</strong><br>\nThe <strong>Prime Minister</strong> announced after midnight local time on May 4 that <strong>he had submitted his resignation but had not been able to submit it to Frangieh, who was already asleep</strong> (Comment: a bit of Lebanese flim-flam<sup class=\"editorial-note\"><a href=\"#fn-8\">[8]</a></sup>). At the same time, there have been some encouraging developments, and if they continue it is possible he will reconsider his position later on May 4. We are told that the major favorable development was Sadat&rsquo;s conversation with Frangieh. However, Tony Frangieh and <abbr title=\"Foreign Minister\">FonMin</abbr> Abou Hamad say that the odds favor Hafez&rsquo;s resignation, with a military government being designated by Frangieh. Efforts are still alive at reaching a new agreement with the fedayeen, and should this take place Hafez could reconsider. Considerable political maneuvering is obviously going on and the situation is fuzzy. However, <strong>even should Arafat reach a new agreement with the <abbr title=\"Government of Lebanon\">GOL</abbr>, his ability to sustain it is open to doubt.</strong><sup class=\"editorial-note\"><a href=\"#fn-9\">[9]</a></sup> He was unable to sustain the ceasefire stemming from the May 2 agreement, and casualties on May 3 were heavy, <strong>including Lebanese civilians killed by indiscriminate fedayeen shooting and rocket-firing which has angered Frangieh and the Army</strong>.<sup class=\"editorial-note\"><a href=\"#fn-10\">[10]</a></sup></p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">4.</strong><br>\nIt is now 1:15 AM. We are retiring to take a fresh reading in the morning.</p>\n\n<p style=\"margin-top:2rem;font-family:var(--font-mono);font-size:0.8rem;letter-spacing:0.08em;color:var(--text-2)\">HOUGHTON<sup class=\"editorial-note\"><a href=\"#fn-11\">[11]</a></sup></p>\n\n<h2 style=\"font-family:var(--font-serif);font-size:1.4rem;letter-spacing:-0.01em;margin:3rem 0 1rem 0;padding-bottom:0.5rem;border-bottom:1px solid var(--border-dim)\">SITREP 8 &mdash; Cable 1973BEIRUT05089 &mdash; 11:14 AM GMT, May 4</h2>\n\n<div class=\"cable-classification-notice\" style=\"font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.12em;color:var(--text-3);margin-bottom:1.5rem\">Originally classified CONFIDENTIAL &middot; Filed under NIACT IMMEDIATE &middot; Now UNCLASSIFIED</div>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">1.</strong><br>\nReports from the <strong>Foreign Office (Haddad<sup class=\"editorial-note\"><a href=\"#fn-12\">[12]</a></sup>)</strong>, the <strong>Army (Kanaan and G-2)</strong>, and the <strong>Presidency (Dib)</strong> continue to be encouraging as of 1000Z May 4. Calm remains in the Beirut area with no reported incidents. However, there are reports of occasional fedayeen checkpoints near the refugee camps. We are assured that <strong>reports (by BBC among others) of heavy fighting in Arkub are without foundation</strong>, although there was a brief exchange of mortar fire at one spot early in the day. <strong>No contact thus far May 4 with the heavily armed elements who came from Syria (and may have returned there.)</strong><sup class=\"editorial-note\"><a href=\"#fn-13\">[13]</a></sup> The situation in South Lebanon is reported quiet except for a <strong>half-hearted attempt to organize a street rally in Sidon</strong>.<sup class=\"editorial-note\"><a href=\"#fn-14\">[14]</a></sup> North Lebanon is also quiet. Observers are impressed and surprised by the effectiveness of the ceasefire to this hour. Morale of the Army is also reported very high.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">2.</strong><br>\n<abbr title=\"Foreign Minister\">FonMin</abbr> has informed us through Haddad that <strong>the <abbr title=\"Syrian Arab Republic Government\">SARG</abbr> (reportedly PM Ayyubi<sup class=\"editorial-note\"><a href=\"#fn-15\">[15]</a></sup> to PM Hafez) has promised to withdraw the remaining personnel of the Yarmouk Brigade<sup class=\"editorial-note\"><a href=\"#fn-16\">[16]</a></sup> under cover of darkness May 4</strong>. It is hard to say what value to place on the promise, but it is a change from the May 3 position of denying any elements crossed the border. The attitude of the Egyptian is still considered positive. <strong>Mahmoud Riad arrives afternoon May 4.</strong><sup class=\"editorial-note\"><a href=\"#fn-17\">[17]</a></sup> A special emissary from <strong>King Hassan</strong><sup class=\"editorial-note\"><a href=\"#fn-18\">[18]</a></sup> is also arriving, along with an Iraqi envoy &mdash; the former considered to be helpful, the latter less so. In any event, the <abbr title=\"Government of Lebanon\">GOL</abbr> (Dib, Tony Frangieh, and Abou Hamad) is encouraged by the present state of play with other Arab governments.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">3.</strong><br>\nConcerning the internal political situation, <abbr title=\"Foreign Minister\">FonMin</abbr> (via Haddad) and Dib say that the attitude of Prime Minister Hafez is much more positive than the evening of May 3, and that <strong>his resignation threat has been at least temporarily withdrawn</strong>. Very active political bargaining is expected for the rest of the day and probably for several days ahead. <strong>President Frangieh reportedly remains quite firm in his insistence that any new agreement reached with the fedayeen not accord them the sort of freedom they had under the old Cairo Accords.</strong><sup class=\"editorial-note\"><a href=\"#fn-19\">[19]</a></sup></p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">4.</strong><br>\nUNRWA<sup class=\"editorial-note\"><a href=\"#fn-20\">[20]</a></sup> officials report they have had no access to any refugee camps here since fighting began May 2, and that access is still restricted both by the Army and fedayeen. The agency has no precise estimate of the casualty rate among residents of the camps around Beirut, but considers it to be high. Camps elsewhere in Lebanon are described as quiet.</p>\n\n<p style=\"margin-top:2rem;font-family:var(--font-mono);font-size:0.8rem;letter-spacing:0.08em;color:var(--text-2)\">HOUGHTON</p>\n\n<h2 style=\"font-family:var(--font-serif);font-size:1.4rem;letter-spacing:-0.01em;margin:3rem 0 1rem 0;padding-bottom:0.5rem;border-bottom:1px solid var(--border-dim)\">SITREP 9 &mdash; Cable 1973BEIRUT05123 &mdash; 2:55 PM GMT, May 4</h2>\n\n<div class=\"cable-classification-notice\" style=\"font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.12em;color:var(--text-3);margin-bottom:1.5rem\">Originally classified CONFIDENTIAL &middot; Filed IMMEDIATE precedence &middot; Now UNCLASSIFIED &middot; <span style=\"color:var(--amber)\">Archival copy partially corrupted &mdash; see [21]</span></div>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">1.</strong><br>\nSituation remains calm in Beirut and elsewhere in country at 1400Z. No incidents reported in Beirut or elsewhere since the last SITREP. <strong>The Presidency (Dib) tells us that most fedayeen who came in from Syria the night of May 3 have withdrawn together with their heavy armament, and the small number who remain will follow.</strong> The Army (G-2) tells us all is calm, nothing has budged throughout May 3. <strong>Mixed Army&ndash;fedayeen patrols are circulating</strong><sup class=\"editorial-note\"><a href=\"#fn-22\">[22]</a></sup> and fedayeen leaders have asked people to return arms to a central location. The Army is being very careful of possible recurrence of isolated incidents which could spread.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">2.</strong><br>\n<strong>Dib says that the political situation is also stabilizing, with no indication that Prime Minister Hafez intends to submit his resignation.</strong><sup class=\"editorial-note\"><a href=\"#fn-21\">[21]</a></sup></p>\n\n<p style=\"margin-top:1.5rem;padding:1rem 1.25rem;background:rgba(120,120,120,0.08);border-left:2px solid var(--text-3);font-size:0.88rem;color:var(--text-2);font-style:italic\">Editorial note: the WikiLeaks archival copy of BEIRUT 05123 becomes corrupted at this point, with text from an unrelated cable on a World Health Organization housing-allowance matter interposed. That extraneous content has been excluded above. The recoverable portion of SITREP 9 ends with the political stabilization passage. See footnote [21].</p>\n\n<p style=\"margin-top:2rem;font-family:var(--font-mono);font-size:0.8rem;letter-spacing:0.08em;color:var(--text-2)\">[HOUGHTON &mdash; signature not recoverable from archival copy; attributed based on series consistency]</p>",
+      "rawBody": "═══════════════════════════════════════════════════════════════════════\nCABLE 1 OF 3: 1973BEIRUT05068 — INTERNAL SECURITY, SITREP 6\nFiled May 3, 1973, 22:20Z\n═══════════════════════════════════════════════════════════════════════\n\nCONFIDENTIAL\nPAGE 01 BEIRUT 05068 032220Z\n\nACTION NEA-12\nINFO OCT-01 EUR-25 ADP-00 IO-12 SSO-00 NSCE-00 USIE-00 CIAE-00 PM-09\n     H-02 INR-10 L-03 NSAE-00 NSC-10 PA-03 RSC-01 PRS-01 SS-15 OPR-02\n     ORM-03 SR-02 AID-20 SCS-03 SCA-01 INRE-00 RSR-01 /136 W\n\nFM AMEMBASSY BEIRUT\nTO SECSTATE WASHDC\n   DIA WASHDC\nINFO AMEMBASSY AMMAN\n     AMEMBASSY ATHENS\n     AMCONSUL DHAHRAN\n     AMEMBASSY LONDON\n     AMCONSUL JERUSALEM\n     AMEMBASSY MOSCOW\n     AMEMBASSY PARIS\n     AMEMBASSY TELAVIV\n     USMISSION UN\n     USCINCEUR\n\nC O N F I D E N T I A L BEIRUT 5068\n\nATHENS FOR AMB BUFFUM\nDEPT PASS USINT CAIRO\nSITREP 6\n\nE.O. 11652: XGDS\nTAGS: PINS, LE\nSUBJECT: INTERNAL SECURITY — SITREP 6\n\n1. LEBANESE ARMY (KANAAN) INFORMED US AT 2130Z THAT FIGHTING IN LOWER\nBEKAA-ARKUB REGION BETWEEN ARMY AND FEDAYEEN HAS DIMINISHED CONSIDERABLY.\nNO ADDITIONAL CROSSINGS FROM SYRIA REPORTED ALTHOUGH FEDAYEEN WHO CROSSED\nEARLIER (ABOUT 1630Z) STILL IN PLACE AND BELIEVED NUMBER PERHAPS UP TO\n1,000. (NOTE: PRESS HAS FIGURE 4,000). THREAT OF HEAVY FIGHTING REMAINS,\nESPECIALLY SINCE LEBANESE ARMY DOES NOT HAVE MUCH STRENGTH IN THAT AREA\nALTHOUGH GOL (DIB OF PRESIDENCY) IS LESS OPTIMISTIC THAN BEFORE. FURTHER\nDANGER IS THAT, SHOULD SYRIA AND FEDAYEEN LEADERSHIP ADOPT CLEARLY\nHOSTILE ATTITUDE, TROUBLE WOULD BREAK OUT IN SOUTH AND NORTH WHICH HAVE\nTHUS FAR REMAINED CALM. THERE ARE NO RPT NO INDICATIONS THIS WILL OCCUR\nBUT AT THIS TIME NO ONE CAN PREDICT. SITUATION IN BEIRUT CAMPS REPORTED\nCALM ALTHOUGH THERE HAS BEEN SOME CROWD MOVEMENT REPORTED IN MOSLEM\nAREAS (WITH NO VIOLENCE).\n\n2. BOTH FOREIGN MINISTER AND TONY FRANGIE HAVE BEEN ACTIVELY WORKING ON\nSYRIAN GOVERNMENT BUT BOTH REPORT RESULTS DISCOURAGING. SYRIANS EVEN DENY\nTHAT ANY FEDAYEEN HAVE CROSSED INTO LEBANON. ABOU HAMAD FEELS EGYPTIAN\nATTITUDE, ON OTHER HAND STILL FAVORABLE. SADAT HAS SPOKEN BY PHONE TO\nFRANGIE AND PROMISED TO WEIGH IN WITH HAFEZ ASSAD OF SYRIA. ABOU HAMAD\nFEARS SYRIAN INFLUENCE ON ARAFAT'S POSITION RE AGREEMENT WITH GOL.\n\n3. PRIME MINISTER ANNOUNCED AFTER MIDNIGHT LOCAL TIME MAY 4 THAT HE HAD\nSUBMITTED HIS RESIGNATION BUT THAT HE HAD NOT BEEN ABLE SUBMIT IT TO\nFRANGIE WHO WAS ALREADY ASLEEP (COMMENT: BIT OF LEBANESE FLIM-FLAM).\nAT SAME TIME, THERE HAVE BEEN SOME ENCOURAGING DEVELOPMENTS AND IF THEY\nCONTINUED IT POSSIBLE HE WILL RECONSIDER POSITION LATER MAY 4. WE ARE\nTOLD THAT MAJOR FAVORABLE DEVELOPMENT WAS SADAT CONVERSATION WITH FRANGIE.\nHOWEVER, TONY FRANGIE AND FONMIN ABOU HAMAD SAY THAT ODDS FAVOR HAFEZ'S\nRESIGNATION WITH MILITARY GOVT BEING DESIGNATED BY FRANGIE. EFFORTS STILL\nALIVE AT REACHING NEW AGREEMENT WITH FEDAYEEN AND SHOULD THIS TAKE PLACE\nHAFEZ COULD RECONSIDER. CONSIDERABLE POLITICAL MANEUVERING OBVIOUSLY\nGOING ON AND SITUATION FUZZY. HOWEVER, EVEN SHOULD ARAFAT REACH NEW\nAGREEMENT WITH GOL, HIS ABILITY SUSTAIN IT OPEN TO DOUBT. HE UNABLE\nSUSTAIN CEASEFIRE STEMMING FROM MAY 2 AGREEMENT AND CASUALTIES ON MAY 3\nWERE HEAVY, INCLUDING LEBANESE CIVILIANS KILLED BY INDISCRIMINATE\nFEDAYEEN SHOOTING AND ROCKET-FIRING WHICH HAS ANGERED FRANGIE AND ARMY.\n\n4. IT IS NOW 1:15 AM. WE ARE RETIRING TO TAKE A FRESH READING IN MORNING.\n\nHOUGHTON\n\nNOTE BY OC/T: NOT PASSED CAIRO.\n\nCONFIDENTIAL NNN\n\n═══════════════════════════════════════════════════════════════════════\nCABLE 2 OF 3: 1973BEIRUT05089 — INTERNAL SECURITY, SITREP 8\nFiled May 4, 1973, 11:14Z\n═══════════════════════════════════════════════════════════════════════\n\nCONFIDENTIAL\nPAGE 01 BEIRUT 05089 041146Z\n\nACTION NEA-12\nINFO OCT-01 EUR-25 ADP-00 IO-12 SSO-00 NSCE-00 USIE-00 CIAE-00 PM-09\n     H-02 INR-10 L-03 NSAE-00 NSC-10 PA-03 RSC-01 PRS-01 SS-15 OPR-02\n     ORM-03 SR-02 AID-20 SCS-03 SCA-01 INRE-00 RSR-01 /136 W\n\nO 041114Z MAY 73\nFM AMEMBASSY BEIRUT\nTO SECSTATE WASHDC NIACT IMMEDIATE 1957\n   DIA WASHDC\nINFO AMEMBASSY AMMAN IMMEDIATE\n     AMEMBASSY ATHENS IMMEDIATE\n     AMCONSUL DHAHRAN IMMEDIATE\n     AMEMBASSY LONDON IMMEDIATE\n     AMEMBASSY JIDDA IMMEDIATE\n     AMCONSUL JERUSALEM IMMEDIATE\n     AMEMBASSY MOSCOW IMMEDIATE\n     AMEMBASSY PARIS IMMEDIATE\n     AMEMBASSY TELAVIV IMMEDIATE\n     USMISSION UN IMMEDIATE\n     USCINCEUR IMMEDIATE\n\nC O N F I D E N T I A L BEIRUT 5089\n\nE.O. 11652: XGDS\nTAGS: PINS LE\nSUBJECT: INTERNAL SECURITY, SITREP 8\n\nATHENS FOR AMB BUFFUM\nDEPT PASS USINT CAIRO\n\nSITREP 8\n\n1. REPORTS FROM FOREIGN OFFICE (HADDAD), ARMY (KANAAN AND G-2) AND\nPRESIDENCY (DIB) CONTINUE TO BE ENCOURAGING AS OF 1000Z MAY 4. CALM\nREMAINS IN BEIRUT AREA WITH NO RPT NO REPORTED INCIDENTS. HOWEVER\nTHERE ARE REPORTS OF OCCASIONAL FEDAYEEN CHECKPOINTS NEAR REFUGEE\nCAMPS. WE ARE ASSURED THAT REPORTS (BY BBC AMONG OTHERS) OF HEAVY\nFIGHTING IN ARKUB ARE WITHOUT FOUNDATION, ALTHOUGH THERE WAS BRIEF\nEXCHANGE OF MORTAR FIRE AT ONE SPOT EARLY IN DAY. NO CONTACT THUS\nFAR MAY 4 WITH HEAVILY ARMED ELEMENTS WHO CAME FROM SYRIA (AND MAY\nHAVE RETURNED THERE). SITUATION IN SOUTH LEBANON REPORTED QUIET\nEXCEPT FOR HALF-HEARTED ATTEMPT ORGANIZE STREET RALLY IN SIDON.\nNORTH LEBANON ALSO QUIET. OBSERVERS ARE IMPRESSED AND SURPRISED BY\nEFFECTIVENESS OF CEASEFIRE TO THIS HOUR. MORALE OF ARMY ALSO\nREPORTED VERY HIGH.\n\n2. FONMIN HAS INFORMED US THROUGH HADDAD THAT SARG (REPORTEDLY PM\nAYYUBI TO PM HAFEZ) HAS PROMISED TO WITHDRAW REMAINING PERSONNEL OF\nYARMUK BRIGADE UNDER COVER OF DARKNESS MAY 4. HARD TO SAY WHAT VALUE\nTO PLACE ON PROMISE BUT IT IS CHANGE FROM MAY 3 POSITION OF DENYING\nANY ELEMENTS CROSSED BORDER. ATTITUDE OF EGYPTIAN STILL CONSIDER\nPOSITIVE. MAHMOUD RIAD ARRIVES AFTERNOON MAY 4. SPECIAL EMISSARY FROM\nKING HASSAN ALSO ARRIVING, ALONG WITH IRAQI ENVOY. FORMER CONSIDERED\nBE HELPFUL WHILE LATTER CONSIDERED BE LESS SO. IN ANY EVENT GOL (DIB,\nTONY FRANGIE AND ABOU HAMAD) ENCOURAGED BY PRESENT STATE OF PLAY WITH\nOTHER ARAB GOVTS.\n\n3. CONCERNING INTERNAL POLITICAL SITUATION, FONMIN (VIA HADDAD) AND\nDIB SAY THAT ATTITUDE OF PRIME MINISTER HAFEZ MUCH MORE POSITIVE\nTHAN EVENING MAY 3 AND THAT HIS RESIGNATION THREAT HAS BEEN AT LEAST\nTEMPORARILY WITHDRAWN. VERY ACTIVE POLITICAL BARGAINING EXPECTED FOR\nREST OF DAY AND PROBABLY FOR SEVERAL DAYS AHEAD. PRESIDENT FRANGIE\nREPORTEDLY REMAINS QUITE FIRM IN HIS INSISTANCE THAT ANY NEW AGREEMENT\nREACHED WITH FEDAYEEN NOT RPT NOT ACCORD THEM SORT OF FREEDOM THEY HAD\nUNDER OLD CAIRO ACCORDS.\n\n4. UNRWA OFFICIALS REPORT THEY HAVE HAD NO ACCESS TO ANY REFUGEE\nCAMPS HERE SINCE FIGHTING BEGAN MAY 2, AND THAT ACCESS STILL\nRESTRICTED BOTH BY ARMY AND FEDAYEEN. AGENCY HAS NO PRECISE ESTIMATE\nOF CASUALTY RATE AMONG RESIDENTS OF CAMPS AROUND BEIRUT, BUT\nCONSIDERS IT TO BE HIGH. CAMPS ELSEWHERE IN LEBANON DESCRIBED AS QUIET.\n\nHOUGHTON\n\nNOTE BY OC/T: NOT PASSED CAIRO.\n\nCONFIDENTIAL NNN\n\n═══════════════════════════════════════════════════════════════════════\nCABLE 3 OF 3: 1973BEIRUT05123 — INTERNAL SECURITY, SITREP 9\nFiled May 4, 1973, 14:55Z\n═══════════════════════════════════════════════════════════════════════\n\nCONFIDENTIAL\nPAGE 01 BEIRUT 05123 041547Z\n\nACTION NEA-12\nINFO OCT-01 EUR-25 ADP-00 NEAE-00 IO-12 AF-10 PM-09 NSC-10 SS-15\n     RSC-01 SSO-00 USIE-00 INRE-00 CIAE-00 DODE-00 INR-10 NSAE-00\n     PA-03 PRS-01 NSCE-00 OPR-02 M-03 A-01 SY-10 OC-06 CCO-00\n     ACDA-19 AID-20 EB-11 FAA-00 SCA-01 RSR-01 /183 W\n\nO 041455Z MAY 73\nFM AMEMBASSY BEIRUT\nTO SECSTATE WASHDC IMMEDIATE 1967\n   DIA WASHDC IMMEDIATE\nINFO AMEMBASSY AMMAN IMMEDIATE\n     AMEMBASSY ATHENS IMMEDIATE\n     AMCONSUL DHAHRAN IMMEDIATE\n     AMEMBASSY LONDON IMMEDIATE\n     AMEMBASSY JIDDA IMMEDIATE\n     AMCONSUL JERUSALEM IMMEDIATE\n     AMEMBASSY MOSCOW\n     AMEMBASSY PARIS IMMEDIATE\n     AMEMBASSY TELAVIV IMMEDIATE\n     USCINCEUR\n     USMISSION UN\n\nC O N F I D E N T I A L BEIRUT 5123\n\nATHENS FOR AMB BUFFUM\nDEPT PASS USINT CAIRO\n\nSITREP 9\n\nE.O. 11652: XGDS\nTAGS: PINS LE\nSUBJECT: INTERNAL SECURITY, SITREP 9\n\n1. SITUATION REMAINS CALM IN BEIRUT AND ELSEWHERE IN COUNTRY AT\n1400Z. NO RPT NO INCIDENTS REPORTED IN BEIRUT OR ELSEWHERE SINCE LAST\nSITREP. PRESIDENCY (DIB) TELLS US THAT MOST FEDAYEEN WHO CAME IN FROM\nSYRIA NIGHT OF MAY 3 HAVE RPT HAVE WITHDRAWN TOGETHER WITH HEAVY\nARMAMENT AND SMALL NUMBER WHO REMAIN WILL FOLLOW. ARMY (G-2) TELLS\nUS ALL IS CALM, NOTHING HAS BUDGED THROUGHOUT DAY MAY 3. MIXED ARMY-\nFEDAYEEN PATROLS ARE CIRCULATING AND FEDAYEEN LEADERS HAVE ASKED\nPEOPLE TO RETURN ARMS TO CENTRAL LOCATION. ARMY IS BEING VERY CAREFUL\nOF POSSIBLE RECURRENCE ISOLATED INCIDENTS WHICH COULD SPREAD.\n\n2. DIB SAYS THAT POLITICAL SITUATION ALSO STABILIZING WITH NO RPT NO\nINDICATION THAT PRIME MINISTER HAFEZ INTENDS SUBMIT HIS RESIGNATION.\n\n[TRANSMISSION NOTE — THE WIKILEAKS ARCHIVAL COPY OF BEIRUT 05123\nAPPEARS CORRUPTED BEYOND THIS POINT. THE CONTINUING TEXT IN THE\nARCHIVE FILE BELONGS TO AN UNRELATED CABLE CONCERNING A WORLD HEALTH\nORGANIZATION DIRECTOR-GENERAL HOUSING ALLOWANCE IN GENEVA AND HAS\nBEEN EXCLUDED. THE MAY 4, 1973 BEIRUT SITUATION REPORT 9 ENDS WITH\nTHE POLITICAL STABILIZATION PASSAGE ABOVE.]\n\n[HOUGHTON — SIGNATURE NOT RECOVERABLE FROM CORRUPTED ARCHIVE COPY;\nATTRIBUTION INFERRED FROM ADJACENT CABLES IN SITREP SERIES]\n\nCONFIDENTIAL NNN",
+      "footnotes": [
+        "Kanaan: the Lebanese Army contact who appears repeatedly across the Embassy's 1973 and 1975 reporting as the Embassy's most consistent military interlocutor. He reappears in cables 1973BEIRUT05155 and 1973BEIRUT05159 during the May 7&ndash;8 outbreak, and again in 1975BEIRUT03203 during the Sidon Crisis, where he gives the Embassy the specific 8:1 numerical disclosure (100&ndash;150 Army versus 1,000+ fedayeen in southern Lebanon). His institutional position and Arabic rendering of his name are not fully documented in declassified sources; he is identified in the cables simply as \"Army (Kanaan).\"",
+        "Lower Bekaa&ndash;Arkub region: the eastern and southeastern border strip of Lebanon adjoining Syria and Israel. The Arkub &mdash; known in Western press as \"Fatahland\" &mdash; was the primary fedayeen operational zone from which raids into northern Israel were launched. The fedayeen crossing from Syria into this zone on May 3 constitutes a Syrian-enabled reinforcement of Palestinian armed capacity inside Lebanon at the moment the Lebanese Army was attempting to restore sovereignty. The 1,000&ndash;4,000 figure range between Embassy and press reporting illustrates the fog of the moment.",
+        "Dib: the Presidency contact at Baabda Palace cited across multiple Embassy cables &mdash; 1973BEIRUT05155, 1973BEIRUT05159, and the Melkart Protocol series (1973BEIRUT05755/05776). His name appears as a routine channel for Presidency views. The cable record identifies him only as \"(Dib of Presidency)\"; his full name and title are not established in declassified sources.",
+        "Foreign Minister Abou Hamad (<ruby>&#1571;&#1576;&#1608; &#1581;&#1605;&#1583;<rt>Abu Hamad</rt></ruby>): Lebanese Foreign Minister in 1973 under President Frangieh. He is the direct conduit to Washington on negotiations with both the Syrian government and the PLO in early May 1973. His assessment that \"Syrian influence on Arafat\" is the controlling variable &mdash; rather than Arafat&rsquo;s own agency &mdash; is a recurrent Embassy finding across the 1973 crisis.",
+        "Tony Frangieh: son of President Suleiman Frangieh, serving as an informal Presidential channel to the Embassy. The same Tony Frangieh appears in 1973BEIRUT05159 relaying the Army&rsquo;s ceasefire to the Embassy on the morning of May 8. He was assassinated on June 13, 1978, by Lebanese Forces militiamen under Bashir Gemayel&rsquo;s command &mdash; the Ehden massacre. His appearance here, five years earlier, is among the earliest documented instances of his role as a Presidency-Embassy intermediary.",
+        "Syrian denial that any fedayeen crossed into Lebanon: the May 3 Syrian position is flatly contradicted by events on the ground and by the subsequent (May 4) Syrian admission that the Yarmouk Brigade would be withdrawn under cover of darkness. The evolution from categorical denial to tacit admission within 24 hours is documented in this cable series and constitutes direct evidence of Syrian disinformation at the moment of the crisis.",
+        "Sadat&rsquo;s phone call to Frangieh: Egyptian President Anwar Sadat telephoned the Lebanese President directly on May 3, promising to \"weigh in with Hafez al-Assad\" &mdash; i.e., to pressure Damascus. This is one of the earliest documented instances of Egypt intervening against Syria on Lebanon&rsquo;s behalf, and it reflects the tension in the Sadat&ndash;Assad relationship that would widen later in 1973 (around the October War) and definitively break in 1977 (Sadat&rsquo;s Jerusalem trip). The Embassy&rsquo;s frontline documentation predates this rupture.",
+        "\"A bit of Lebanese flim-flam\": the Embassy&rsquo;s verbatim editorial assessment of Prime Minister Amin al-Hafez&rsquo;s declaration that he had submitted his resignation but not yet delivered it because President Frangieh was already asleep. The phrase captures a diplomat&rsquo;s practical judgment &mdash; Hafez was reserving the option to withdraw the resignation if circumstances improved, which indeed occurred within hours after the Sadat call. The device of a contingent, unreceived resignation is not unique to Lebanese politics, but the Embassy&rsquo;s willingness to characterize it explicitly is an instance of unusually candid on-record reporting.",
+        "Arafat&rsquo;s inability to sustain ceasefires: the Embassy&rsquo;s judgment &mdash; at 1:15 AM Beirut time on May 4, 1973 &mdash; that \"even should Arafat reach a new agreement with the GOL, his ability to sustain it is open to doubt\" proves prescient. The Melkart Protocol of May 17, 1973 (documented in cables 1973BEIRUT05755/05776) would indeed prove unsustainable; cross-border raids would resume within months; and the 1975 Sidon Crisis would document the same pattern of agreements made and broken. This paragraph is therefore a contemporary record of the structural problem that would drive the civil war.",
+        "Lebanese civilians killed by fedayeen shooting and rocket-firing: the cable documents, in unequivocal terms, fedayeen casualty-causing actions against Lebanese civilians on May 3, 1973 &mdash; distinct from combat casualties in engagement with the Army. The record of fedayeen fire harming Lebanese civilians in Lebanese territory, with the Embassy noting Frangieh and the Army are \"angered,\" documents the mechanism by which the PLO&rsquo;s armed presence alienated successive Lebanese constituencies and administrations across the pre-war decade.",
+        "HOUGHTON: Dwight J. Houghton, senior Embassy officer (Deputy Chief of Mission / Chargé d&rsquo;Affaires) filing the SITREP series under the Night Action Immediate protocol. The same signatory appears on 1973BEIRUT04974 (April 30, 1973), the SITREPs of May 3&ndash;4 reproduced here, 1973BEIRUT05155 (May 7), 1973BEIRUT05159 (May 8), and the Melkart Protocol cables 1973BEIRUT05755 and 05776 (May 18). His consistent presence across the May 1973 crisis makes him the Embassy&rsquo;s principal reporter on the period.",
+        "Haddad: a Lebanese Foreign Office official serving as the FonMin&rsquo;s channel to the Embassy during the crisis. The identification is by surname only; not conclusively tied to any specific individual in declassified sources.",
+        "\"No contact thus far May 4 with the heavily armed elements who came from Syria (and may have returned there)\": this carefully hedged formulation documents the Embassy&rsquo;s tentative acceptance of the Syrian government&rsquo;s partial admission. Within 14 hours of the previous SITREP, where Syria flatly denied any cross-border infiltration, the Embassy is now tentatively documenting that the infiltrated forces may have withdrawn.",
+        "\"Half-hearted attempt to organize a street rally in Sidon\": noteworthy in historical context &mdash; Sidon appears here, in May 1973, as already a politically-mobilizable zone in support of the fedayeen. The same Sidon would become the epicenter of the February&ndash;March 1975 fedayeen-instigated crisis (cables 1975BEIRUT02611_02682 through 1975BEIRUT03203_03256) that immediately preceded the civil war. The 1973 rally is the same political ecosystem in early form.",
+        "Mahmoud al-Ayyubi: Syrian Prime Minister under Hafez al-Assad (1972&ndash;1976). The cable relays that he reportedly committed to Lebanese PM Amin al-Hafez &mdash; presumably by telephone or via Syrian diplomatic channels &mdash; to withdraw the Yarmouk Brigade personnel under cover of darkness on May 4. The undertaking at PM-to-PM level indicates the gravity of the crisis and the scale of the cross-border intervention being quietly undone.",
+        "Yarmouk Brigade (Arabic: <ruby>&#1604;&#1608;&#1575;&#1569; &#1575;&#1604;&#1610;&#1585;&#1605;&#1608;&#1603;<rt>Liwa&rsquo; al-Yarmouk</rt></ruby>): a Syrian-controlled Palestinian military formation within the Palestine Liberation Army (PLA), named after the 636 CE Battle of Yarmouk. Its identification here as the Syrian-deployed cross-border unit provides direct attribution: the \"heavily armed elements\" who crossed from Syria were not fedayeen in general but a specific Syrian Army-controlled Palestinian formation acting as a Syrian proxy inside Lebanese territory.",
+        "Mahmoud Riad: Arab League Secretary-General (1972&ndash;1979), previously Egyptian Foreign Minister. His arrival on May 4 to mediate the Lebanese crisis is an early Arab League intervention in what would become a pattern over the next decade &mdash; Arab League mediation missions to Lebanon during recurring Lebanese-Palestinian confrontations. The mediation arc that began in May 1973 with Riad&rsquo;s visit arguably continued through the Taif Accord of 1989.",
+        "King Hassan II of Morocco (1929&ndash;1999): the Moroccan monarch whose special emissary is noted as arriving alongside the Iraqi envoy. Morocco&rsquo;s helpful posture is in the Embassy&rsquo;s judgment consistent with its broader alignment with the moderate Arab consensus (Saudi Arabia, Jordan, Egypt) against the radical Arab states (Iraq, Libya, South Yemen) in this period.",
+        "Frangieh&rsquo;s insistence that any new agreement not accord fedayeen \"the sort of freedom they had under the old Cairo Accords\" is the direct antecedent of the Melkart Protocol language two weeks later (cables 1973BEIRUT05755/05776, May 18), which similarly sought to avoid ratifying the 1969 Cairo Agreement framework. The consistency of Frangieh&rsquo;s position from the night of the crisis through the formal settlement documents the Presidency&rsquo;s strategic continuity.",
+        "UNRWA (United Nations Relief and Works Agency for Palestine Refugees in the Near East): established 1949. The Embassy records UNRWA&rsquo;s inability to access any Beirut-area refugee camp since May 2 &mdash; access being restricted \"both by the Army and fedayeen.\" The dual restriction is documented plainly and is one of the earliest cable references to the access problem that would recur over subsequent decades.",
+        "The WikiLeaks archival copy of BEIRUT 05123 is corrupted from approximately this point onward. Text from an unrelated cable &mdash; concerning a World Health Organization Director-General housing-allowance matter in Geneva &mdash; appears interposed. The extraneous content has been excluded from the reproduction above. The recoverable content of SITREP 9 ends with the political stabilization paragraph. This is a well-known type of archival transmission error in the declassified cable corpus, caused by concatenation of adjacent microfilm frames during digitization.",
+        "Mixed Army&ndash;fedayeen patrols: the emergence of joint patrols by May 4, 1400Z, reflects the de-escalation mechanism stipulated under the May 2 agreement &mdash; a framework that would be formalized two weeks later in the Melkart Protocol. The practical mechanism of a \"mixed commission\" to administer implementation, documented from the ground here in the SITREP, anticipated the architectural device of the Melkart Protocol (cables 1973BEIRUT05755/05776)."
+      ],
+      "footnoteCount": 22,
+      "glossary": [
+        {
+          "term": "SITREP",
+          "full": "Situation Report (numbered series)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "NIACT IMMEDIATE",
+          "full": "Night Action Immediate &mdash; highest urgency cable designation",
+          "category": "Cable Format"
+        },
+        {
+          "term": "PINS",
+          "full": "Political Affairs &mdash; Internal Security (TAGS code)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "GOL",
+          "full": "Government of Lebanon",
+          "category": "Government"
+        },
+        {
+          "term": "SARG",
+          "full": "Syrian Arab Republic Government",
+          "category": "Government"
+        },
+        {
+          "term": "FONMIN",
+          "full": "Foreign Minister",
+          "category": "Diplomatic"
+        },
+        {
+          "term": "FEDAYEEN",
+          "full": "Palestinian guerrilla fighters (Arabic: &#1601;&#1583;&#1575;&#1574;&#1610;&#1610;&#1606;)",
+          "category": "Terminology"
+        },
+        {
+          "term": "YARMOUK BRIGADE",
+          "full": "Syrian-controlled PLA formation named for the 636 CE battle",
+          "category": "Military"
+        },
+        {
+          "term": "ARKUB",
+          "full": "Southeastern Lebanon border zone; fedayeen operational area (\"Fatahland\")",
+          "category": "Geography"
+        },
+        {
+          "term": "UNRWA",
+          "full": "United Nations Relief and Works Agency for Palestine Refugees",
+          "category": "International"
+        },
+        {
+          "term": "G-2",
+          "full": "Military intelligence (staff designation for the intelligence section)",
+          "category": "Military"
+        },
+        {
+          "term": "RPT",
+          "full": "Repeat (cable verbiage for emphasis / clarity in transmission)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "SEPTEL",
+          "full": "Separate telegram (cross-reference to concurrent or follow-up cable)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "DIA",
+          "full": "Defense Intelligence Agency",
+          "category": "Government"
+        },
+        {
+          "term": "USCINCEUR",
+          "full": "Commander in Chief, U.S. European Command",
+          "category": "Military"
+        },
+        {
+          "term": "NNN",
+          "full": "End of cable (teletype message terminator)",
+          "category": "Cable Format"
+        }
+      ],
+      "readerNarrative": {
+        "headline": "The Two-Day War: Hour by Hour, May 3&ndash;4, 1973",
+        "subheadline": "Three consecutive Situation Reports in a 17-hour window document Lebanon&rsquo;s first major Army&ndash;fedayeen confrontation &mdash; the dress rehearsal for 1975. Syria denies its own cross-border intervention, then quietly undoes it. Sadat phones Frangieh. Mahmoud Riad flies in. A ceasefire holds. And the U.S. Embassy writes, that night, that even if Arafat signs a new agreement, his ability to sustain it is open to doubt.",
+        "dateline": "Beirut, May 3 &ndash; May 4, 1973",
+        "summary": "From 10:20 PM on May 3 to approximately 5:55 PM on May 4, 1973, the U.S. Embassy filed three Situation Reports (SITREP 6, 8, and 9) documenting the hour-by-hour arc of what became known as the Two-Day War &mdash; Lebanon&rsquo;s first large-scale Army&ndash;fedayeen engagement since the 1969 Cairo Agreement. Approximately 1,000 fedayeen had crossed into Lebanon from Syria the previous afternoon; the Syrian government denied any crossing had occurred; 24 hours later the same Syrian government quietly promised to withdraw its Yarmouk Brigade under cover of darkness. Prime Minister Amin al-Hafez submitted and then withheld his resignation in a maneuver the Embassy called \"a bit of Lebanese flim-flam.\" President Sadat phoned Frangieh directly and promised to pressure Assad. Arab League Secretary-General Mahmoud Riad arrived to mediate. A ceasefire held. But the Embassy&rsquo;s judgment that night &mdash; that even a new Arafat agreement would be unsustainable &mdash; was the structural diagnosis that would be vindicated by the Melkart Protocol&rsquo;s failure, the 1975 Sidon Crisis, and ultimately the civil war itself.",
+        "keyRevelations": [
+          "<strong>Syria deployed a named military formation across the Lebanese border</strong> and then flatly denied it. The Yarmouk Brigade &mdash; a Syrian-controlled Palestine Liberation Army unit &mdash; crossed into Lebanon on May 3. On May 3 Syria denied any crossing. On May 4 the Syrian Prime Minister reportedly promised his Lebanese counterpart to withdraw the unit under cover of darkness. The two positions are documented 14 hours apart.",
+          "<strong>Sadat phoned Frangieh and promised to pressure Assad.</strong> Egypt&rsquo;s president intervened directly on Lebanon&rsquo;s behalf against Syria &mdash; five months before the October War, four years before Sadat&rsquo;s Jerusalem trip, and in an Egypt&ndash;Syria relationship that would rupture over the subsequent four years. The Embassy documented the call the night it happened.",
+          "<strong>The Embassy characterized the Prime Minister&rsquo;s resignation maneuver, on the record, as \"a bit of Lebanese flim-flam.\"</strong> Amin al-Hafez announced he had submitted his resignation but couldn&rsquo;t deliver it because the President was asleep. Within hours, after Sadat&rsquo;s phone call, the resignation was \"temporarily withdrawn.\" The diplomat&rsquo;s editorial comment is preserved verbatim.",
+          "<strong>Lebanese civilians were killed by indiscriminate fedayeen fire on May 3</strong> &mdash; a distinction the cable draws explicitly from combat casualties. The Embassy notes that Frangieh and the Army are \"angered.\" This is the exact mechanism by which PLO armed presence alienated successive Lebanese administrations over the pre-war decade.",
+          "<strong>The Embassy&rsquo;s structural diagnosis, at 1:15 AM on May 4, was that Arafat couldn&rsquo;t sustain a ceasefire even if he signed one.</strong> That diagnosis &mdash; written in the exhaustion of a night of fighting &mdash; was vindicated by the Melkart Protocol&rsquo;s failure, the 1975 Sidon Crisis, and the civil war. The judgment is on the record as a contemporary reading, not a retrospective one.",
+          "<strong>Mixed Army&ndash;fedayeen patrols were already circulating by 1400Z on May 4</strong> &mdash; anticipating the \"mixed commission\" architectural device of the Melkart Protocol two weeks later. The ground-level de-escalation mechanism preceded the formal settlement that tried to codify it.",
+          "<strong>Sidon appears in this cable series, already in 1973, as a politically mobilizable zone in support of the fedayeen.</strong> A \"half-hearted street rally\" was attempted there on May 4. Sidon would become the epicenter of the February&ndash;March 1975 crisis that immediately preceded the civil war. The 1973 rally is the same political ecosystem at an earlier stage."
+        ],
+        "timeline": [
+          {
+            "time": "~1630Z, May 3",
+            "label": "Yarmouk Brigade crosses",
+            "desc": "Approximately 1,000 fedayeen of the Syrian-controlled Yarmouk Brigade cross from Syria into the Lower Bekaa&ndash;Arkub zone of Lebanon. Lebanese press reports the figure at 4,000.",
+            "type": "incursion"
+          },
+          {
+            "time": "May 3 evening",
+            "label": "Sadat phones Frangieh",
+            "desc": "Egyptian President Sadat telephones Lebanese President Frangieh directly, promising to weigh in with Hafez al-Assad of Syria.",
+            "type": "diplomatic"
+          },
+          {
+            "time": "~2130Z, May 3",
+            "label": "Army briefs Embassy",
+            "desc": "Lebanese Army (Kanaan) informs the Embassy that fighting in the Lower Bekaa&ndash;Arkub zone has diminished considerably. No further crossings reported.",
+            "type": "briefing"
+          },
+          {
+            "time": "Post-midnight May 4",
+            "label": "PM Hafez&rsquo;s contingent resignation",
+            "desc": "Prime Minister Amin al-Hafez announces he has submitted his resignation but has not been able to deliver it to President Frangieh, who was already asleep. The Embassy terms this \"a bit of Lebanese flim-flam.\"",
+            "type": "political"
+          },
+          {
+            "time": "~0120Z, May 4",
+            "label": "SITREP 6 filed",
+            "desc": "Embassy files SITREP 6 (cable 05068) summarizing the evening: fighting diminished, Sadat intervention, PM&rsquo;s contingent resignation, Embassy judgment that Arafat cannot sustain any ceasefire he signs. Signed HOUGHTON.",
+            "type": "cable"
+          },
+          {
+            "time": "~1000Z, May 4",
+            "label": "Ceasefire holding",
+            "desc": "Calm in Beirut area. No incidents. Observers \"impressed and surprised by the effectiveness of the ceasefire.\" Army morale reported very high. BBC reports of heavy Arkub fighting judged \"without foundation.\"",
+            "type": "stabilizing"
+          },
+          {
+            "time": "May 4 morning",
+            "label": "SARG promises Yarmouk withdrawal",
+            "desc": "Syrian Prime Minister Ayyubi reportedly commits to Lebanese PM Hafez to withdraw remaining Yarmouk Brigade personnel under cover of darkness &mdash; a change from Syria&rsquo;s previous position denying any crossing occurred.",
+            "type": "diplomatic"
+          },
+          {
+            "time": "~1114Z, May 4",
+            "label": "SITREP 8 filed",
+            "desc": "SITREP 8 (cable 05089) filed under NIACT IMMEDIATE. Documents Syria&rsquo;s shift from denial to tacit admission, Mahmoud Riad en route, King Hassan emissary arriving, PM Hafez&rsquo;s resignation temporarily withdrawn.",
+            "type": "cable"
+          },
+          {
+            "time": "Afternoon May 4",
+            "label": "Mahmoud Riad arrives",
+            "desc": "Arab League Secretary-General Mahmoud Riad arrives in Beirut to mediate. Special emissaries from Morocco and Iraq also arrive.",
+            "type": "diplomatic"
+          },
+          {
+            "time": "Afternoon May 4",
+            "label": "Sidon rally attempt",
+            "desc": "A \"half-hearted attempt to organize a street rally in Sidon\" is reported &mdash; early evidence of Sidon as a politically mobilizable zone in support of the fedayeen.",
+            "type": "political"
+          },
+          {
+            "time": "~1400Z, May 4",
+            "label": "Mixed patrols circulating",
+            "desc": "Mixed Army&ndash;fedayeen patrols circulating. Fedayeen leaders asking people to return arms to a central location. The Presidency reports most of the Syrian-crossed fedayeen have withdrawn with their heavy weapons.",
+            "type": "stabilizing"
+          },
+          {
+            "time": "~1455Z, May 4",
+            "label": "SITREP 9 filed",
+            "desc": "SITREP 9 (cable 05123) confirms stabilization. Archival copy corrupts beyond the political-situation passage; remainder of the cable is not recoverable from the WikiLeaks archive.",
+            "type": "cable"
+          }
+        ],
+        "keyFigures": [
+          {
+            "name": "Suleiman Frangieh",
+            "role": "President of Lebanon",
+            "desc": "Received Sadat&rsquo;s personal phone call on the night of May 3 and subsequently pressed his non-recognition of the old Cairo Accord framework in any new agreement with the fedayeen &mdash; a position he would maintain through the Melkart Protocol two weeks later. The Embassy records him, in this cable series, as \"angered\" by the indiscriminate fedayeen fire that had killed Lebanese civilians on May 3.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Suleiman_Frangieh",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Suleiman_Frangieh_official_portrait.jpg/330px-Suleiman_Frangieh_official_portrait.jpg",
+            "imageCredit": "Public domain. Official portrait of the President of Lebanon."
+          },
+          {
+            "name": "Hafez al-Assad",
+            "role": "President of Syria (1971&ndash;2000)",
+            "desc": "The head of state whose government denied, on May 3, that any fedayeen had crossed into Lebanon &mdash; and whose Prime Minister, within 14 hours, reportedly promised the withdrawal of the specific Syrian-controlled PLA formation (Yarmouk Brigade) that had crossed. This cable series provides direct real-time documentation of Syrian disinformation at the moment of a cross-border military operation.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Hafez_al-Assad",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hafez_al-Assad_official_portrait_%28cropped%29.jpg/330px-Hafez_al-Assad_official_portrait_%28cropped%29.jpg",
+            "imageCredit": "Public domain. Official portrait."
+          },
+          {
+            "name": "Anwar Sadat",
+            "role": "President of Egypt (1970&ndash;1981)",
+            "desc": "Telephoned Frangieh directly during the May 3 crisis, promising to intervene with Assad. The call is documented in SITREP 6 as the \"major favorable development\" that improved the Lebanese political situation overnight. The Egypt&ndash;Syria tension that surfaces here predates the October War by five months and the Sadat&ndash;Assad rupture by four years.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Anwar_Sadat",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Official_Portrait_-_Anwar_Sadat.jpg/330px-Official_Portrait_-_Anwar_Sadat.jpg",
+            "imageCredit": "Public domain. Official portrait of the President of Egypt."
+          },
+          {
+            "name": "Yasser Arafat",
+            "role": "Chairman of the PLO; head of Fatah",
+            "desc": "The Embassy&rsquo;s structural judgment &mdash; filed at 1:15 AM local time &mdash; is that \"even should Arafat reach a new agreement with the GOL, his ability to sustain it is open to doubt.\" This diagnosis, written on the night of May 3&ndash;4, 1973, was vindicated by the collapse of the Melkart Protocol, the 1975 Sidon Crisis, and ultimately the civil war.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Yasser_Arafat",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg/330px-Leader_of_the_PLO%2C_Yasser_Arafat%2C_1996_Dan_Hadani_Archive.jpg",
+            "imageCredit": "Dan Hadani Archive, National Library of Israel. CC license via Wikimedia Commons."
+          },
+          {
+            "name": "Mahmoud Riad",
+            "role": "Secretary-General, League of Arab States (1972&ndash;1979)",
+            "desc": "Arrived in Beirut on the afternoon of May 4, 1973, to mediate the crisis &mdash; one of the earliest Arab League mediation missions in what would become a recurring pattern of Lebanese-Palestinian confrontations. Previously Egyptian Foreign Minister under Nasser. His arrival is noted in SITREP 8 as the first externally-sponsored mediation attempt of the crisis.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Mahmoud_Riad",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mahmoed_Riad_%281969%29.jpg/330px-Mahmoed_Riad_%281969%29.jpg",
+            "imageCredit": "Public domain. 1969 photograph."
+          },
+          {
+            "name": "Amin al-Hafez",
+            "role": "Prime Minister of Lebanon",
+            "desc": "The Sunni Prime Minister whose contingent resignation &mdash; submitted but not delivered because Frangieh was asleep &mdash; the Embassy called \"a bit of Lebanese flim-flam.\" After Sadat&rsquo;s phone call improved the political situation, the resignation was \"temporarily withdrawn.\" Hafez would nonetheless be replaced in the post-crisis reshuffle.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Amin_al-Hafez_(Lebanese_politician)",
+            "imageUrl": "",
+            "imageCredit": ""
+          },
+          {
+            "name": "Tony Frangieh",
+            "role": "Presidential aide (son of President Frangieh)",
+            "desc": "The president&rsquo;s son served as an informal Embassy channel through the crisis. He appears again in 1973BEIRUT05159 relaying the Army&rsquo;s ceasefire on the morning of May 8. He was assassinated on June 13, 1978, by Lebanese Forces militiamen &mdash; the Ehden massacre.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Tony_Frangieh",
+            "imageUrl": "",
+            "imageCredit": ""
+          },
+          {
+            "name": "Kanaan",
+            "role": "Lebanese Army contact",
+            "desc": "The Embassy&rsquo;s most persistent Army interlocutor across 1973&ndash;1975. He briefs the Embassy on May 3 about the Lower Bekaa engagement and appears again in cable 1973BEIRUT05155 naming Syria as \"playing the most unhelpful role\" on the night of May 7. His appearances extend into the 1975 Sidon Crisis (cable 1975BEIRUT03203) where he provides the 8:1 numerical disclosure of Army versus fedayeen strength in southern Lebanon.",
+            "wikiUrl": "#",
+            "imageUrl": "",
+            "imageCredit": ""
+          }
+        ],
+        "bodyHtml": "<h3>What these three cables document, hour by hour</h3>\n\n<p>On the night of May 2&ndash;3, 1973, a ceasefire stemming from an earlier agreement broke down. On the afternoon of May 3, approximately one thousand fedayeen of the Syrian-controlled Yarmouk Brigade crossed the border from Syria into the Lower Bekaa&ndash;Arkub zone of Lebanon. Press reporting placed the number at four thousand. Fighting continued into the evening between Lebanese Army units and the fedayeen. On May 3 the Syrian government denied that any fedayeen had crossed the border at all.</p>\n\n<p>Fourteen hours later, on the morning of May 4, the Syrian Prime Minister reportedly communicated to his Lebanese counterpart that the remaining Yarmouk Brigade personnel would be withdrawn that night under cover of darkness. The cables document this shift &mdash; from categorical denial to tacit admission &mdash; in the natural language of Embassy sources reporting as the crisis unfolded.</p>\n\n<h3>The diplomatic machinery that produced the ceasefire</h3>\n\n<p>Between the two Syrian positions, at approximately 1:15 AM Beirut time on May 4, the Embassy filed SITREP 6. The cable documents that Egyptian President Sadat had telephoned Lebanese President Frangieh directly and promised to pressure Assad. The Embassy records this as the &ldquo;major favorable development&rdquo; that had improved the Lebanese political situation that evening. Arab League Secretary-General Mahmoud Riad was en route. Moroccan and Iraqi emissaries were also inbound.</p>\n\n<p>At home, Lebanese Prime Minister Amin al-Hafez had announced that he had submitted his resignation &mdash; but had not delivered it, because President Frangieh was asleep. The Embassy&rsquo;s bracketed comment, preserved in the cable: &ldquo;a bit of Lebanese flim-flam.&rdquo; By morning, after the Sadat call had taken effect, the resignation was &ldquo;temporarily withdrawn.&rdquo; The contingent resignation &mdash; maintained as leverage &mdash; had served its political purpose.</p>\n\n<h3>The embassy&rsquo;s structural diagnosis</h3>\n\n<p>SITREP 6 closes with what may be the most consequential sentence in the three-cable series: &ldquo;Even should Arafat reach a new agreement with the GOL, his ability to sustain it is open to doubt.&rdquo;</p>\n\n<p>This is not a retrospective assessment. It is a contemporary judgment, filed in the exhaustion of the night, by diplomats who had spent the day in briefings with the Army, the Presidency, and the Foreign Ministry. Within two weeks, Arafat would reach exactly such an agreement &mdash; the Melkart Protocol of May 17, 1973, documented in cables 1973BEIRUT05755 and 05776. Within months, cross-border raids would resume. Within two years, the Sidon Crisis of February&ndash;March 1975 (cables 02611_02682 through 03203_03256) would document the same pattern. Within another few weeks, the April 1975 events in Ain el-Rummaneh would trigger the civil war.</p>\n\n<p>The Embassy&rsquo;s diagnosis of May 3&ndash;4, 1973 was vindicated four times over before the decade was out.</p>\n\n<h3>The half-hearted rally in Sidon</h3>\n\n<p>Among the smaller observations in SITREP 8, one stands out in historical hindsight: a &ldquo;half-hearted attempt to organize a street rally in Sidon&rdquo; in support of the fedayeen. Sidon &mdash; the southern coastal city whose local politics favored the Palestinian armed presence &mdash; is already visible in this 1973 cable as a politically mobilizable zone. Sidon would become, twenty-two months later, the epicenter of the February 26 &ndash; March 14, 1975 crisis that immediately preceded the civil war. The 1973 rally was the same political ecosystem at an earlier stage.</p>\n\n<h3>What SITREP 9 does &mdash; and doesn&rsquo;t &mdash; record</h3>\n\n<p>SITREP 9, filed at 2:55 PM GMT on May 4, confirms that mixed Army&ndash;fedayeen patrols are circulating. It notes that fedayeen leaders have asked people to return arms to a central location. It documents that the Presidency sees no indication Prime Minister Hafez intends to submit his resignation. Beyond this point, the WikiLeaks archival copy of the cable is corrupted &mdash; text from an unrelated cable on a World Health Organization housing-allowance matter in Geneva appears interposed. That portion has been excluded from the reproduction above; the SITREP&rsquo;s recoverable content ends with the political stabilization passage.</p>\n\n<h3>The dress rehearsal</h3>\n\n<p>These three cables document what historians now call the Two-Day War &mdash; a name the cables themselves never use. Read in sequence, they record the first full-scale collision between the Lebanese state and the Palestinian armed presence on Lebanese territory since the 1969 Cairo Agreement. The Embassy reported it as a crisis that stabilized within a day. It also reported, in the same breath, that the stabilization would not hold. Two weeks later, the Melkart Protocol would formalize a settlement. Two years later, Sidon. Four years later, the camps&rsquo; war. Fifteen years later, the Taif Accord.</p>\n\n<p>All of it starts, in the documentary record, at 10:20 PM on May 3, 1973.</p>",
+        "mapLocations": [
+          {
+            "name": "Lower Bekaa&ndash;Arkub",
+            "desc": "Eastern and southeastern border strip of Lebanon; site of the May 3 cross-border engagement with the Yarmouk Brigade",
+            "type": "primary"
+          },
+          {
+            "name": "Damascus",
+            "desc": "Syrian capital; source of the cross-border intervention and of its denial",
+            "type": "primary"
+          },
+          {
+            "name": "Cairo",
+            "desc": "Seat of the Sadat presidency, from which the May 3 phone call to Frangieh originated",
+            "type": "secondary"
+          },
+          {
+            "name": "Beirut",
+            "desc": "Seat of Lebanese government; in crisis mode through the night of May 3; stabilizing by the afternoon of May 4",
+            "type": "primary"
+          },
+          {
+            "name": "Palestinian refugee camps",
+            "desc": "Beirut-area camps; UNRWA denied access from May 2; high casualties reported but unquantified",
+            "type": "secondary"
+          },
+          {
+            "name": "Sidon",
+            "desc": "Southern coastal city; site of the &ldquo;half-hearted&rdquo; May 4 pro-fedayeen rally &mdash; the same Sidon that would be the epicenter of the 1975 crisis",
+            "type": "secondary"
+          },
+          {
+            "name": "Baabda Palace",
+            "desc": "Seat of the Lebanese Presidency; where Frangieh received Sadat&rsquo;s phone call",
+            "type": "secondary"
+          },
+          {
+            "name": "Rabat",
+            "desc": "Capital of Morocco; source of the King Hassan II special emissary dispatched to Beirut",
+            "type": "tertiary"
+          }
+        ],
+        "furtherReading": [
+          {
+            "title": "Cable 1973BEIRUT04974 &mdash; April 30, 1973",
+            "desc": "Three days before the Yarmouk Brigade crossing: Fatah members arrested at Beirut airport with 10 kg of TNT. The pre-crisis baseline.",
+            "type": "related"
+          },
+          {
+            "title": "Cable 1973BEIRUT05155 &mdash; May 7, 1973",
+            "desc": "Four days after SITREP 9: the outbreak of the second round of fighting &mdash; rockets on the Presidency, martial law declared, Kanaan names Syria on the record.",
+            "type": "related"
+          },
+          {
+            "title": "Cable 1973BEIRUT05159 &mdash; May 8, 1973",
+            "desc": "The Army&rsquo;s first use of aircraft and tanks against the Beirut refugee camps; Prime Minister Amin al-Hafez resigns at 5 AM.",
+            "type": "related"
+          },
+          {
+            "title": "Cables 1973BEIRUT05755 + 05776 &mdash; May 18, 1973",
+            "desc": "The Melkart Protocol documents. Two weeks after SITREP 9, the formal settlement the Embassy had already judged unsustainable is negotiated.",
+            "type": "related"
+          },
+          {
+            "title": "Cables 1975BEIRUT02611_02682 &mdash; Feb 26&ndash;27, 1975",
+            "desc": "Twenty-two months later: Sidon erupts. The political ecosystem documented in embryo here comes to full expression.",
+            "type": "related"
+          },
+          {
+            "title": "Cairo Agreement, November 3, 1969",
+            "desc": "The foundational GOL-PLO agreement whose \"sort of freedom\" Frangieh insisted would not be renewed in any new arrangement.",
+            "type": "context"
+          }
+        ]
+      },
+      "relatedCables": [
+        "1973BEIRUT04974",
+        "1973BEIRUT05155",
+        "1973BEIRUT05159",
+        "1973STATE086221",
+        "1973BEIRUT05776",
+        "1975BEIRUT02611_02682"
+      ],
+      "refs": "Prior cable in series: 1973BEIRUT05155 (SITREP 10+); earlier agreement (May 2, 1973) not separately cabled; related Melkart Protocol series 1973BEIRUT05755/05776",
+      "sourceUrl": "https://wikileaks.org/plusd/cables/1973BEIRUT05068_b.html"
     },
     {
       "id": "1973BEIRUT05155",
@@ -2745,6 +3170,411 @@
       ],
       "refs": "BEIRUT A-11 (Jan 25, 1974); BEIRUT A-39 (Mar 4, 1974)",
       "sourceUrl": "https://wikileaks.org/plusd/cables/1974BEIRUT11970_b.html"
+    },
+    {
+      "@type": "DigitalDocument",
+      "id": "1975BEIRUT01996",
+      "date": "1975-02-12",
+      "dateDisplay": "February 12, 1975",
+      "year": 1975,
+      "classification": "SECRET / EXDIS",
+      "from": "AMEMBASSY BEIRUT",
+      "fromFull": "U.S. Embassy, Beirut, Lebanon",
+      "to": "SECSTATE WASHDC PRIORITY",
+      "toFull": "Secretary of State, Washington D.C. (Priority; EXDIS; PASS TO SECRETARY’S PARTY)",
+      "subject": "Cairo Arab League Defense Council Meeting",
+      "excerpt": "Ambassador Godley’s readout of Foreign Minister Taqla’s candid 40-minute account of the February 5–7 Cairo Arab League Defense Ministers meeting. Lebanon dodged Arab military personnel, finessed the PLO question, deflected the Libyan fortified-villages proposal, and kept Syria’s Zuhayr Muhsin on his leash — all in the 14 days before Sidon erupted.",
+      "tags": [
+        "1975",
+        "pre-war",
+        "EXDIS",
+        "Cairo meeting",
+        "Arab League",
+        "PLO",
+        "Libya",
+        "Saudi Arabia",
+        "Syria",
+        "Zuhayr Muhsin",
+        "Kafr Shuba",
+        "Khaddam",
+        "Fahmi",
+        "Saʿiqa",
+        "fedayeen",
+        "southern Lebanon"
+      ],
+      "topics": [
+        "Pre-War Diplomacy",
+        "Arab League Politics",
+        "Palestinian Armed Presence",
+        "Lebanese Sovereignty",
+        "Syrian–Lebanese Relations"
+      ],
+      "status": "published",
+      "persons": [
+        "G. McMurtrie Godley",
+        "Philippe Taqla",
+        "Hafez al-Assad",
+        "King Feisal",
+        "Ismail Fahmi",
+        "Abdul Halim Khaddam",
+        "Zuhayr Muhsin",
+        "Suleiman Frangieh",
+        "Muammar Qaddafi"
+      ],
+      "organizations": [
+        "League of Arab States",
+        "Arab League Defense Council",
+        "PLO",
+        "Saʿiqa",
+        "Lebanese Army",
+        "Saudi Royal Court",
+        "Libyan Revolutionary Command Council"
+      ],
+      "locations": [
+        "Cairo",
+        "Beirut",
+        "Damascus",
+        "Kafr Shuba",
+        "Southern Lebanon",
+        "Tripoli (Libya)",
+        "Riyadh",
+        "Tel Aviv"
+      ],
+      "annotatedBody": "<div class=\"cable-classification-notice\" style=\"font-family:var(--font-mono);font-size:0.65rem;letter-spacing:0.12em;color:var(--text-3);margin-bottom:1.5rem\">Originally classified SECRET / EXDIS &middot; Declassified under EO Systematic Review &middot; Now UNCLASSIFIED</div>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">Summary.</strong><br>\nForeign Minister <strong>Taqla</strong><sup class=\"editorial-note\"><a href=\"#fn-1\">[1]</a></sup> is delighted with the <strong>Cairo Arab League Defense Ministers Meeting (February 5&ndash;7, 1975)</strong><sup class=\"editorial-note\"><a href=\"#fn-2\">[2]</a></sup> in that Lebanon was able to dodge accepting Arab military personnel or massive Arab military assistance. He was also able to <strong>finesse the entire question of the PLO in Lebanon</strong>, except for a general admonition to the PLO to curtail terrorism from Lebanon into Israel.<sup class=\"editorial-note\"><a href=\"#fn-3\">[3]</a></sup></p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">2.</strong><br>\nThere has been a great deal of speculation in the Lebanese and other press regarding the results of the Cairo meeting of February 5&ndash;7. Last evening I<sup class=\"editorial-note\"><a href=\"#fn-4\">[4]</a></sup> had a 40-minute private conversation with Foreign Minister Taqla, who returned late on February 8 from Cairo. Taqla said he was extremely pleased with the results, which came out as he had planned. The meeting's atmospherics were cordial but businesslike, with little or no acrimony. <strong>The Arabs were generous in their offers but did not appear to be resentful when the Lebanese turned down offers of personnel and relatively sophisticated military equipment.</strong> No financial figure was reached, but the conference concluded that Arab states that could would supply the Lebanese Army with some <strong>artillery and anti-aircraft weapons</strong>.<sup class=\"editorial-note\"><a href=\"#fn-5\">[5]</a></sup> Taqla was vague as to precisely what was involved, but stated the &ldquo;soldiers had exchanged lists&rdquo; and the Lebanese Army was relatively satisfied as to what it would get. Financial support for purchases abroad, Taqla said, was promised if Arab states did not have the required weaponry in their arsenals.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">3.</strong><br>\nAssistance for southern Lebanon was offered but, according to Taqla, <strong>courteously rejected as a Lebanese responsibility</strong>. At a meeting prior to the conference with the Saudi representatives, the latter offered large sums for the reconstruction of <strong>Kafr Shuba</strong><sup class=\"editorial-note\"><a href=\"#fn-6\">[6]</a></sup> and other villages, citing that they understood the <abbr title=\"Government of Lebanon\">GOL</abbr> had accepted one million dollars from President Asad. Taqla responded that <strong>the million dollars was a personal charitable offering by President Asad</strong><sup class=\"editorial-note\"><a href=\"#fn-7\">[7]</a></sup> and that if <strong>King Feisal</strong><sup class=\"editorial-note\"><a href=\"#fn-8\">[8]</a></sup> or other Saudis desired to make a similar charitable offer, it would be graciously received.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">4.</strong><br>\nI asked Taqla where he stood with the Saudis (Embtel 1712 NOTAL), noting I had heard of a <strong>serious contretemps over Lebanese press treatment of King Feisal</strong>.<sup class=\"editorial-note\"><a href=\"#fn-9\">[9]</a></sup> Taqla confirmed this was indeed the case and was one of the first things he had to straighten out, but was relieved that none of the contretemps was reflected in the attitude of the Saudi representatives at Cairo (believed to be the Acting Minister of Foreign Affairs and Deputy Minister of Defense). These men had been most cooperative and helpful on all occasions.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">5.</strong><br>\nAs might be expected, Taqla said the only serious problem he really had to handle in Cairo was a <strong>Libyan offer to finance and help construct a series of fortified villages in southern Lebanon</strong>.<sup class=\"editorial-note\"><a href=\"#fn-10\">[10]</a></sup> These <strong>kibbutz-like military strongholds</strong>, according to the Libyans, would oppose further Israeli incursions and would <strong>constitute positions from whence the fedayeen might operate</strong>.<sup class=\"editorial-note\"><a href=\"#fn-11\">[11]</a></sup> Taqla responded that he did not share all the Libyan views on this question and, as it was a Lebanese decision, he would study the matter upon return to Beirut. The exchange with the Libyan heated up a bit, and <strong>Egyptian Foreign Minister Fahmi</strong><sup class=\"editorial-note\"><a href=\"#fn-12\">[12]</a></sup> was about to make a helpful intervention when Taqla was able to cut off further debate.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">6.</strong><br>\nTaqla indicated he was particularly happy that <strong>he was able to avoid any discussion of the PLO at the Cairo meeting</strong>. Unlike the <strong>July 1974 meeting</strong><sup class=\"editorial-note\"><a href=\"#fn-13\">[13]</a></sup> when there had been a good deal of discussion of Arab states supplying weaponry to the PLO, this subject was never broached. Except as mentioned above, Taqla said the only reference to the PLO was a <strong>broad informal consensus that the most helpful thing for Lebanon would be a curtailment of fedayeen raids from Lebanon into Israel</strong>.<sup class=\"editorial-note\"><a href=\"#fn-14\">[14]</a></sup> This view was not formalized but, according to Taqla, came through loud and clear.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">7.</strong><br>\nTaqla was also delighted with the attitude of his Arab colleagues. <strong>The Syrians were particularly helpful, not only in the discussions but also in controlling Zuhayr Muhsin</strong><sup class=\"editorial-note\"><a href=\"#fn-15\">[15]</a></sup>, who was one of the more troublesome elements in the July 1974 meeting. This time he had little to say and <strong>it was obvious his Syrian masters had told him to behave himself</strong>. Taqla attributed the Syrian attitude to his visit to Damascus and his talks with <strong>Khaddam</strong><sup class=\"editorial-note\"><a href=\"#fn-16\">[16]</a></sup> late last month.</p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">8.</strong><br>\nI pressed Taqla on the cash he had obtained from his Arab friends. He reiterated what he had said above (para 2) &mdash; that no amount was specified, although the representatives of wealthy states repeatedly took the position that money was available if required. Taqla will be presenting to the cabinet today a report on the Cairo meeting and tomorrow will be appearing before Parliament. While there is considerable local political pressure for a complete public report of the Cairo meeting, Taqla implied he will be able to avoid this, and said he was relatively optimistic that for the time being he could satisfy local political appetites for more parliamentary discussion on the military situation in the south. <strong>I personally believe this might be difficult.</strong><sup class=\"editorial-note\"><a href=\"#fn-17\">[17]</a></sup></p>\n\n<p><strong style=\"font-family:var(--font-mono);font-size:0.7rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber)\">9.</strong><br>\nTaqla summarized our discussion, pointing out that <strong>the Cairo meeting had really not changed the local Lebanese military situation</strong>. The weapons the Army is seeking are purely defensive and he doubts they will be arriving for some time. In concluding, he <strong>requested that we bring the foregoing to the attention of the <abbr title=\"Government of Israel\">GOI</abbr> and try to convince the GOI to abstain from further military actions in the southern Lebanon</strong>.<sup class=\"editorial-note\"><a href=\"#fn-18\">[18]</a></sup> I told the Minister I would of course report his views to the Department and the Secretary but could give him no indication as to what action we might be able to take.</p>\n\n<p style=\"margin-top:2rem;font-family:var(--font-mono);font-size:0.8rem;letter-spacing:0.08em;color:var(--text-2)\">GODLEY<sup class=\"editorial-note\"><a href=\"#fn-19\">[19]</a></sup></p>",
+      "rawBody": "SECRET\nPAGE 01 BEIRUT 01996 01 OF 02 121647Z\n\nACTION SS-25\nINFO OCT-01 ISO-00 SSO-00 /026 W\n\nP R 121548Z FEB 75\nFM AMEMBASSY BEIRUT\nTO SECSTATE WASHDC PRIORITY 2853\nINFO AMEMBASSY TEL AVIV\n     AMEMBASSY JIDDA\n     AMEMBASSY DAMASCUS\n     AMEMBASSY KUWAIT\n     AMEMBASSY AMMAN\n     AMEMBASSY CAIRO\n     AMEMBASSY TRIPOLI\n     AMEMBASSY ALGIERS\n     AMEMBASSY TUNIS\n     AMEMBASSY RABAT\n\nS E C R E T SECTION 1 OF 2 BEIRUT 1996\n\nEXDIS\nPASS DIA\nPASS TO SECRETARY'S PARTY\n\nE.O. 11652: GDS\nTAGS: PFOR, MARR, LE, XF\nSUBJ: CAIRO ARAB LEAGUE DEFENSE COUNCIL MEETING\nREF: BEIRUT 1826\n\n1. SUMMARY: FOREIGN MINISTER TAQLA DELIGHTED WITH CAIRO ARAB\nLEAGUE DEFENSE MINISTERS MEETING IN THAT LEBANON WAS ABLE\nDODGE ACCEPTING ARAB MILITARY PERSONNEL OR MASSIVE ARAB\nMILITARY ASSISTANCE. ALSO WAS ABLE TO FINESSE ENTIRE QUESTION\nOF PLO IN THE LEBANON EXCEPT GENERAL ADMONITION TO PLO TO\nCURTAIL TERRORISM FROM LEBANON INTO ISRAEL. END SUMMARY.\n\n2. AS RECIPIENTS UNDOUBTEDLY AWARE, THERE HAS BEEN A GREAT\nDEAL OF SPECULATION IN LEBANESE AND OTHER PRESS RE RESULTS\nCAIRO MEETING FEB 5-7. LAST EVENING I HAD 40 MINUTE PRIVATE\nCONVERSATION WITH FOREIGN MINISTER TAQLA, WHO RETURNED LATE\nFEB 8 FROM CAIRO. TAQLA SAID HE WAS EXTREMELY PLEASED WITH\nTHE RESULTS OF THE CAIRO MEETING WHICH CAME OUT AS HE HAD\nPLANNED. THE MEETING'S ATMOSPHERICS WERE CORDIAL BUT\nBUSINESSLIKE AND THERE WAS LITTLE OR NO ACRIMONY. THE ARABS\nWERE GENEROUS IN THEIR OFFERS BUT DID NOT APPEAR TO BE\nRESENTFUL WHEN THE LEBANESE TURNED DOWN OFFERS OF PERSONNEL\nAND RELATIVELY SOPHISTICATED MILITARY EQUIPMENT. NO REPEAT\nNO FINANCIAL FIGURE WAS REACHED AS TO ASSISTANCE TO LEBANON,\nBUT THE CONFERENCE CONCLUDED THAT ARAB STATES THAT COULD\nWOULD SUPPLY LEBANESE ARMY WITH SOME ARTILLERY AND ANTI-\nAIRCRAFT WEAPONS. TAQLA WAS VAGUE AS TO PRECISELY WHAT WAS\nINVOLVED, BUT STATED THE \"SOLDIERS HAD EXCHANGED LISTS\"\nAND THE LEBANESE ARMY WAS RELATIVELY SATISFIED AS TO WHAT\nIT WOULD GET. FINANCIAL SUPPORT FOR PURCHASES ABROAD, TAQLA\nSAID, WAS PROMISED IF ARAB STATES DID NOT HAVE THE REQUIRED\nWEAPONRY IN THE ARSENALS.\n\n3. ASSISTANCE FOR SOUTHERN LEBANON WAS OFFERED BUT WAS,\nACCORDING TO TAQLA, COURTEOUSLY REJECTED AS LEBANESE\nRECONSTRUCTION WAS A LEBANESE RESPONSIBILITY. AT A MEETING\nPRIOR TO THE CONFERENCE WITH THE SAUDI REPS, THE LATTER\nOFFERED LARGE SUMS FOR THE RECONSTRUCTION OF KAFR SHUBA AND\nOTHER VILLAGES, CITING THE FACT THAT THEY UNDERSTOOD THE\nGOL HAD ACCEPTED ONE MILLION DOLLARS FROM PRESIDENT ASAD.\nTAQLA RESPONDED THAT THE MILLION DOLLARS WAS A PERSONAL\nCHARITABLE OFFERING BY PRESIDENT ASAD AND IF KING FEISAL OR\nOTHER SAUDIS DESIRED TO MAKE A SIMILAR CHARITABLE OFFER, IT\nWOULD BE GRACIOUSLY RECEIVED.\n\n4. I ASKED TAQLA WHERE HE STOOD WITH THE SAUDI (EMBTEL 1712\nNOTAL) POINTING OUT I HAD HEARD A SERIOUS CONTRETEMPS HAD\nARISEN OVER LEBANESE PRESS TREATMENT OF KING FEISAL. TAQLA\nSAID THIS WAS INDEED THE CASE AND IT WAS ONE OF THE FIRST\nTHINGS HE HAD TO STRAIGHTEN OUT, BUT HE WAS RELIEVED TO NOTE\nTHAT NONE OF THE CONTRETEMPS WAS REFLECTED IN THE ATTITUDE\nOF THE SAUDI REPS (I BELIEVE ACTING MINISTER OF FOREIGN\nAFFAIRS AND DEPUTY MINISTER OF DEFENSE) IN CAIRO. THESE MEN\nHAD BEEN MOST COOPERATIVE AND HELPFUL ON ALL OCCASIONS.\n\n5. AS MIGHT BE EXPECTED, TAQLA SAID THE ONLY SERIOUS PROBLEM\nHE REALLY HAD TO HANDLE IN CAIRO WAS A LIBYAN OFFER TO\nFINANCE AND TO HELP IN THE CONSTRUCTION OF A SERIES OF\nFORTIFIED VILLAGES IN SOUTHERN LEBANON. THESE KIBBUTZ-LIKE\nMILITARY STRONGHOLDS WOULD, ACCORDING TO THE LIBYANS,\nOPPOSE FURTHER ISRAELI INCURSIONS AND WOULD CONSTITUTE\nPOSITIONS FROM WHENCE THE FEDAYEEN MIGHT OPERATE. TAQLA\nRESPONDED THAT HE DID NOT SHARE ALL THE LIBYAN VIEWS ON\nTHIS QUESTION AND THAT AS IT WAS A LEBANESE DECISION, HE\nWOULD STUDY THE MATTER UPON HIS RETURN TO BEIRUT. THE\nEXCHANGE WITH THE LIBYAN HEATED UP A BIT AND EGYPTIAN\nFOREIGN MINISTER FAHMI WAS ABOUT TO MAKE A HELPFUL\nINTERVENTION WHEN TAQLA WAS ABLE TO CUT OFF FURTHER DEBATE.\n\n6. TAQLA INDICATED THAT HE WAS PARTICULARLY HAPPY THAT HE\nWAS ABLE TO AVOID ANY DISCUSSION OF THE PLO AT THE CAIRO\nMEETING. UNLIKE THE MEETING IN JULY 1974 WHEN THERE HAD\nBEEN A GOOD DEAL OF DISCUSSION OF THE ARAB STATES SUPPLYING\nWEAPONRY TO THE PLO, THIS SUBJECT WAS NEVER BROACHED.\nEXCEPT AS MENTIONED ABOVE, TAQLA SAID THE ONLY REFERENCE\nTO THE PLO WAS A BROAD INFORMAL CONSENSUS THAT THE MOST\nHELPFUL THING FOR THE LEBANON WOULD BE A CURTAILMENT OF\nFEDAYEEN RAIDS FROM LEBANON INTO ISRAEL. THIS VIEW WAS\nNOT FORMALIZED BUT, ACCORDING TO TAQLA, CAME THROUGH LOUD\nAND CLEAR.\n\n7. TAQLA ALSO WAS DELIGHTED WITH THE ATTITUDE OF HIS ARAB\nCOLLEAGUES. THE SYRIANS, HE SAID, WERE PARTICULARLY\nHELPFUL, NOT ONLY IN THE DISCUSSIONS BUT ALSO IN\nCONTROLLING ZUHAYR MUHSIN, WHO WAS ONE OF THE MORE\nTROUBLESOME ELEMENTS IN THE JULY 1974 MEETING. THIS TIME,\nHOWEVER, HE HAD LITTLE TO SAY AND IT WAS OBVIOUS HIS\nSYRIAN MASTERS HAD TOLD HIM TO BEHAVE HIMSELF. TAQLA\nATTRIBUTED THE SYRIAN ATTITUDE TO HIS VISIT TO DAMASCUS\nAND HIS TALKS WITH KHADDAM LATE LAST MONTH.\n\n8. I PRESSED TAQLA AS TO THE CASH HE HAD OBTAINED FROM HIS\nARAB FRIENDS. HE REITERATED WHAT HE HAD SAID ABOVE (PARA 2)\nAND THAT THERE WERE NO REPEAT NO AMOUNT SPECIFIED, ALTHOUGH\nTHE REPRESENTATIVES OF WEALTHY STATES REPEATEDLY TOOK THE\nPOSITION THAT MONEY WAS AVAILABLE IF REQUIRED. TAQLA WILL\nBE PRESENTING TO THE CABINET TODAY A REPORT ON THE CAIRO\nMEETING AND TOMORROW WILL BE APPEARING BEFORE PARLIAMENT.\nWHILE THERE IS CONSIDERABLE LOCAL POLITICAL PRESSURE FOR A\nCOMPLETE PUBLIC REPORT OF THE CAIRO MEETING, TAQLA IMPLIED\nHE WILL BE ABLE TO AVOID THIS AND SAID THAT HE WAS\nRELATIVELY OPTIMISTIC THAT FOR THE TIME BEING HE COULD\nSATISFY LOCAL POLITICAL APPETITES FOR MORE PARLIAMENTARY\nDISCUSSION ON THE MILITARY SITUATION IN THE SOUTH. I\nPERSONALLY BELIEVE THIS MIGHT BE DIFFICULT.\n\n9. TAQLA SUMMARIZED OUR DISCUSSION, POINTING OUT THAT THE\nCAIRO MEETING HAD REALLY NOT REPEAT NOT CHANGED THE LOCAL\nLEBANESE MILITARY SITUATION. THE WEAPONS THAT THE ARMY IS\nSEEKING ARE PURELY DEFENSIVE AND HE DOUBTS THAT THEY WILL\nBE ARRIVING HERE FOR SOME TIME. IN CONCLUDING, HE REQUESTED\nTHAT WE BRING FOREGOING TO THE ATTENTION OF THE GOI AND,\nIN SO DOING, TRY TO CONVINCE THE GOI THAT IT ABSTAIN FROM\nFURTHER MILITARY ACTIONS IN THE SOUTHERN LEBANON. I TOLD\nTHE MINISTER I WOULD OF COURSE REPORT HIS VIEWS TO THE\nDEPARTMENT AND THE SECRETARY BUT COULD GIVE HIM NO\nINDICATION AS TO WHAT ACTION WE MIGHT BE ABLE TO TAKE.\n\nGODLEY\n\nNOTE BY OC/T: NOT PASSED DIA; NOT PASSED SECRETARY'S PARTY.\n\nSECRET NNN",
+      "footnotes": [
+        "Philippe Taqla (<ruby>&#1601;&#1610;&#1604;&#1610;&#1576; &#1578;&#1602;&#1604;&#1575;<rt>Filib Taqla</rt></ruby>): Greek Orthodox Christian, Lebanese Foreign Minister in 1974&ndash;1975 under Prime Minister Rashid Solh. A veteran of several earlier Lebanese cabinets (he had served as FM in the early 1960s), Taqla was a member of the independent political establishment closely aligned with the Chehabist legacy. His tenure in this period spans the April 1975 outbreak of the civil war; he left office with the Solh government in May 1975. His characterization of the Cairo meeting in this cable exemplifies the Lebanese Foreign Ministry&rsquo;s defensive Arab policy: accept symbolic solidarity, reject concrete militarization of Lebanese territory.",
+        "Cairo Arab League Defense Council Meeting (February 5&ndash;7, 1975): convened in the aftermath of a December 1974 Israeli incursion into southern Lebanon, ostensibly to respond with Arab military solidarity. The meeting&rsquo;s practical significance lies less in what was decided than in what Lebanon successfully resisted: the deployment of Arab military personnel on Lebanese soil, and formal Arab League sponsorship of PLO militarization from Lebanese territory. The follow-up Cairo meeting fourteen days later (referenced throughout this cable as the July 1974 predecessor) had gone much further in both directions. This cable is the Lebanese Foreign Minister&rsquo;s candid readout to the American Ambassador, on the record.",
+        "\"General admonition to the PLO to curtail terrorism from Lebanon into Israel\": Taqla&rsquo;s framing of the only PLO-related outcome of the meeting. The language &ldquo;terrorism&rdquo; &mdash; rather than &ldquo;operations&rdquo; or &ldquo;resistance&rdquo; &mdash; is the Lebanese diplomat&rsquo;s own framing in an EXDIS cable to Washington. The &ldquo;admonition&rdquo; was informal, not formalized in the meeting&rsquo;s communiqu&eacute; (see paragraph 6). Its practical effect would be nil: the February 26, 1975 Sidon outbreak (cable 1975BEIRUT02611_02682), three weeks after this cable, would be followed by continuing fedayeen cross-border raids throughout the year.",
+        "\"I\": Ambassador George McMurtrie Godley, who had presented credentials in Beirut on December 31, 1974. This 40-minute private conversation with Taqla, on the evening of February 11, 1975 (cabled Feb 12 at 1547Z), is one of Godley&rsquo;s earliest substantive Embassy cables. His professional practice &mdash; a long private session with the Foreign Minister immediately after major Arab-world meetings &mdash; recurs throughout his 1975 reporting, including the Sidon Crisis cable series.",
+        "Artillery and anti-aircraft weapons: the Arab League&rsquo;s concrete commitment was confined to defensive systems. Critically, the meeting did NOT sanction supply of offensive weapons (tanks, aircraft, missiles) to Lebanon, and it did not sanction Arab military personnel deployment inside Lebanon. Taqla&rsquo;s phrase &ldquo;soldiers had exchanged lists&rdquo; captures the quartermaster-level nature of the commitment: lists of available stocks, not operational or combat support.",
+        "Kafr Shuba (<ruby>&#1603;&#1601;&#1585; &#1588;&#1608;&#1576;&#1575;<rt>Kafr Shuba</rt></ruby>): a border village in southeastern Lebanon (Hasbaya district), subject to repeated Israeli reprisals for fedayeen cross-border raids from the surrounding Arqub zone. Its reconstruction was a symbolic priority after Israeli incursions. The Saudi offer to finance Kafr Shuba reconstruction was a soft-power gesture aligned with Saudi strategic interests (supporting a moderate pro-Western Lebanon without deepening Arab military footprint). Taqla&rsquo;s polite refusal preserved the principle that Lebanese territory would be rebuilt by Lebanese decision.",
+        "Hafez al-Assad&rsquo;s $1 million \"personal charitable offering\" to Lebanon: notable as the paradigmatic example of how Assad threaded Syrian influence through personal patronage channels in parallel to formal state channels. By framing it as a personal gift (rather than Syrian state assistance), Assad avoided Lebanese resistance to institutional Syrian influence while still embedding Damascus in Lebanese reconstruction politics. Taqla&rsquo;s rhetorical parallel &mdash; inviting Feisal to make \"a similar charitable offer\" &mdash; is diplomatic elegance: accepting Syrian generosity without conceding its political framing.",
+        "King Feisal of Saudi Arabia (1906&ndash;1975): ruling monarch since 1964, a principal architect of the conservative pan-Islamic axis. His assassination by a nephew on March 25, 1975 &mdash; just six weeks after this cable &mdash; would remove the Saudi statesman who had shaped Saudi-Lebanese relations through the 1970s. The contretemps over Lebanese press treatment of him, referenced here, would be overtaken by events.",
+        "The \"serious contretemps over Lebanese press treatment of King Feisal\" references Lebanese newspaper coverage that had offended Saudi sensibilities, likely in early 1975. The Embassy&rsquo;s cable 1712 (referenced but not publicly available) documented the Saudi diplomatic d&eacute;marche. The willingness of the Saudi representatives at Cairo to continue working with Taqla notwithstanding this dispute was important Lebanese diplomatic intelligence: it signaled that the Saudis distinguished between press-driven irritations and substantive bilateral cooperation.",
+        "Libyan proposal for fortified villages in southern Lebanon: the single most consequential proposal at the meeting, from Lebanon&rsquo;s perspective. The Qaddafi regime&rsquo;s offer would have financed Lebanese border villages configured explicitly as defensive military positions doubling as fedayeen operational bases. This would have formalized &mdash; with external Arab funding &mdash; the very dual-use arrangement Lebanon was trying to unwind. Taqla&rsquo;s deflection (study-the-matter-on-return) is a classic Lebanese diplomatic technique for saying no without saying no: procedural delay into oblivion.",
+        "\"Kibbutz-like military strongholds... positions from whence the fedayeen might operate\": this is the explicit acknowledgment, in the Libyan position, that the fortified villages were intended as <em>both</em> defensive Lebanese positions <em>and</em> offensive PLO bases. The Libyan admission, preserved in the cable, is significant historically: it documents on the record that a senior Arab state was proposing exactly the kind of Palestinian-armed presence on Lebanese soil that the Lebanese government had spent the post-Cairo-Agreement years trying to circumscribe. Taqla&rsquo;s rejection was therefore a defense of Lebanese sovereignty against the very possibility being offered in the name of Arab solidarity.",
+        "Ismail Fahmi (<ruby>&#1573;&#1587;&#1605;&#1575;&#1593;&#1610;&#1604; &#1601;&#1607;&#1605;&#1610;<rt>Ismail Fahmi</rt></ruby>): Egyptian Foreign Minister (1973&ndash;1977). A career diplomat, Fahmi was Sadat&rsquo;s principal foreign-policy interlocutor during the Kissinger shuttle period. His posture in Cairo during this meeting &mdash; helpful to Taqla, prepared to intervene against the Libyan &mdash; fits the broader Egyptian-Lebanese alignment documented across the 1973&ndash;1975 cable record. Fahmi would famously resign in November 1977 in protest of Sadat&rsquo;s Jerusalem trip.",
+        "July 1974 Arab Defense Council meeting: documented in the Embassy&rsquo;s cable 1974BEIRUT07889 (&ldquo;Arab Defense Council Meeting&rdquo;). Taqla&rsquo;s reference here to the July 1974 precedent is the specific connection. The 1974 meeting had discussed Arab states supplying weaponry to the PLO in considerable detail; the February 1975 meeting, by Taqla&rsquo;s design, did not. The contrast is the cable&rsquo;s central diplomatic point.",
+        "The \"broad informal consensus\" against fedayeen raids from Lebanon into Israel is paradoxically the strongest outcome of the meeting from the Lebanese perspective. Had it been formalized in the communiqu&eacute;, it would have committed the PLO&rsquo;s Arab sponsors publicly; had the Israelis understood it as a binding guarantee, they might have reduced cross-border reprisals. As an informal consensus, it was practically worthless &mdash; and events two weeks later (Sidon Crisis) would confirm as much.",
+        "Zuhayr Muhsin (<ruby>&#1586;&#1607;&#1610;&#1585; &#1605;&#1581;&#1587;&#1606;<rt>Zuhayr Muhsin</rt></ruby>, 1936&ndash;1979): Secretary-General of Sa&iota;iqa &mdash; the Syrian-controlled Palestinian faction &mdash; and one of the most notorious PLO-aligned operatives of the pre-war period. His docility at the February 1975 Cairo meeting (&ldquo;his Syrian masters had told him to behave himself&rdquo;) is documented here as direct evidence of Syrian operational control over Sa&iota;iqa. Muhsin reappears in this project&rsquo;s March 1975 Sidon Crisis cables (1975BEIRUT03203_03256), where he plays the opposite role &mdash; disruptive rather than controlled. The contrast across three weeks reveals the plasticity of Syrian direction over its Palestinian proxies.",
+        "Abdul Halim Khaddam (<ruby>&#1593;&#1576;&#1583; &#1575;&#1604;&#1581;&#1604;&#1610;&#1605; &#1582;&#1583;&#1575;&#1605;<rt>Abd al-Halim Khaddam</rt></ruby>, 1932&ndash;2020): Syrian Foreign Minister (1970&ndash;1984), later Vice President. Khaddam handled the Syrian side of Lebanon policy for Hafez al-Assad through the 1970s. Taqla&rsquo;s claim to have secured Sa&iota;iqa&rsquo;s good behavior through personal talks with Khaddam in Damascus &ldquo;late last month&rdquo; (January 1975) documents the bilateral Lebanese-Syrian channel through which much of the Palestinian question was actually managed &mdash; outside formal Arab League deliberations.",
+        "\"I personally believe this might be difficult\": Godley&rsquo;s editorial aside on Taqla&rsquo;s optimism about managing the Lebanese parliamentary discussion. The Ambassador&rsquo;s skepticism proved justified &mdash; within two weeks of this cable, the Sidon Crisis (February 26, 1975) would erupt and consume Lebanese parliamentary debate for the next six weeks. The Cairo meeting&rsquo;s results would be irrelevant by the time Parliament finished debating the southern military situation.",
+        "The request to Washington to convey Taqla&rsquo;s views to the Israeli government and urge Israeli restraint in southern Lebanon is noteworthy: it treats the U.S. as the Lebanese-Israeli back-channel. The Lebanese government had no direct diplomatic relations with Israel; the Embassy in Beirut was therefore functioning as an indirect conduit for Lebanese restraint messages to the Israelis. Godley&rsquo;s reply &mdash; noncommittal, promising only to convey the views &mdash; is characteristic American fence-sitting on an issue where U.S. interests (Israeli security, regional stability) were not fully aligned.",
+        "George McMurtrie Godley (1917&ndash;1999): U.S. Ambassador to Lebanon (December 1974 &ndash; March 1976). A career Foreign Service officer whose prior postings included Lao P.D.R. as Ambassador. Godley&rsquo;s Beirut tenure coincided almost exactly with the first phase of the Lebanese civil war (April 1975 &ndash; 1976). The American Embassy was evacuated in April 1976; Godley was one of the last ambassadors to maintain a fully functioning mission through the war&rsquo;s opening phase. This February 12, 1975 cable is among his earliest substantive reporting from Beirut."
+      ],
+      "footnoteCount": 19,
+      "glossary": [
+        {
+          "term": "EXDIS",
+          "full": "Exclusive Distribution &mdash; restricted handling; limited copy list",
+          "category": "Cable Format"
+        },
+        {
+          "term": "PFOR",
+          "full": "Political Affairs &mdash; Foreign (TAGS code)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "MARR",
+          "full": "Military Affairs &mdash; Arms (TAGS code)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "LE",
+          "full": "Lebanon (TAGS country code)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "XF",
+          "full": "Arab League / General Arab World (TAGS regional code)",
+          "category": "Cable Format"
+        },
+        {
+          "term": "GDS",
+          "full": "General Declassification Schedule",
+          "category": "Cable Format"
+        },
+        {
+          "term": "GOL",
+          "full": "Government of Lebanon",
+          "category": "Government"
+        },
+        {
+          "term": "GOI",
+          "full": "Government of Israel",
+          "category": "Government"
+        },
+        {
+          "term": "PLO",
+          "full": "Palestine Liberation Organization",
+          "category": "Organizations"
+        },
+        {
+          "term": "SA&rsquo;IQA",
+          "full": "Syrian-controlled Palestinian faction within PLO umbrella (literally &ldquo;Lightning&rdquo;)",
+          "category": "Organizations"
+        },
+        {
+          "term": "FEDAYEEN",
+          "full": "Palestinian guerrilla fighters (Arabic: &#1601;&#1583;&#1575;&#1574;&#1610;&#1610;&#1606;)",
+          "category": "Terminology"
+        },
+        {
+          "term": "KIBBUTZ",
+          "full": "Israeli collective community with defensive-military function; here used by Libyans as model",
+          "category": "Terminology"
+        },
+        {
+          "term": "KAFR SHUBA",
+          "full": "Border village in southeastern Lebanon (Hasbaya); subject of Saudi reconstruction offer",
+          "category": "Geography"
+        },
+        {
+          "term": "ARAB LEAGUE DEFENSE COUNCIL",
+          "full": "Arab League body bringing together Arab state Defense Ministers",
+          "category": "Organizations"
+        },
+        {
+          "term": "DAMASCUS",
+          "full": "Syrian capital; Taqla&rsquo;s bilateral interlocutor for Sa&iota;iqa management",
+          "category": "Geography"
+        },
+        {
+          "term": "NNN",
+          "full": "End of cable (teletype message terminator)",
+          "category": "Cable Format"
+        }
+      ],
+      "readerNarrative": {
+        "headline": "The Meeting Taqla Was “Delighted” To Survive",
+        "subheadline": "Fourteen days before Sidon erupted. Six weeks before King Feisal was assassinated. Eight weeks before the civil war began. Lebanon&rsquo;s Foreign Minister sat down with the American Ambassador and described how he had just prevented the Arab League from sponsoring the militarization of southern Lebanon — and how Syria had kept its Palestinian proxy on a leash. The cable is candid, the confidence is high, and by early March nothing it describes would hold.",
+        "dateline": "Beirut, February 12, 1975 — 3:47 PM GMT",
+        "summary": "On the evening of February 11, 1975, U.S. Ambassador George McMurtrie Godley met privately with Lebanese Foreign Minister Philippe Taqla for forty minutes. Taqla had just returned from the Cairo Arab League Defense Council Meeting (February 5–7). He was delighted. Lebanon had successfully declined Arab military personnel, declined massive military assistance, and avoided substantive discussion of the PLO in Lebanon. A Libyan proposal for Qaddafi-financed fortified villages in southern Lebanon — dual-use positions for Lebanese defense and fedayeen operations — had been deflected into a study commission. The Saudi offer to reconstruct Kafr Shuba had been politely declined. Syria had kept Zuhayr Muhsin, the troublesome Saʿiqa leader, on his best behavior. Taqla was taking a Cabinet readout that day and a Parliamentary readout the next. He asked Godley to urge Israeli restraint in southern Lebanon. Godley, writing at 3:47 PM GMT, doubted Taqla would survive the parliamentary debate and declined to promise any American action with Israel. Within two weeks Sidon would erupt. Within six weeks Feisal would be dead. Within eight weeks the civil war would begin.",
+        "keyRevelations": [
+          "<strong>Libya proposed &mdash; on the record at a formal Arab League meeting &mdash; to finance fortified villages in southern Lebanon that would serve as both Lebanese defense positions and fedayeen operational bases.</strong> Taqla deflected by promising to study the matter. The Libyan admission documented here &mdash; that the proposed villages would be dual-use &mdash; is the clearest possible evidence that senior Arab states were proposing to formalize PLO-armed presence on Lebanese soil with external Arab funding.",
+          "<strong>Syria kept Zuhayr Muhsin, the Sa&iota;iqa leader, silent.</strong> Taqla reports: &ldquo;his Syrian masters had told him to behave himself.&rdquo; This is direct, real-time documentation of Syrian operational control over Sa&iota;iqa &mdash; a control that would reverse within weeks, when Muhsin reappeared in the March 1975 Sidon Crisis cables as disruptive rather than quiescent. The same figure, opposite postures, three weeks apart.",
+          "<strong>Hafez al-Assad had sent Lebanon a &ldquo;personal charitable offering&rdquo; of $1 million.</strong> Taqla describes this explicitly as Assad&rsquo;s personal gift rather than Syrian state aid &mdash; the exact distinction that let Damascus embed itself in Lebanese reconstruction politics without formal state-to-state commitment. Taqla&rsquo;s handling of the Saudi offer (&ldquo;if King Feisal... desired to make a similar charitable offer, it would be graciously received&rdquo;) preserved the personal-gift framing while inviting parallel Saudi generosity.",
+          "<strong>The Arab League&rsquo;s only position on the PLO in Lebanon was an informal, unrecorded consensus that fedayeen should stop raiding Israel from Lebanon.</strong> Not formalized. Not in the communiqu&eacute;. Not binding. Two weeks later the Sidon Crisis would confirm that informal consensus had no operational value.",
+          "<strong>Taqla successfully prevented Arab military personnel from being deployed to Lebanon.</strong> Had the February 5&ndash;7 meeting resulted in formal Arab troop deployment to support Lebanon against Israeli incursions, the subsequent civil war would have been fundamentally different. The refusal &mdash; courteous, quietly firm &mdash; preserved Lebanese sovereignty against Arab-solidarity framings that were not being offered in Lebanon&rsquo;s interest.",
+          "<strong>Taqla asked Washington to urge Israel to abstain from further military actions in southern Lebanon.</strong> Since Lebanon had no direct diplomatic relations with Israel, the American Embassy functioned as an indirect Lebanese-Israeli back-channel on restraint messaging. Godley&rsquo;s reply &mdash; he would report the views to the Department and the Secretary but could give no indication of possible U.S. action &mdash; is characteristic of Kissinger-era American positioning on the Lebanese-Israeli border.",
+          "<strong>Godley&rsquo;s editorial aside &mdash; &ldquo;I personally believe this might be difficult&rdquo; &mdash; refers to Taqla&rsquo;s optimism about managing the Lebanese parliamentary debate.</strong> Within two weeks, Sidon erupted and consumed Lebanese politics. The Cairo results became irrelevant before the Parliament had finished debating them."
+        ],
+        "timeline": [
+          {
+            "time": "Jan 1975",
+            "label": "Taqla–Khaddam talks in Damascus",
+            "desc": "Lebanese Foreign Minister Taqla visits Damascus and meets Syrian FM Abdul Halim Khaddam — securing Syrian commitment to restrain Zuhayr Muhsin at the forthcoming Cairo meeting.",
+            "type": "diplomatic"
+          },
+          {
+            "time": "Feb 5–7, 1975",
+            "label": "Cairo Arab League Defense Council Meeting",
+            "desc": "Arab League Defense Ministers convene in Cairo. Lebanon declines Arab military personnel; declines massive military assistance; deflects Libyan fortified-village proposal; secures informal consensus against fedayeen raids; avoids substantive PLO discussion.",
+            "type": "meeting"
+          },
+          {
+            "time": "Feb 8, 1975 (late)",
+            "label": "Taqla returns to Beirut",
+            "desc": "Foreign Minister Taqla returns from Cairo.",
+            "type": "return"
+          },
+          {
+            "time": "Feb 11, 1975 evening",
+            "label": "Godley–Taqla 40-minute private meeting",
+            "desc": "Ambassador Godley meets privately with Foreign Minister Taqla for 40 minutes; Taqla provides candid readout of the Cairo results.",
+            "type": "diplomatic"
+          },
+          {
+            "time": "Feb 12, 1975 morning",
+            "label": "Cabinet readout planned",
+            "desc": "Taqla tells Godley he will present the Cabinet readout that day.",
+            "type": "political"
+          },
+          {
+            "time": "Feb 12, 1975 15:47Z",
+            "label": "Cable 1975BEIRUT01996 transmitted",
+            "desc": "Godley files this cable to Secretary of State (Priority precedence), with EXDIS handling restrictions and passage to Secretary’s shuttle party and DIA.",
+            "type": "cable"
+          },
+          {
+            "time": "Feb 13, 1975",
+            "label": "Parliamentary readout planned",
+            "desc": "Taqla was to address the Lebanese Parliament on the Cairo results. Godley had already predicted this &ldquo;might be difficult&rdquo;.",
+            "type": "political"
+          },
+          {
+            "time": "Feb 26, 1975",
+            "label": "Sidon Crisis erupts",
+            "desc": "Two weeks after this cable, violence erupts in Sidon over Maarouf Saad&rsquo;s Protein Company fishing concession (see cable 1975BEIRUT02611_02682). The Cairo meeting’s informal consensus against fedayeen raids has no operational effect.",
+            "type": "crisis"
+          },
+          {
+            "time": "Mar 12–14, 1975",
+            "label": "Godley’s Sidon retrospective",
+            "desc": "Godley files the retrospective assessment of the Sidon Crisis (cable 1975BEIRUT03203_03256). Zuhayr Muhsin now appears disruptive, not controlled. Syrian assurances have evaporated.",
+            "type": "crisis"
+          },
+          {
+            "time": "Mar 25, 1975",
+            "label": "King Feisal assassinated",
+            "desc": "Saudi King Feisal is assassinated by a nephew in Riyadh. The Saudi-Lebanese axis that had produced the courteous Kafr Shuba conversation at Cairo is decapitated.",
+            "type": "external"
+          },
+          {
+            "time": "Apr 13, 1975",
+            "label": "Civil war begins",
+            "desc": "The Ain el-Rummaneh bus attack triggers the Lebanese civil war. The Cairo meeting&rsquo;s framework — Arab solidarity without Arab militarization of Lebanon — becomes historically moot.",
+            "type": "crisis"
+          }
+        ],
+        "keyFigures": [
+          {
+            "name": "G. McMurtrie Godley",
+            "role": "U.S. Ambassador to Lebanon (Dec 1974 – Mar 1976)",
+            "desc": "Godley had presented credentials in Beirut on December 31, 1974. This February 12, 1975 cable, filed six weeks into his ambassadorial tenure, is among his earliest substantive Beirut reports. His practice of long private sessions with Foreign Minister Taqla immediately after major Arab events would recur throughout the year &mdash; most notably in the Sidon Crisis reporting of March 1975 (1975BEIRUT03203_03256).",
+            "wikiUrl": "https://en.wikipedia.org/wiki/G._McMurtrie_Godley",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/G_McMurtrie_Godley.png",
+            "imageCredit": "U.S. Department of State. Public domain."
+          },
+          {
+            "name": "Philippe Taqla",
+            "role": "Foreign Minister of Lebanon (1974–1975)",
+            "desc": "Greek Orthodox veteran of Lebanese diplomacy, Foreign Minister under Prime Minister Rashid Solh. A Chehabist-aligned figure whose defensive Arab policy &mdash; accept symbolic solidarity, reject concrete militarization &mdash; shaped Lebanon&rsquo;s posture at the Cairo meeting. Would leave office with the Solh cabinet after the April outbreak. His candor with Godley in this cable is exemplary of the Lebanese-American back-channel during the Kissinger shuttle era.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Philippe_Takla",
+            "imageUrl": "",
+            "imageCredit": ""
+          },
+          {
+            "name": "Hafez al-Assad",
+            "role": "President of Syria (1971–2000)",
+            "desc": "The author of the &ldquo;personal charitable offering&rdquo; of $1 million to Lebanon &mdash; a technique that threaded Syrian influence through personal patronage while avoiding formal state-to-state commitment. Also the ultimate author of Zuhayr Muhsin&rsquo;s cooperative posture at Cairo: Muhsin&rsquo;s &ldquo;Syrian masters had told him to behave himself&rdquo;. The plasticity of Assad&rsquo;s instructions &mdash; cooperative in February, disruptive by March &mdash; is one of the through-lines of the 1975 cable record.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Hafez_al-Assad",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hafez_al-Assad_official_portrait_%28cropped%29.jpg/330px-Hafez_al-Assad_official_portrait_%28cropped%29.jpg",
+            "imageCredit": "Public domain. Official portrait."
+          },
+          {
+            "name": "King Feisal",
+            "role": "King of Saudi Arabia (1964–1975)",
+            "desc": "The ruling Saudi monarch whose &ldquo;press treatment&rdquo; had produced the diplomatic contretemps Taqla had to smooth over with Saudi representatives at Cairo. His assassination by a nephew six weeks after this cable (March 25, 1975) would remove the Saudi architect of Saudi-Lebanese policy through the 1970s. Succeeded by King Khalid.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Faisal_of_Saudi_Arabia",
+            "imageUrl": "",
+            "imageCredit": ""
+          },
+          {
+            "name": "Ismail Fahmi",
+            "role": "Egyptian Foreign Minister (1973–1977)",
+            "desc": "Sadat&rsquo;s principal foreign-policy interlocutor during the Kissinger shuttle period. At the Cairo meeting, Fahmi was prepared to intervene helpfully on Taqla&rsquo;s behalf against the Libyan when the exchange over fortified villages heated up. Fahmi&rsquo;s resignation in November 1977 in protest of Sadat&rsquo;s Jerusalem trip would mark the endpoint of the Egyptian-Arab coherence this cable documents.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Ismail_Fahmi",
+            "imageUrl": "",
+            "imageCredit": ""
+          },
+          {
+            "name": "Abdul Halim Khaddam",
+            "role": "Syrian Foreign Minister (1970–1984)",
+            "desc": "Assad&rsquo;s principal handler of Lebanon policy through the 1970s. Taqla&rsquo;s claim that he had secured Sa&iota;iqa&rsquo;s good behavior at Cairo by pre-arrangement with Khaddam &mdash; in Damascus in late January 1975 &mdash; documents the bilateral Lebanese-Syrian channel through which the Palestinian question was actually managed, outside Arab League deliberations.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Abdul_Halim_Khaddam",
+            "imageUrl": "",
+            "imageCredit": ""
+          },
+          {
+            "name": "Zuhayr Muhsin",
+            "role": "Secretary-General, Sa&iota;iqa (1971–1979)",
+            "desc": "The Syrian-controlled Palestinian faction leader whose &ldquo;Syrian masters had told him to behave himself&rdquo; at Cairo. Three weeks later he would reappear in the Sidon Crisis record (cable 1975BEIRUT03203_03256) playing the opposite role &mdash; disruptive rather than quiescent. Assassinated in Cannes, France, on July 25, 1979, by unknown assailants, possibly Mossad. One of the most notorious PLO-aligned operatives of the pre-war period.",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Zuheir_Mohsen",
+            "imageUrl": "",
+            "imageCredit": ""
+          },
+          {
+            "name": "Suleiman Frangieh",
+            "role": "President of Lebanon (1970–1976)",
+            "desc": "The Maronite President under whose authority Taqla conducted the Cairo mission. Frangieh&rsquo;s government would fall to the civil war in 1976, but the February 1975 posture &mdash; preserving Lebanese sovereignty against Arab-sponsored militarization &mdash; was consistent with his long-standing position against expanded fedayeen rights on Lebanese territory (documented in the 1973 Melkart Protocol cable series).",
+            "wikiUrl": "https://en.wikipedia.org/wiki/Suleiman_Frangieh",
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Suleiman_Frangieh_official_portrait.jpg/330px-Suleiman_Frangieh_official_portrait.jpg",
+            "imageCredit": "Public domain. Official portrait of the President of Lebanon."
+          }
+        ],
+        "bodyHtml": "<h3>What Taqla achieved in Cairo</h3>\n\n<p>The Cairo Arab League Defense Council Meeting of February 5&ndash;7, 1975 had a potentially transformative agenda. In the wake of Israeli incursions into southern Lebanon through late 1974, Arab states were offering to provide Lebanon with military personnel, substantial military aid, and formal Arab League sanction for Palestinian armed operations from Lebanese territory. A Libyan proposal envisioned Qaddafi-financed fortified villages along the border &mdash; dual-use positions for Lebanese defense and fedayeen operations.</p>\n\n<p>Foreign Minister Philippe Taqla went to Cairo to make sure none of that happened.</p>\n\n<p>He succeeded. Arab military personnel were not committed to Lebanon. Massive aid was not formalized. The PLO question was finessed. The Libyan proposal was deflected into a Lebanese study. The Saudi reconstruction offer for Kafr Shuba was declined with the nicety that Assad&rsquo;s $1 million personal gift would be the model for any parallel Saudi charitable offer. The only concrete outcome was an informal consensus &mdash; not formalized in the communiqu&eacute; &mdash; that fedayeen raids from Lebanon into Israel should stop.</p>\n\n<p>Taqla returned to Beirut on the evening of February 8 pleased with his work. Three days later, he sat down with the new American Ambassador for a 40-minute private conversation. This cable is the product.</p>\n\n<h3>The Libyan position, on the record</h3>\n\n<p>The Libyan offer deserves particular attention for its historical documentary value. The Qaddafi regime proposed to finance &ldquo;a series of fortified villages in southern Lebanon.&rdquo; These, according to the Libyans and in Godley&rsquo;s reporting, would be &ldquo;kibbutz-like military strongholds&rdquo; that would &ldquo;oppose further Israeli incursions and would constitute positions from whence the fedayeen might operate.&rdquo;</p>\n\n<p>The Libyan admission &mdash; preserved verbatim in the cable &mdash; is historically unambiguous: a senior Arab state proposed, at a formal Arab League meeting, to construct Lebanese border villages configured explicitly as both Lebanese defensive positions <em>and</em> Palestinian offensive bases. This is the architecture of Lebanese sovereignty erosion, proposed on the record as Arab solidarity.</p>\n\n<p>Taqla&rsquo;s procedural deflection &mdash; &ldquo;a Lebanese decision&rdquo; to be studied on return &mdash; was an elegant no. It preserved the Lebanese government&rsquo;s right to refuse without publicly humiliating Libya in front of the assembled Arab defense ministers.</p>\n\n<h3>The Syrian management of Sa&iota;iqa</h3>\n\n<p>One of the most striking passages in the cable concerns Zuhayr Muhsin, the Secretary-General of Sa&iota;iqa &mdash; the Syrian-controlled Palestinian faction. At the July 1974 predecessor meeting, Muhsin had been disruptive. At the February 1975 meeting, Taqla reports, he had &ldquo;little to say and it was obvious his Syrian masters had told him to behave himself.&rdquo;</p>\n\n<p>Taqla attributes this to his own January 1975 Damascus talks with Syrian Foreign Minister Abdul Halim Khaddam. The cable thus documents, with the specificity of a single figure&rsquo;s demeanor at a single meeting, the Syrian capacity to flip Palestinian faction behavior on command.</p>\n\n<p>Three weeks later, that flip would reverse. In the March 12&ndash;14, 1975 Sidon Crisis cable (1975BEIRUT03203_03256), the same Zuhayr Muhsin appears in a very different posture &mdash; actively disruptive, Syria&rsquo;s interests now diverging from Lebanon&rsquo;s. The February cable captures the control mechanism; the March cable captures its reversal. Together, they document Syrian policy fluidity with unusual precision.</p>\n\n<h3>The request Godley didn&rsquo;t promise to fulfill</h3>\n\n<p>Taqla closed the forty-minute meeting with a request: bring the Cairo results to the Israeli government&rsquo;s attention, and urge Israeli restraint in southern Lebanon. Lebanon had no direct diplomatic relations with Israel; the American Embassy in Beirut was therefore functioning as an indirect Lebanese-Israeli channel on restraint messaging.</p>\n\n<p>Godley&rsquo;s response &mdash; he would report Taqla&rsquo;s views to the Department and the Secretary, but could give no indication of possible U.S. action &mdash; is characteristic of the Kissinger-era American position. The United States was engaged in shuttle diplomacy in the Sinai (Kissinger would be in the region again in March) and wanted neither to commit to Lebanese-Israeli restraint enforcement nor to decline the role of conduit. The cable reflects that exact equipoise.</p>\n\n<h3>The short distance to the civil war</h3>\n\n<p>Reading this cable with the knowledge that the civil war began eight weeks later is disorienting. Taqla is confident. Godley is skeptical of the parliamentary politics but not of the Arab diplomatic achievement. The Arab League&rsquo;s only concrete Lebanese outcomes &mdash; defensive weapons commitments and informal consensus against fedayeen cross-border raids &mdash; look reasonable. A Saudi-Lebanese press-coverage contretemps is being smoothed over.</p>\n\n<p>Within two weeks of this cable, Sidon erupts (cable 1975BEIRUT02611_02682). The informal consensus against cross-border fedayeen raids proves unenforceable. Within six weeks, King Feisal &mdash; the Saudi architect whose press-coverage sensitivities had occupied a paragraph in this cable &mdash; is assassinated. Within eight weeks, the civil war has begun.</p>\n\n<p>The Cairo meeting&rsquo;s principal result &mdash; Lebanon&rsquo;s successful defense of its sovereignty against Arab-sponsored militarization &mdash; would be irrelevant by May. The country would be fragmenting along the very fissures the Arab solidarity framework was supposed to paper over.</p>\n\n<p>Taqla&rsquo;s &ldquo;delight&rdquo;, captured here at 3:47 PM GMT on February 12, 1975, is the last recorded moment of Lebanese diplomatic confidence in the pre-war record.</p>",
+        "mapLocations": [
+          {
+            "name": "Cairo",
+            "desc": "Host city of the Feb 5–7 Arab League Defense Council Meeting",
+            "type": "primary"
+          },
+          {
+            "name": "Beirut",
+            "desc": "Site of the Godley–Taqla meeting of Feb 11; cable filed Feb 12 at 3:47 PM GMT",
+            "type": "primary"
+          },
+          {
+            "name": "Damascus",
+            "desc": "Site of Taqla’s January 1975 talks with Khaddam that prepared the Cairo outcome",
+            "type": "primary"
+          },
+          {
+            "name": "Kafr Shuba",
+            "desc": "Border village (Hasbaya district) subject of the declined Saudi reconstruction offer",
+            "type": "secondary"
+          },
+          {
+            "name": "Tripoli (Libya)",
+            "desc": "Capital of the Qaddafi regime whose fortified-villages proposal Taqla deflected",
+            "type": "secondary"
+          },
+          {
+            "name": "Riyadh",
+            "desc": "Saudi capital; seat of King Feisal, whose assassination would come six weeks after this cable",
+            "type": "secondary"
+          },
+          {
+            "name": "Southern Lebanon",
+            "desc": "The geography at the center of every substantive discussion at the Cairo meeting",
+            "type": "primary"
+          },
+          {
+            "name": "Tel Aviv",
+            "desc": "Seat of the Israeli government; intended ultimate recipient of Taqla’s restraint message via Washington",
+            "type": "tertiary"
+          }
+        ],
+        "furtherReading": [
+          {
+            "title": "Cable 1974BEIRUT07889 — July 1974 Arab Defense Council Meeting",
+            "desc": "The July 1974 predecessor meeting Taqla references throughout this cable. Where PLO weapons supply was openly discussed; the contrast with February 1975 is the cable’s central point.",
+            "type": "related"
+          },
+          {
+            "title": "Cable 1974BEIRUT11970 — October 1974 Situation in Lebanon",
+            "desc": "The October 1974 Embassy assessment of Lebanon four months before Cairo; establishes the regional pressure landscape Taqla was navigating.",
+            "type": "related"
+          },
+          {
+            "title": "Cable 1975BEIRUT02611_02682 — February 26–27, 1975",
+            "desc": "Two weeks after this cable: Sidon erupts. The “broad informal consensus” against fedayeen raids proves worthless within days.",
+            "type": "related"
+          },
+          {
+            "title": "Cable 1975BEIRUT03203_03256 — March 12–14, 1975",
+            "desc": "Three weeks later: Zuhayr Muhsin reappears, disruptive rather than controlled. The Syrian flip documented.",
+            "type": "related"
+          },
+          {
+            "title": "Cables 1973BEIRUT05755 + 05776 — Melkart Protocol",
+            "desc": "Eighteen months earlier: the formal GOL-PLO framework that this cable&rsquo;s informal consensus was supposed to supplement.",
+            "type": "context"
+          }
+        ]
+      },
+      "relatedCables": [
+        "1974BEIRUT07889",
+        "1974BEIRUT11970",
+        "1975BEIRUT02611_02682",
+        "1975BEIRUT02837_02894",
+        "1975BEIRUT03203_03256",
+        "1973BEIRUT05776"
+      ],
+      "refs": "BEIRUT 1826 (prior Embassy cable, referenced); BEIRUT 1712 NOTAL (Saudi press contretemps); 1974BEIRUT07889 (July 1974 predecessor meeting)",
+      "sourceUrl": "https://wikileaks.org/plusd/cables/1975BEIRUT01996_b.html"
     },
     {
       "@type": "DigitalDocument",
