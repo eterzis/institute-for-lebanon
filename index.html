@@ -710,8 +710,12 @@
       line-height: 1.3;
       margin-top: 0.25rem;
     }
-    .timeline-event.has-cable .timeline-event-title { color: var(--text-2); cursor: pointer; }
-    .timeline-event.has-cable .timeline-event-title:hover { color: var(--amber); }
+    .timeline-event.has-cable { cursor: pointer; }
+    .timeline-event.has-cable .timeline-event-title { color: var(--text-2); }
+    .timeline-event.has-cable:hover .timeline-event-title { color: var(--amber); }
+    .timeline-event.has-cable:hover .timeline-event-dot {
+      box-shadow: 0 0 0 5px rgba(200, 148, 42, 0.25);
+    }
 
     /* ─── ABOUT STRIP ────────────────────────────────────────────── */
     .about-strip {
@@ -1693,6 +1697,7 @@
     .then(data => {
       CABLES = (data.cables || []).filter(c => c.status === 'published');
       renderHomeGrid();
+      renderTimeline();
       var statCables = document.getElementById('stat-cables');
       if (statCables) statCables.textContent = CABLES.length || '0';
       var statRange = document.getElementById('stat-range');
@@ -1703,7 +1708,7 @@
           : years[0] + '\u2013' + String(years[years.length - 1]).slice(-2);
       }
     })
-    .catch(() => { CABLES = []; });
+    .catch(() => { CABLES = []; renderTimeline(); });
 
   const TIMELINE_EVENTS = [
     {
@@ -1716,18 +1721,102 @@
       date:    "1970–1975",
       title:   "PLO Cross-Border Operations and Israeli Reprisals",
       desc:    "Palestinian armed factions operating from southern Lebanon conduct repeated raids and rocket attacks into northern Israel. The Israeli military responds with large-scale reprisals — air strikes, artillery bombardments, and ground incursions — that devastate Lebanese Shia villages in the south, displacing tens of thousands of civilians northward into Beirut. The Lebanese state, lacking the political will and military capacity to control the PLO, absorbs the consequences of a war it did not choose. Resentment of the Palestinian armed presence deepens across Lebanese communities.",
-      cableId: null
+      cableId: "1974BEIRUT05740"
+    },
+    {
+      date:    "Apr 27, 1973",
+      title:   "Fatah Bomb Plot at Beirut Airport",
+      desc:    "Three men, including Fatah members, are arrested at Beirut International Airport trying to board an Air France flight to Paris with 10 kg of TNT. A 2-kg bomb timed to detonate at 02:30 is found and defused in an airport water cooler. The Lebanese Army G-2 assesses that the bomb was planted by Black September Organization hardliners against Arafat's wishes — and that Arafat may have covertly tipped off Lebanese authorities about a plot his own movement could not control.",
+      cableId: "1973BEIRUT04974"
+    },
+    {
+      date:    "May 3–4, 1973",
+      title:   "The Two-Day War: Lebanese Army vs. Fedayeen",
+      desc:    "Roughly 1,000 fedayeen cross from Syria into Lebanon. Syria publicly denies the crossing and quietly reverses it 24 hours later. Sadat phones Frangieh and pledges to pressure Assad. The Lebanese Army deploys aircraft and tanks against Palestinian camps in Beirut — Sabra/Shatila, Bir Hassan, and Borj el Brajne — more than two years before the civil war. The Embassy concludes that Arafat could not sustain a ceasefire even if he signed one. This event is largely absent from standard accounts of pre-war Lebanon.",
+      cableId: "1973BEIRUT05068_05089_05123"
+    },
+    {
+      date:    "May 12, 1973",
+      title:   "The Embassy's Verdict — Two Years Early",
+      desc:    "Five days after the May fighting, the U.S. Embassy files a three-section SECRET assessment predicting that the most likely outcome is a face-saving compromise that will leave the Palestinian armed presence intact. The Embassy notes that the Lebanese Army has at most 6,000 combat troops against an estimated 15,000 fedayeen — a 2.5-to-1 deficit. Salah Khalaf (Abu Iyad) tells Lebanese negotiators he will 'never stand for a repetition of what happened to the fedayeen in Jordan in 1970.' The Embassy's structural diagnosis becomes the architecture of 1975.",
+      cableId: "1973BEIRUT05437"
+    },
+    {
+      date:    "May 18, 1973",
+      title:   "Melkart Protocol — Promises in Place of Sovereignty",
+      desc:    "Two SECRET/EXDIS cables filed 90 minutes apart document the Melkart Protocol as it is being agreed: pullback from border areas, removal of heavy weapons from camps, ID checks. Sa'iqa — the Syrian-controlled Palestinian faction — does not sign. The Lebanese Government's own framing, transmitted through the Embassy: fedayeen good faith 'is suspect.' Lebanese security forces are granted the right to enter camps 'with permission of the fedayeen' — sovereignty in name, with the party to be regulated retaining veto power.",
+      cableId: "1973BEIRUT05776"
+    },
+    {
+      date:    "Jun 8, 1973",
+      title:   "Arafat's Paymaster Ledger",
+      desc:    "The Lebanese Foreign Office hands U.S. diplomats an intelligence dossier: Iraqi and Soviet weapons (including 2,000 Kalashnikovs landing at Latakia 'in the name of Arafat') are flowing to fedayeen, with half the Iraqi shipment to be redistributed to Lebanese leftist factions. Arafat is personally paying a cross-confessional roster of Lebanese politicians from the Fatah treasury at Nabatiyeh — including the Sunni Grand Mufti and other named figures — at the same moment the Melkart Protocol is being negotiated.",
+      cableId: "1973BEIRUT06768"
+    },
+    {
+      date:    "May 22, 1974",
+      title:   "Embassy Warns Kissinger: Israeli Reprisals Are Counterproductive",
+      desc:    "After the Ma'alot attack and Israeli strikes on Lebanese targets, the Embassy files a SECRET/LIMDIS cable to Secretary Kissinger's traveling party in Jerusalem. Israeli air strikes on May 21, 1974 killed three Lebanese children and wounded seventeen civilians, with few fedayeen casualties. The Embassy identifies a feedback loop: Israeli retaliation → Palestinian radicalization → more attacks → more retaliation → destabilization of Lebanon. Even Maronite deputies are publicly calling for Soviet SAM defense systems.",
+      cableId: "1974BEIRUT05740"
+    },
+    {
+      date:    "Oct 2, 1974",
+      title:   "Embassy Post-Mortem: 'Muddle Through Until 1976'",
+      desc:    "Ambassador Godley files a 15-month evaluation of the Solh government. Solh's major accomplishment, the cable says, was to survive — by avoiding every difficult decision. The fedayeen 'state within a state' has imported SA-7 anti-aircraft missiles from Syria. Roughly 350,000 Palestinians (12–13% of the population) are seen by most Lebanese, including many Muslims, as a threat to confessional balance. The Turkish invasion of Cyprus has accelerated Christian militia armament. Six months later the civil war begins.",
+      cableId: "1974BEIRUT11970"
+    },
+    {
+      date:    "Feb 26, 1975",
+      title:   "Sidon — Maarouf Saad Shot",
+      desc:    "Sunni Nasserist ex-deputy Maarouf Saad leads a fishermen's demonstration against a Chamoun-backed industrial trawler concession. The protest escalates into combat between the Lebanese Army and 'armed elements' — the diplomatic euphemism for fedayeen — positioned on rooftops in the old quarter. Saad is shot by Lebanese Army fire — not 'crossfire.' The Embassy reports an unconfirmed hypothesis that the demonstration may have been a 'ruse' staged by rejectionist fedayeen elements with shoulder-fired SAM-7s already pre-positioned in the Crusader citadel.",
+      cableId: "1975BEIRUT02611_02682"
+    },
+    {
+      date:    "Mar 3, 1975",
+      title:   "The Army Tries to Take Sidon Back, and Fails",
+      desc:    "President Frangieh, with PM Solh's concurrence, orders the Army to reopen the Sidon coastal road after Lebanese garrisons in the south are cut off. The result is a 48-hour battle: 1,000+ fedayeen with RPGs, Katyusha rockets, recoilless rifles and 23mm Soviet heavy machine-guns ambush the Lebanese Army, which withdraws after five dead and ten wounded. PFLP is named by Army G-2 as the principal insurgent faction. A planned full clearing operation on March 4 is scotched. State authority over Sidon is not restored.",
+      cableId: "1975BEIRUT02837_02894"
+    },
+    {
+      date:    "Mar 6, 1975",
+      title:   "Saad Dies — National Confessional Rupture",
+      desc:    "Maarouf Saad dies at AUB Hospital at midday. Within hours, PLO offices in Beirut evacuate — not in mourning, but in anticipation of Israeli reprisal for the Savoy Hotel attack in Tel Aviv. Fedayeen open fire on Lebanese Air Force planes north of Tripoli, mistaking them for Israeli. The Higher Islamic Council demands the Solh cabinet resign, naming Frangieh, the Army leadership, and Solh himself. Beirut goes on general strike March 7; Corniche Mazraa is in the hands of armed fedayeen.",
+      cableId: "1975BEIRUT03028_03064"
+    },
+    {
+      date:    "Mar 12, 1975",
+      title:   "Strategic Assessment: 'A Double Game'",
+      desc:    "Ambassador Godley's SECRET/LIMDIS warning: the Lebanese Army was 8:1 outnumbered in Sidon. The fedayeen commander was Abu Saleh, recently returned from East Berlin exile — Sidon was not spontaneous. The PLO leadership was playing a 'double game,' deploying public mediators while hard factions controlled the ground. Soviet Ambassador Soldatov was feeding Arafat 'scare stories' about an impending Lebanese Army 'liquidation' of the fedayeen. Any Israeli reprisal for Savoy, Godley warned, would collapse the Lebanese regime.",
+      cableId: "1975BEIRUT03203_03256"
     },
     {
       date:    "Apr 13, 1975 — Morning",
-      title:   "Palestinian Attack on Kataeb Ceremony in Ain el-Rummaneh",
-      desc:    "Palestinian gunmen open fire on a crowd attending a church inauguration ceremony in the Ain el-Rummaneh neighborhood of Beirut. The attack targets members of the Kataeb (Phalange) party, including bodyguards of party leader Pierre Gemayel, killing several. The incident does not occur in a vacuum: it follows months of escalating armed clashes between Palestinian forces and Lebanese Kataeb fighters in Beirut's suburbs. This attack is the proximate trigger for the events that follow later the same day.",
-      cableId: null
+      title:   "Three Hours in Ain el-Rummaneh — Not One Incident, Three",
+      desc:    "Three separate incidents at the same Beirut location on April 13. The standard account begins with the third (the bus attack). The Embassy's NIACT IMMEDIATE cable documents the first: at approximately 9:30 AM — ninety minutes before the bus — four armed individuals open fire on a crowd at a Kataeb church inauguration, killing three (including a Gemayel bodyguard). The Embassy further records a separate evening incident: ~15 rockets fired from a refugee camp into a residential area. Only the bus enters the historical record.",
+      cableId: "1975BEIRUT04749"
     },
     {
       date:    "Apr 13, 1975 — Afternoon",
-      title:   "Retaliatory Attack on Bus in Ain el-Rummaneh",
-      desc:    "Hours after the morning attack on the Kataeb ceremony, Kataeb fighters stop a bus carrying Palestinian passengers through Ain el-Rummaneh and open fire, killing approximately 27 people. The attack is widely portrayed in Western media as the sole spark of the civil war, but its context — the prior Palestinian attack on a civilian religious ceremony — is routinely omitted. Together, the two incidents of April 13 mark the point at which political violence in Lebanon becomes sustained, organized, and communal.",
+      title:   "The Bus in Ain el-Rummaneh — and What the Record Omits",
+      desc:    "Hours after the morning attack on the Kataeb ceremony, Kataeb fighters stop a bus passing through Ain el-Rummaneh and open fire, killing 27. The U.S. Embassy notes the bus's presence 'may have been accidental' — passengers possibly unaware of the preceding violence. A follow-up Embassy cable records two facts the standard account omits: two of the four morning gunmen were Libyan nationals (not Palestinians); and the Iraq-backed Arab Liberation Front publicly claimed 18 of the 26 killed on the bus were ALF fighters.",
+      cableId: "1975BEIRUT04794"
+    },
+    {
+      date:    "Apr 14–15, 1975",
+      title:   "Violence Spreads Beyond Beirut",
+      desc:    "Within 48 hours, Lebanon-wide casualties reach 80–90. The Embassy documents that three Christian churches are bombed in Tripoli on the evening of April 14 — an event absent from most published chronologies. Three explicitly non-Phalangist Christian villages near Sidon (Mieh Mieh region) are rocketed from Palestinian camps and then entered by armed forces. A hospital is occupied and used as a firing position. The Embassy's own April 15 assessment: 'The head count to date appears to be in favor of the Phalange.'",
+      cableId: "1975BEIRUT04829"
+    },
+    {
+      date:    "Apr 16, 1975",
+      title:   "Asymmetric Ceasefire — Two Suspects vs. Seven",
+      desc:    "Three days after April 13, the Embassy reports that the Kataeb delivered two suspects to Lebanese authorities as agreed — after which the PLO unilaterally raised the demand to seven. Arafat is reported (unconfirmed) to have favored a 36-hour ceasefire on his return to Beirut but to have been overruled by Abu Iyad, Fatah's security chief. Casualty estimate by April 16: 100–120 dead. Multi-confessional religious leaders meet on April 15 and agree the morning's bus attack was the result of accumulated tension, not a single act.",
+      cableId: "1975BEIRUT04860"
+    },
+    {
+      date:    "Apr–Sep 1975",
+      title:   "First Phase of the Civil War",
+      desc:    "Fighting spreads across Beirut and the surrounding mountains. The Lebanese Army, torn by sectarian loyalties and lacking clear political direction from a paralyzed government, remains largely on the sidelines. Multiple ceasefires are brokered and collapse within days. Each side — Kataeb and allied Maronite militias on one, PLO and Lebanese National Movement (LNM) forces on the other — consolidates territory.",
       cableId: null
     },
     {
@@ -1821,6 +1910,7 @@
   window.addEventListener('load', () => {
     navigate('home'); // triggers any hash redirects
     renderHomeGrid(); // renders from fetched data (also called in fetch .then)
+    renderTimeline(); // populate timeline strip immediately; cables fetch will repaint
   });
 
   // ═══════════════════════════════════════════════════════════════════
@@ -1832,15 +1922,36 @@
     return `<span class="classification-badge ${map[c] || 'badge-unclassified'}">${c}</span>`;
   }
 
+  // Curated set of cables that appear on the homepage. Ordered for impact.
+  // Everything else lives on /archive.
+  var FEATURED_IDS = [
+    '1975BEIRUT04749',            // Three Hours That Started a War
+    '1975BEIRUT04794',            // The Day After
+    '1975BEIRUT02611_02682',      // The Shot That Began the War (Saad / Sidon)
+    '1973BEIRUT06768',            // Arafat's Paymaster's Ledger
+    '1973BEIRUT05437',            // The Verdict, Two Years Early
+    '1973BEIRUT04974',            // The Pattern Before the War
+    '1974BEIRUT11970',            // Muddle Through Until 1976
+    '1973BEIRUT05159'             // Lebanese Army opened fire on camps, 1973
+  ];
+
   function renderHomeGrid() {
     var grid = document.getElementById('home-cables-grid');
     if (!grid) return;
     var published = CABLES.filter(function(c) { return c.status === 'published'; });
+
+    // Featured cables in the curated order, fall back to chronological if missing.
+    var byId = {};
+    published.forEach(function(c){ byId[c.id] = c; });
+    var featured = FEATURED_IDS.map(function(id){ return byId[id]; }).filter(Boolean);
+    if (featured.length === 0) featured = published.slice(0, 8);
+
     var html = '';
-    published.forEach(function(c) {
-      var rn      = c.readerNarrative || {};
+    featured.forEach(function(c) {
+      var rn       = c.readerNarrative || {};
       var headline = rn.headline || c.subject || c.id;
-      var deck     = (rn.subheadline || '').slice(0, 200);
+      // strip HTML entities that sometimes live in narrative fields
+      var deck     = (rn.subheadline || c.excerpt || '').replace(/<[^>]+>/g, '').slice(0, 220);
       var origin   = c.fromFull || c.from || '';
       var date     = c.dateDisplay || '';
       var tags     = (c.tags || []).slice(0, 6);
@@ -1851,7 +1962,7 @@
         '</div>' +
         '<div class="fc-divider"></div>' +
         '<h2 class="fc-headline">' + headline + '</h2>' +
-        (deck ? '<p class="fc-deck">' + deck + '</p>' : '') +
+        (deck ? '<p class="fc-deck">' + deck + (deck.length >= 220 ? '&hellip;' : '') + '</p>' : '') +
         '<div class="fc-provenance">' +
           '<span class="fc-date">' + date + '</span>' +
           '<span class="fc-prov-sep">/</span>' +
@@ -1863,7 +1974,14 @@
         '</div>' +
         '</article>';
     });
+
+    // Trailing "view full archive" CTA under the featured cards
+    if (published.length > featured.length) {
+      html += '<div style="text-align:center;padding:2.5rem 0 0.5rem">' +
+        '<a href="/archive" class="btn-secondary" style="font-size:0.75rem">' +
+        'Browse all ' + published.length + ' cables &rarr;</a></div>';
     }
+
     grid.innerHTML = html;
     var stat = document.getElementById('stat-cables');
     if (stat) stat.textContent = published.length || '0';
@@ -1910,21 +2028,26 @@
   }
 
   function renderTimeline() {
-    // Home strip
+    // Home strip — alternates above/below the line; renders each event ONCE.
     const strip = document.getElementById('timeline-events-home');
     if (strip) {
-      strip.innerHTML = TIMELINE_EVENTS.map((ev, i) => `
-        <div class="timeline-event${ev.cableId ? ' has-cable' : ''}">
-          <div class="${i % 2 === 0 ? 'timeline-event-content above' : 'timeline-event-content'}">
-            <div class="timeline-event-date">${ev.date}</div>
-            <div class="timeline-event-title" ${ev.cableId ? `` : ''}>${ev.title}</div>
+      strip.innerHTML = TIMELINE_EVENTS.map((ev, i) => {
+        const above = i % 2 === 0;
+        const onClick = ev.cableId
+          ? `onclick="location.href='/cables/${ev.cableId}/'"`
+          : '';
+        return `
+          <div class="timeline-event${ev.cableId ? ' has-cable' : ''}" ${onClick}>
+            <div class="timeline-event-content${above ? ' above' : ''}">
+              <div class="timeline-event-date">${ev.date}</div>
+              <div class="timeline-event-title">${ev.title}</div>
+            </div>
+            <div style="display:flex;align-items:center;justify-content:center;height:20px">
+              <div class="timeline-event-dot"></div>
+            </div>
           </div>
-          <div style="display:flex;align-items:center;height:20px">
-            <div class="timeline-event-dot"></div>
-          </div>
-          ${i % 2 === 0 ? `<div class="timeline-event-content"><div class="timeline-event-date">${ev.date}</div><div class="timeline-event-title">${ev.title}</div></div>` : `<div class="timeline-event-content above"><div class="timeline-event-date">${ev.date}</div><div class="timeline-event-title">${ev.title}</div></div>`}
-        </div>
-      `).join('');
+        `;
+      }).join('');
     }
 
     // Full timeline page
@@ -1941,7 +2064,7 @@
           <div style="padding:0 0 2.5rem 0">
             <div style="font-family:var(--font-display);font-size:1.2rem;font-weight:500;color:var(--text-1);margin-bottom:0.4rem">${ev.title}</div>
             <div style="font-size:0.9rem;color:var(--text-3);line-height:1.65">${ev.desc}</div>
-            ${ev.cableId ? `<div style="margin-top:0.75rem"><button  style="font-family:var(--font-mono);font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--amber);background:rgba(200,148,42,0.1);border:1px solid var(--amber-dim);padding:0.3rem 0.65rem;border-radius:2px;cursor:pointer">→ View Cable</button></div>` : ''}
+            ${ev.cableId ? `<div style="margin-top:0.75rem"><a href="/cables/${ev.cableId}/" style="display:inline-block;font-family:var(--font-mono);font-size:0.62rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--amber);background:rgba(200,148,42,0.1);border:1px solid var(--amber-dim);padding:0.3rem 0.65rem;border-radius:2px;cursor:pointer;text-decoration:none">→ View Cable</a></div>` : ''}
           </div>
         </div>
       `).join('');
